@@ -1,0 +1,58 @@
+name: Refresh network graph
+
+# Rebuilds the Lab Connector graph weekly (and on demand) from live sources,
+# then commits the regenerated data/ and outputs/ files. Optionally publishes
+# app/ to GitHub Pages.
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # Mondays at 12:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Crawl + build graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python run_all.py --max-posts 40
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "lab-connector-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data outputs app/graph-data.js
+          git commit -m "chore: weekly graph refresh [skip ci]" || echo "no changes"
+          git push || echo "nothing to push"
+
+  # Optional: deploy the app as a static site.
+  deploy-pages:
+    needs: refresh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r app/* _site/
+          mkdir -p _site/data
+          cp data/graph.json _site/data/ || true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4

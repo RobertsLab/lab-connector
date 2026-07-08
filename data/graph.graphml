@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key id="label" for="node" attr.name="label" attr.type="string"/>
+<key id="type" for="node" attr.name="type" attr.type="string"/>
+<key id="degree" for="node" attr.name="degree" attr.type="int"/>
+<key id="rel" for="edge" attr.name="relationship" attr.type="string"/>
+<key id="conf" for="edge" attr.name="confidence" attr.type="double"/>
+<graph edgedefault="undirected">
+<node id="repo:sormi-assay-development"><data key="label">sormi-assay-development</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="project:SORMI"><data key="label">SORMI</data><data key="type">project</data><data key="degree">4</data></node>
+<node id="repo:SHIELD"><data key="label">SHIELD</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:marine-stress-data-atlas"><data key="label">marine-stress-data-atlas</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-oyster-oa"><data key="label">project-oyster-oa</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="project:Ocean Acidification (OA)"><data key="label">Ocean Acidification (OA)</data><data key="type">project</data><data key="degree">7</data></node>
+<node id="repo:lab-website"><data key="label">lab-website</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:oyster-image-agent"><data key="label">oyster-image-agent</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:lab-package-tracker"><data key="label">lab-package-tracker</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-gigas-conditioning"><data key="label">project-gigas-conditioning</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="label">Pacific oyster (Crassostrea/Magallana gigas)</data><data key="type">species</data><data key="degree">11</data></node>
+<node id="keyword:conditioning"><data key="label">conditioning</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="repo:project-lake-trout"><data key="label">project-lake-trout</data><data key="type">repo</data><data key="degree">12</data></node>
+<node id="species:Lake trout (Salvelinus namaycush)"><data key="label">Lake trout (Salvelinus namaycush)</data><data key="type">species</data><data key="degree">6</data></node>
+<node id="method:Genome browser"><data key="label">Genome browser</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="omics:Genomics"><data key="label">Genomics</data><data key="type">omics</data><data key="degree">6</data></node>
+<node id="keyword:genome browser"><data key="label">genome browser</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="keyword:genome"><data key="label">genome</data><data key="type">keyword</data><data key="degree">4</data></node>
+<node id="project:Lake trout genome"><data key="label">Lake trout genome</data><data key="type">project</data><data key="degree">5</data></node>
+<node id="repo:MOPE"><data key="label">MOPE</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:resources"><data key="label">resources</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:pubathon-2026"><data key="label">pubathon-2026</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:sams-notebook"><data key="label">sams-notebook</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:polyIC-larvae"><data key="label">polyIC-larvae</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="keyword:larvae"><data key="label">larvae</data><data key="type">keyword</data><data key="degree">3</data></node>
+<node id="repo:10K-seed-Cgigas"><data key="label">10K-seed-Cgigas</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="keyword:hardening"><data key="label">hardening</data><data key="type">keyword</data><data key="degree">3</data></node>
+<node id="project:10K seed hardening"><data key="label">10K seed hardening</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="repo:resazurin-assay-development"><data key="label">resazurin-assay-development</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="method:Resazurin assay"><data key="label">Resazurin assay</data><data key="type">method</data><data key="degree">3</data></node>
+<node id="keyword:resazurin"><data key="label">resazurin</data><data key="type">keyword</data><data key="degree">3</data></node>
+<node id="project:Resazurin assay development"><data key="label">Resazurin assay development</data><data key="type">project</data><data key="degree">3</data></node>
+<node id="repo:current-findings"><data key="label">current-findings</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:journal-selector-woa"><data key="label">journal-selector-woa</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:code"><data key="label">code</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-cod-temperature"><data key="label">project-cod-temperature</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="species:Pacific cod (Gadus macrocephalus)"><data key="label">Pacific cod (Gadus macrocephalus)</data><data key="type">species</data><data key="degree">3</data></node>
+<node id="keyword:temperature"><data key="label">temperature</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="repo:project-mytilus-methylation"><data key="label">project-mytilus-methylation</data><data key="type">repo</data><data key="degree">8</data></node>
+<node id="species:Blue mussel (Mytilus spp.)"><data key="label">Blue mussel (Mytilus spp.)</data><data key="type">species</data><data key="degree">4</data></node>
+<node id="method:DNA methylation"><data key="label">DNA methylation</data><data key="type">method</data><data key="degree">9</data></node>
+<node id="omics:Epigenomics"><data key="label">Epigenomics</data><data key="type">omics</data><data key="degree">10</data></node>
+<node id="keyword:methylation"><data key="label">methylation</data><data key="type">keyword</data><data key="degree">9</data></node>
+<node id="repo:project-white-whale"><data key="label">project-white-whale</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:mock-farm-dashboard"><data key="label">mock-farm-dashboard</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:manchester-hardening"><data key="label">manchester-hardening</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="keyword:thermal"><data key="label">thermal</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="project:Manchester hardening"><data key="label">Manchester hardening</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="repo:vims-resazurin"><data key="label">vims-resazurin</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="repo:CRESST-OAE"><data key="label">CRESST-OAE</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-clam-oa"><data key="label">project-clam-oa</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="species:Manila clam / clam"><data key="label">Manila clam / clam</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:RNA"><data key="label">RNA</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-gigas-carryover"><data key="label">project-gigas-carryover</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="keyword:carryover"><data key="label">carryover</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="keyword:aquaculture"><data key="label">aquaculture</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="project:Gigas carryover (USDA Aquaculture)"><data key="label">Gigas carryover (USDA Aquaculture)</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="repo:ftr-tanks"><data key="label">ftr-tanks</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:pgc-edc-oyster"><data key="label">pgc-edc-oyster</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:resazurin-family-screenings"><data key="label">resazurin-family-screenings</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="repo:m2m-dashboard"><data key="label">m2m-dashboard</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-caligus-methylation"><data key="label">project-caligus-methylation</data><data key="type">repo</data><data key="degree">7</data></node>
+<node id="species:Sea louse (Caligus)"><data key="label">Sea louse (Caligus)</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:OCEAN"><data key="label">OCEAN</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-m4"><data key="label">project-m4</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-myt-crass-methylation"><data key="label">project-myt-crass-methylation</data><data key="type">repo</data><data key="degree">8</data></node>
+<node id="repo:project-ostrea-chil"><data key="label">project-ostrea-chil</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:GuavaMuse"><data key="label">GuavaMuse</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-eDNA-yellow"><data key="label">project-eDNA-yellow</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="method:Metabarcoding / eDNA / taxonomy"><data key="label">Metabarcoding / eDNA / taxonomy</data><data key="type">method</data><data key="degree">3</data></node>
+<node id="omics:Metagenomics"><data key="label">Metagenomics</data><data key="type">omics</data><data key="degree">4</data></node>
+<node id="repo:oyster-ploidy-hardening"><data key="label">oyster-ploidy-hardening</data><data key="type">repo</data><data key="degree">5</data></node>
+<node id="keyword:ploidy"><data key="label">ploidy</data><data key="type">keyword</data><data key="degree">3</data></node>
+<node id="keyword:triploid"><data key="label">triploid</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="keyword:diploid"><data key="label">diploid</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="repo:laby-18s"><data key="label">laby-18s</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="species:Labyrinthula"><data key="label">Labyrinthula</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:project-maturation-control"><data key="label">project-maturation-control</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:tusk"><data key="label">tusk</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:you_wreck_me"><data key="label">you_wreck_me</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:website"><data key="label">website</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-sc-RNAseq"><data key="label">project-sc-RNAseq</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="method:RNA-seq"><data key="label">RNA-seq</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="omics:Transcriptomics"><data key="label">Transcriptomics</data><data key="type">omics</data><data key="degree">2</data></node>
+<node id="repo:poster-geoduck-NSA-2023"><data key="label">poster-geoduck-NSA-2023</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="species:Geoduck (Panopea generosa)"><data key="label">Geoduck (Panopea generosa)</data><data key="type">species</data><data key="degree">5</data></node>
+<node id="repo:EpiDiverse-snp"><data key="label">EpiDiverse-snp</data><data key="type">repo</data><data key="degree">10</data></node>
+<node id="method:Bisulfite / BS-seq"><data key="label">Bisulfite / BS-seq</data><data key="type">method</data><data key="degree">2</data></node>
+<node id="method:SNP / variant calling"><data key="label">SNP / variant calling</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="repo:project-historical-hematodinium-crab"><data key="label">project-historical-hematodinium-crab</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="species:Crab (general)"><data key="label">Crab (general)</data><data key="type">species</data><data key="degree">5</data></node>
+<node id="species:Hematodinium (parasite)"><data key="label">Hematodinium (parasite)</data><data key="type">species</data><data key="degree">3</data></node>
+<node id="project:Tanner crab / Hematodinium"><data key="label">Tanner crab / Hematodinium</data><data key="type">project</data><data key="degree">3</data></node>
+<node id="repo:project-oyster-comparative-omics"><data key="label">project-oyster-comparative-omics</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:paper-tanner-crab"><data key="label">paper-tanner-crab</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="species:Tanner crab (Chionoecetes bairdi)"><data key="label">Tanner crab (Chionoecetes bairdi)</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:project-gigas-oa-meth"><data key="label">project-gigas-oa-meth</data><data key="type">repo</data><data key="degree">10</data></node>
+<node id="keyword:gonad"><data key="label">gonad</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="repo:project-template"><data key="label">project-template</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-crab"><data key="label">project-crab</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:hackweek-2021"><data key="label">hackweek-2021</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:xenobiotic-oyster"><data key="label">xenobiotic-oyster</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-geoduck-oa"><data key="label">project-geoduck-oa</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="repo:Open-House-2021"><data key="label">Open-House-2021</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-gigas-ploidy-oa"><data key="label">project-gigas-ploidy-oa</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="repo:project-crab-capstone"><data key="label">project-crab-capstone</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:project-cockle-repro"><data key="label">project-cockle-repro</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="species:Cockle"><data key="label">Cockle</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:project-gigas_ploidy"><data key="label">project-gigas_ploidy</data><data key="type">repo</data><data key="degree">5</data></node>
+<node id="keyword:desiccation"><data key="label">desiccation</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="repo:paper-Wang2020"><data key="label">paper-Wang2020</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-dungeness-crab"><data key="label">project-dungeness-crab</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="species:Dungeness crab (Metacarcinus magister)"><data key="label">Dungeness crab (Metacarcinus magister)</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:paper-hatchery-microbiome"><data key="label">paper-hatchery-microbiome</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="keyword:hatchery"><data key="label">hatchery</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="keyword:microbiome"><data key="label">microbiome</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="repo:onboarding"><data key="label">onboarding</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:hackweek-2020"><data key="label">hackweek-2020</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:paper-crab"><data key="label">paper-crab</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:project-hematodinium"><data key="label">project-hematodinium</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="repo:explore-crab-data"><data key="label">explore-crab-data</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:duck-genome-viz"><data key="label">duck-genome-viz</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="repo:Paper-oly-adult-oa"><data key="label">Paper-oly-adult-oa</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="species:Olympia oyster (Ostrea lurida)"><data key="label">Olympia oyster (Ostrea lurida)</data><data key="type">species</data><data key="degree">3</data></node>
+<node id="repo:project-pacific.oyster-larvae"><data key="label">project-pacific.oyster-larvae</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:paper-gigas-early-gametogenic-exposure"><data key="label">paper-gigas-early-gametogenic-exposure</data><data key="type">repo</data><data key="degree">3</data></node>
+<node id="repo:paper-gigas-DNR-proteomics"><data key="label">paper-gigas-DNR-proteomics</data><data key="type">repo</data><data key="degree">5</data></node>
+<node id="method:Proteomics"><data key="label">Proteomics</data><data key="type">method</data><data key="degree">2</data></node>
+<node id="omics:Proteomics"><data key="label">Proteomics</data><data key="type">omics</data><data key="degree">2</data></node>
+<node id="keyword:proteomics"><data key="label">proteomics</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="project:Geoduck proteomics (DNR)"><data key="label">Geoduck proteomics (DNR)</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="repo:project-geoduck-genome"><data key="label">project-geoduck-genome</data><data key="type">repo</data><data key="degree">4</data></node>
+<node id="repo:project-virginica-oa"><data key="label">project-virginica-oa</data><data key="type">repo</data><data key="degree">2</data></node>
+<node id="species:Eastern oyster (Crassostrea virginica)"><data key="label">Eastern oyster (Crassostrea virginica)</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:titrator"><data key="label">titrator</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="method:Carbonate chemistry / titration"><data key="label">Carbonate chemistry / titration</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="repo:hackweek-p2"><data key="label">hackweek-p2</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:hackweek-project"><data key="label">hackweek-project</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:hack-nb"><data key="label">hack-nb</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-olympia.oyster-genomic"><data key="label">project-olympia.oyster-genomic</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:Paper-DNR-Geoduck-Proteomics"><data key="label">Paper-DNR-Geoduck-Proteomics</data><data key="type">repo</data><data key="degree">5</data></node>
+<node id="repo:OluridaSurvey2014"><data key="label">OluridaSurvey2014</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:hackweek-2018"><data key="label">hackweek-2018</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:2017-hackweek"><data key="label">2017-hackweek</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:paper-Olurida-gene"><data key="label">paper-Olurida-gene</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:hyak_mox"><data key="label">hyak_mox</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="keyword:hyak"><data key="label">hyak</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="repo:paper-gigas-metaanalysis"><data key="label">paper-gigas-metaanalysis</data><data key="type">repo</data><data key="degree">7</data></node>
+<node id="repo:paper_oly_gbs"><data key="label">paper_oly_gbs</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="repo:BBC"><data key="label">BBC</data><data key="type">repo</data><data key="degree">0</data></node>
+<node id="repo:project-sablefish"><data key="label">project-sablefish</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="species:Sablefish (Anoplopoma fimbria)"><data key="label">Sablefish (Anoplopoma fimbria)</data><data key="type">species</data><data key="degree">1</data></node>
+<node id="repo:project-geoduck-repro"><data key="label">project-geoduck-repro</data><data key="type">repo</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/83-mytilus-reboot"><data key="label">Mytilus reboot</data><data key="type">notebook</data><data key="degree">5</data></node>
+<node id="person:Steven Roberts"><data key="label">Steven Roberts</data><data key="type">person</data><data key="degree">45</data></node>
+<node id="project:Mytilus methylation"><data key="label">Mytilus methylation</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/82-trout-recip-pav"><data key="label">Trout reciprocal PAV</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/81-trout-mapping-diff"><data key="label">Trout mapping differences</data><data key="type">notebook</data><data key="degree">5</data></node>
+<node id="method:Read mapping / alignment"><data key="label">Read mapping / alignment</data><data key="type">method</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/80-sormi-post-mort"><data key="label">SORMI post mortem</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/79-trout-synteny"><data key="label">Trout synteny</data><data key="type">notebook</data><data key="degree">6</data></node>
+<node id="method:Orthology / synteny"><data key="label">Orthology / synteny</data><data key="type">method</data><data key="degree">2</data></node>
+<node id="keyword:synteny"><data key="label">synteny</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/78-trout-lift-over"><data key="label">Trout lift-over</data><data key="type">notebook</data><data key="degree">5</data></node>
+<node id="method:Liftover"><data key="label">Liftover</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/78-priming-w2"><data key="label">Priming week 2</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="keyword:priming"><data key="label">priming</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="project:Priming / environmental memory"><data key="label">Priming / environmental memory</data><data key="type">project</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/76-lake-trout-gene-pheno"><data key="label">Lake trout gene-phenotype</data><data key="type">notebook</data><data key="degree">5</data></node>
+<node id="keyword:phenotype"><data key="label">phenotype</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/77-priming-w2"><data key="label">Priming week 2 (cont.)</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/76-detection"><data key="label">Detection</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/74-wescott-mort"><data key="label">Wescott mortality</data><data key="type">notebook</data><data key="degree">2</data></node>
+<node id="keyword:mortality"><data key="label">mortality</data><data key="type">keyword</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/73-sormi-mort"><data key="label">SORMI mortality</data><data key="type">notebook</data><data key="degree">4</data></node>
+<node id="notebook:tumbling-oysters/72-manchester-mort"><data key="label">Manchester mortality</data><data key="type">notebook</data><data key="degree">4</data></node>
+<node id="notebook:tumbling-oysters/71-10k"><data key="label">10K seed</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/70-sormi"><data key="label">SORMI</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/69-linksmas"><data key="label">Linksmas</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/68-barnacle"><data key="label">Barnacle</data><data key="type">notebook</data><data key="degree">2</data></node>
+<node id="species:Barnacle"><data key="label">Barnacle</data><data key="type">species</data><data key="degree">4</data></node>
+<node id="notebook:tumbling-oysters/67-coeff-var"><data key="label">Coefficient of variation</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/65-gbm-plots"><data key="label">Gene body methylation plots</data><data key="type">notebook</data><data key="degree">10</data></node>
+<node id="notebook:tumbling-oysters/64-barnacle"><data key="label">Barnacle (cont.)</data><data key="type">notebook</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/63-contra"><data key="label">Contra</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/62-biomin"><data key="label">Biomineralization</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="keyword:biomineralization"><data key="label">biomineralization</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="project:Biomineralization"><data key="label">Biomineralization</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/61-gene-meth"><data key="label">Gene methylation</data><data key="type">notebook</data><data key="degree">10</data></node>
+<node id="notebook:tumbling-oysters/58-biomin"><data key="label">Biomineralization (earlier)</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/59-wgcna-annotation"><data key="label">WGCNA annotation</data><data key="type">notebook</data><data key="degree">6</data></node>
+<node id="method:WGCNA"><data key="label">WGCNA</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="method:Genome annotation"><data key="label">Genome annotation</data><data key="type">method</data><data key="degree">2</data></node>
+<node id="keyword:wgcna"><data key="label">wgcna</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="keyword:annotation"><data key="label">annotation</data><data key="type">keyword</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/58-contra-24"><data key="label">Contra 24</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/60-contra-random"><data key="label">Contra random</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/57-barnacle-35opt"><data key="label">Barnacle 35 opt</data><data key="type">notebook</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/56-barnacle"><data key="label">Barnacle (earlier)</data><data key="type">notebook</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/55-cod-talk"><data key="label">Cod talk</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/53-ortho-select"><data key="label">Ortholog selection</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="keyword:ortholog"><data key="label">ortholog</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/52-e5-orthologs"><data key="label">E5 orthologs</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="species:Coral (E5 / reef corals)"><data key="label">Coral (E5 / reef corals)</data><data key="type">species</data><data key="degree">2</data></node>
+<node id="project:Coral E5 deep-dive"><data key="label">Coral E5 deep-dive</data><data key="type">project</data><data key="degree">2</data></node>
+<node id="notebook:tumbling-oysters/51-nano-next"><data key="label">Nanopore next</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="method:Genome assembly / long-read"><data key="label">Genome assembly / long-read</data><data key="type">method</data><data key="degree">1</data></node>
+<node id="keyword:nanopore"><data key="label">nanopore</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/49-ptwhit"><data key="label">Pt Whitney</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/48-cod-bwa"><data key="label">Cod BWA</data><data key="type">notebook</data><data key="degree">4</data></node>
+<node id="notebook:tumbling-oysters/47-ffs"><data key="label">FFS</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/43-intersect"><data key="label">Intersect</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/42-megan"><data key="label">MEGAN</data><data key="type">notebook</data><data key="degree">5</data></node>
+<node id="notebook:tumbling-oysters/38-klone"><data key="label">Klone</data><data key="type">notebook</data><data key="degree">2</data></node>
+<node id="keyword:klone"><data key="label">klone</data><data key="type">keyword</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/36-merry"><data key="label">Merry</data><data key="type">notebook</data><data key="degree">1</data></node>
+<node id="notebook:tumbling-oysters/35-myt-meth"><data key="label">Mytilus methylation</data><data key="type">notebook</data><data key="degree">12</data></node>
+<node id="notebook:tumbling-oysters/33-bismark-array"><data key="label">Bismark array</data><data key="type">notebook</data><data key="degree">4</data></node>
+<node id="notebook:tumbling-oysters/31-e5-genome-stats"><data key="label">E5 genome stats</data><data key="type">notebook</data><data key="degree">8</data></node>
+<node id="notebook:tumbling-oysters/30-hisat-annot"><data key="label">HISAT annotation</data><data key="type">notebook</data><data key="degree">3</data></node>
+<node id="notebook:tumbling-oysters/29-prime"><data key="label">Prime</data><data key="type">notebook</data><data key="degree">2</data></node>
+<edge id="e0" source="repo:sormi-assay-development" target="project:SORMI"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e1" source="repo:project-oyster-oa" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e2" source="repo:project-gigas-conditioning" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e3" source="repo:project-gigas-conditioning" target="keyword:conditioning"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e4" source="repo:project-lake-trout" target="species:Lake trout (Salvelinus namaycush)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e5" source="repo:project-lake-trout" target="method:Genome browser"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e6" source="repo:project-lake-trout" target="omics:Genomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e7" source="repo:project-lake-trout" target="keyword:genome browser"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e8" source="repo:project-lake-trout" target="keyword:genome"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e9" source="repo:project-lake-trout" target="project:Lake trout genome"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e10" source="repo:polyIC-larvae" target="keyword:larvae"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e11" source="repo:10K-seed-Cgigas" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e12" source="repo:10K-seed-Cgigas" target="keyword:hardening"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e13" source="repo:10K-seed-Cgigas" target="project:10K seed hardening"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e14" source="repo:resazurin-assay-development" target="method:Resazurin assay"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e15" source="repo:resazurin-assay-development" target="keyword:resazurin"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e16" source="repo:resazurin-assay-development" target="project:Resazurin assay development"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e17" source="repo:project-cod-temperature" target="species:Pacific cod (Gadus macrocephalus)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e18" source="repo:project-cod-temperature" target="keyword:temperature"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e19" source="repo:project-mytilus-methylation" target="species:Blue mussel (Mytilus spp.)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e20" source="repo:project-mytilus-methylation" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e21" source="repo:project-mytilus-methylation" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e22" source="repo:project-mytilus-methylation" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e23" source="repo:manchester-hardening" target="keyword:hardening"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e24" source="repo:manchester-hardening" target="keyword:thermal"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e25" source="repo:manchester-hardening" target="project:Manchester hardening"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e26" source="repo:vims-resazurin" target="method:Resazurin assay"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e27" source="repo:vims-resazurin" target="keyword:resazurin"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e28" source="repo:vims-resazurin" target="project:Resazurin assay development"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e29" source="repo:project-clam-oa" target="species:Manila clam / clam"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e30" source="repo:project-clam-oa" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e31" source="repo:project-gigas-carryover" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e32" source="repo:project-gigas-carryover" target="keyword:carryover"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e33" source="repo:project-gigas-carryover" target="keyword:aquaculture"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e34" source="repo:project-gigas-carryover" target="project:Gigas carryover (USDA Aquaculture)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e35" source="repo:pgc-edc-oyster" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e36" source="repo:resazurin-family-screenings" target="method:Resazurin assay"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e37" source="repo:resazurin-family-screenings" target="keyword:resazurin"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e38" source="repo:resazurin-family-screenings" target="project:Resazurin assay development"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e39" source="repo:project-caligus-methylation" target="species:Sea louse (Caligus)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e40" source="repo:project-caligus-methylation" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e41" source="repo:project-caligus-methylation" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e42" source="repo:project-caligus-methylation" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e43" source="repo:project-myt-crass-methylation" target="species:Blue mussel (Mytilus spp.)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e44" source="repo:project-myt-crass-methylation" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e45" source="repo:project-myt-crass-methylation" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e46" source="repo:project-myt-crass-methylation" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e47" source="repo:project-eDNA-yellow" target="method:Metabarcoding / eDNA / taxonomy"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e48" source="repo:project-eDNA-yellow" target="omics:Metagenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e49" source="repo:oyster-ploidy-hardening" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e50" source="repo:oyster-ploidy-hardening" target="keyword:hardening"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e51" source="repo:oyster-ploidy-hardening" target="keyword:ploidy"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e52" source="repo:oyster-ploidy-hardening" target="keyword:triploid"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e53" source="repo:oyster-ploidy-hardening" target="keyword:diploid"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e54" source="repo:laby-18s" target="species:Labyrinthula"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e55" source="repo:laby-18s" target="method:Metabarcoding / eDNA / taxonomy"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e56" source="repo:laby-18s" target="omics:Metagenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e57" source="repo:project-sc-RNAseq" target="method:RNA-seq"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e58" source="repo:project-sc-RNAseq" target="omics:Transcriptomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e59" source="repo:poster-geoduck-NSA-2023" target="species:Geoduck (Panopea generosa)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e60" source="repo:EpiDiverse-snp" target="method:Bisulfite / BS-seq"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e61" source="repo:EpiDiverse-snp" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e62" source="repo:EpiDiverse-snp" target="method:SNP / variant calling"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e63" source="repo:EpiDiverse-snp" target="omics:Genomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e64" source="repo:EpiDiverse-snp" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e65" source="repo:EpiDiverse-snp" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e66" source="repo:project-historical-hematodinium-crab" target="species:Crab (general)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e67" source="repo:project-historical-hematodinium-crab" target="species:Hematodinium (parasite)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e68" source="repo:project-historical-hematodinium-crab" target="project:Tanner crab / Hematodinium"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e69" source="repo:paper-tanner-crab" target="species:Tanner crab (Chionoecetes bairdi)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e70" source="repo:paper-tanner-crab" target="species:Hematodinium (parasite)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e71" source="repo:paper-tanner-crab" target="project:Tanner crab / Hematodinium"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e72" source="repo:project-gigas-oa-meth" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e73" source="repo:project-gigas-oa-meth" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e74" source="repo:project-gigas-oa-meth" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e75" source="repo:project-gigas-oa-meth" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e76" source="repo:project-gigas-oa-meth" target="keyword:larvae"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e77" source="repo:project-gigas-oa-meth" target="keyword:gonad"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e78" source="repo:project-gigas-oa-meth" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e79" source="repo:project-crab" target="species:Crab (general)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e80" source="repo:project-geoduck-oa" target="species:Geoduck (Panopea generosa)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e81" source="repo:project-geoduck-oa" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e82" source="repo:project-gigas-ploidy-oa" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e83" source="repo:project-gigas-ploidy-oa" target="keyword:ploidy"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e84" source="repo:project-gigas-ploidy-oa" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e85" source="repo:project-crab-capstone" target="species:Crab (general)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e86" source="repo:project-cockle-repro" target="species:Cockle"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e87" source="repo:project-gigas_ploidy" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e88" source="repo:project-gigas_ploidy" target="keyword:ploidy"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e89" source="repo:project-gigas_ploidy" target="keyword:triploid"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e90" source="repo:project-gigas_ploidy" target="keyword:diploid"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e91" source="repo:project-gigas_ploidy" target="keyword:desiccation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e92" source="repo:project-dungeness-crab" target="species:Dungeness crab (Metacarcinus magister)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e93" source="repo:paper-hatchery-microbiome" target="omics:Metagenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e94" source="repo:paper-hatchery-microbiome" target="keyword:hatchery"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e95" source="repo:paper-hatchery-microbiome" target="keyword:microbiome"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e96" source="repo:paper-crab" target="species:Crab (general)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e97" source="repo:project-hematodinium" target="species:Hematodinium (parasite)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e98" source="repo:project-hematodinium" target="project:Tanner crab / Hematodinium"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e99" source="repo:explore-crab-data" target="species:Crab (general)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e100" source="repo:duck-genome-viz" target="omics:Genomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e101" source="repo:duck-genome-viz" target="keyword:genome"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e102" source="repo:Paper-oly-adult-oa" target="species:Olympia oyster (Ostrea lurida)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e103" source="repo:Paper-oly-adult-oa" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e104" source="repo:project-pacific.oyster-larvae" target="keyword:larvae"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e105" source="repo:paper-gigas-early-gametogenic-exposure" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e106" source="repo:paper-gigas-early-gametogenic-exposure" target="keyword:carryover"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e107" source="repo:paper-gigas-early-gametogenic-exposure" target="project:Gigas carryover (USDA Aquaculture)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e108" source="repo:paper-gigas-DNR-proteomics" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e109" source="repo:paper-gigas-DNR-proteomics" target="method:Proteomics"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e110" source="repo:paper-gigas-DNR-proteomics" target="omics:Proteomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e111" source="repo:paper-gigas-DNR-proteomics" target="keyword:proteomics"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e112" source="repo:paper-gigas-DNR-proteomics" target="project:Geoduck proteomics (DNR)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e113" source="repo:project-geoduck-genome" target="species:Geoduck (Panopea generosa)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e114" source="repo:project-geoduck-genome" target="omics:Genomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e115" source="repo:project-geoduck-genome" target="keyword:genome"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e116" source="repo:project-virginica-oa" target="species:Eastern oyster (Crassostrea virginica)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e117" source="repo:project-virginica-oa" target="project:Ocean Acidification (OA)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e118" source="repo:titrator" target="method:Carbonate chemistry / titration"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e119" source="repo:project-olympia.oyster-genomic" target="omics:Genomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e120" source="repo:Paper-DNR-Geoduck-Proteomics" target="species:Geoduck (Panopea generosa)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e121" source="repo:Paper-DNR-Geoduck-Proteomics" target="method:Proteomics"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e122" source="repo:Paper-DNR-Geoduck-Proteomics" target="omics:Proteomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e123" source="repo:Paper-DNR-Geoduck-Proteomics" target="keyword:proteomics"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e124" source="repo:Paper-DNR-Geoduck-Proteomics" target="project:Geoduck proteomics (DNR)"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e125" source="repo:paper-Olurida-gene" target="species:Olympia oyster (Ostrea lurida)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e126" source="repo:hyak_mox" target="keyword:hyak"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e127" source="repo:paper-gigas-metaanalysis" target="species:Pacific oyster (Crassostrea/Magallana gigas)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e128" source="repo:paper-gigas-metaanalysis" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e129" source="repo:paper-gigas-metaanalysis" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e130" source="repo:paper-gigas-metaanalysis" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e131" source="repo:paper_oly_gbs" target="species:Olympia oyster (Ostrea lurida)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e132" source="repo:project-sablefish" target="species:Sablefish (Anoplopoma fimbria)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e133" source="repo:project-geoduck-repro" target="species:Geoduck (Panopea generosa)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e134" source="notebook:tumbling-oysters/83-mytilus-reboot" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e135" source="notebook:tumbling-oysters/83-mytilus-reboot" target="species:Blue mussel (Mytilus spp.)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e136" source="notebook:tumbling-oysters/83-mytilus-reboot" target="project:Mytilus methylation"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e137" source="notebook:tumbling-oysters/82-trout-recip-pav" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e138" source="notebook:tumbling-oysters/82-trout-recip-pav" target="species:Lake trout (Salvelinus namaycush)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e139" source="notebook:tumbling-oysters/81-trout-mapping-diff" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e140" source="notebook:tumbling-oysters/81-trout-mapping-diff" target="species:Lake trout (Salvelinus namaycush)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e141" source="notebook:tumbling-oysters/81-trout-mapping-diff" target="method:Read mapping / alignment"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e142" source="notebook:tumbling-oysters/81-trout-mapping-diff" target="project:Lake trout genome"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e143" source="notebook:tumbling-oysters/80-sormi-post-mort" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e144" source="notebook:tumbling-oysters/80-sormi-post-mort" target="project:SORMI"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e145" source="notebook:tumbling-oysters/79-trout-synteny" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e146" source="notebook:tumbling-oysters/79-trout-synteny" target="species:Lake trout (Salvelinus namaycush)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e147" source="notebook:tumbling-oysters/79-trout-synteny" target="method:Orthology / synteny"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e148" source="notebook:tumbling-oysters/79-trout-synteny" target="keyword:synteny"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e149" source="notebook:tumbling-oysters/79-trout-synteny" target="project:Lake trout genome"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e150" source="notebook:tumbling-oysters/78-trout-lift-over" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e151" source="notebook:tumbling-oysters/78-trout-lift-over" target="species:Lake trout (Salvelinus namaycush)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e152" source="notebook:tumbling-oysters/78-trout-lift-over" target="method:Liftover"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e153" source="notebook:tumbling-oysters/78-trout-lift-over" target="project:Lake trout genome"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e154" source="notebook:tumbling-oysters/78-priming-w2" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e155" source="notebook:tumbling-oysters/78-priming-w2" target="keyword:priming"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e156" source="notebook:tumbling-oysters/78-priming-w2" target="project:Priming / environmental memory"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e157" source="notebook:tumbling-oysters/76-lake-trout-gene-pheno" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e158" source="notebook:tumbling-oysters/76-lake-trout-gene-pheno" target="species:Lake trout (Salvelinus namaycush)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e159" source="notebook:tumbling-oysters/76-lake-trout-gene-pheno" target="keyword:phenotype"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e160" source="notebook:tumbling-oysters/76-lake-trout-gene-pheno" target="project:Lake trout genome"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e161" source="notebook:tumbling-oysters/77-priming-w2" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e162" source="notebook:tumbling-oysters/77-priming-w2" target="keyword:priming"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e163" source="notebook:tumbling-oysters/77-priming-w2" target="project:Priming / environmental memory"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e164" source="notebook:tumbling-oysters/76-detection" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e165" source="notebook:tumbling-oysters/74-wescott-mort" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e166" source="notebook:tumbling-oysters/74-wescott-mort" target="keyword:mortality"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e167" source="notebook:tumbling-oysters/73-sormi-mort" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e168" source="notebook:tumbling-oysters/73-sormi-mort" target="keyword:mortality"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e169" source="notebook:tumbling-oysters/73-sormi-mort" target="project:SORMI"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e170" source="notebook:tumbling-oysters/72-manchester-mort" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e171" source="notebook:tumbling-oysters/72-manchester-mort" target="keyword:mortality"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e172" source="notebook:tumbling-oysters/72-manchester-mort" target="project:Manchester hardening"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e173" source="notebook:tumbling-oysters/71-10k" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e174" source="notebook:tumbling-oysters/71-10k" target="project:10K seed hardening"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e175" source="notebook:tumbling-oysters/70-sormi" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e176" source="notebook:tumbling-oysters/70-sormi" target="project:SORMI"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e177" source="notebook:tumbling-oysters/69-linksmas" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e178" source="notebook:tumbling-oysters/68-barnacle" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e179" source="notebook:tumbling-oysters/68-barnacle" target="species:Barnacle"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e180" source="notebook:tumbling-oysters/67-coeff-var" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e181" source="notebook:tumbling-oysters/65-gbm-plots" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e182" source="notebook:tumbling-oysters/65-gbm-plots" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e183" source="notebook:tumbling-oysters/65-gbm-plots" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e184" source="notebook:tumbling-oysters/65-gbm-plots" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e185" source="notebook:tumbling-oysters/64-barnacle" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e186" source="notebook:tumbling-oysters/64-barnacle" target="species:Barnacle"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e187" source="notebook:tumbling-oysters/63-contra" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e188" source="notebook:tumbling-oysters/62-biomin" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e189" source="notebook:tumbling-oysters/62-biomin" target="keyword:biomineralization"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e190" source="notebook:tumbling-oysters/62-biomin" target="project:Biomineralization"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e191" source="notebook:tumbling-oysters/61-gene-meth" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e192" source="notebook:tumbling-oysters/61-gene-meth" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e193" source="notebook:tumbling-oysters/61-gene-meth" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e194" source="notebook:tumbling-oysters/61-gene-meth" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e195" source="notebook:tumbling-oysters/58-biomin" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e196" source="notebook:tumbling-oysters/58-biomin" target="keyword:biomineralization"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e197" source="notebook:tumbling-oysters/58-biomin" target="project:Biomineralization"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e198" source="notebook:tumbling-oysters/59-wgcna-annotation" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e199" source="notebook:tumbling-oysters/59-wgcna-annotation" target="method:WGCNA"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e200" source="notebook:tumbling-oysters/59-wgcna-annotation" target="method:Genome annotation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e201" source="notebook:tumbling-oysters/59-wgcna-annotation" target="omics:Transcriptomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e202" source="notebook:tumbling-oysters/59-wgcna-annotation" target="keyword:wgcna"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e203" source="notebook:tumbling-oysters/59-wgcna-annotation" target="keyword:annotation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e204" source="notebook:tumbling-oysters/58-contra-24" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e205" source="notebook:tumbling-oysters/60-contra-random" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e206" source="notebook:tumbling-oysters/57-barnacle-35opt" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e207" source="notebook:tumbling-oysters/57-barnacle-35opt" target="species:Barnacle"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e208" source="notebook:tumbling-oysters/56-barnacle" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e209" source="notebook:tumbling-oysters/56-barnacle" target="species:Barnacle"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e210" source="notebook:tumbling-oysters/55-cod-talk" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e211" source="notebook:tumbling-oysters/55-cod-talk" target="species:Pacific cod (Gadus macrocephalus)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e212" source="notebook:tumbling-oysters/53-ortho-select" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e213" source="notebook:tumbling-oysters/53-ortho-select" target="method:Orthology / synteny"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e214" source="notebook:tumbling-oysters/53-ortho-select" target="keyword:ortholog"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e215" source="notebook:tumbling-oysters/52-e5-orthologs" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e216" source="notebook:tumbling-oysters/52-e5-orthologs" target="species:Coral (E5 / reef corals)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e217" source="notebook:tumbling-oysters/52-e5-orthologs" target="project:Coral E5 deep-dive"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e218" source="notebook:tumbling-oysters/51-nano-next" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e219" source="notebook:tumbling-oysters/51-nano-next" target="method:Genome assembly / long-read"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e220" source="notebook:tumbling-oysters/51-nano-next" target="keyword:nanopore"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e221" source="notebook:tumbling-oysters/49-ptwhit" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e222" source="notebook:tumbling-oysters/48-cod-bwa" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e223" source="notebook:tumbling-oysters/48-cod-bwa" target="species:Pacific cod (Gadus macrocephalus)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e224" source="notebook:tumbling-oysters/48-cod-bwa" target="method:Read mapping / alignment"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e225" source="notebook:tumbling-oysters/47-ffs" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e226" source="notebook:tumbling-oysters/43-intersect" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e227" source="notebook:tumbling-oysters/42-megan" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e228" source="notebook:tumbling-oysters/42-megan" target="method:Metabarcoding / eDNA / taxonomy"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e229" source="notebook:tumbling-oysters/42-megan" target="omics:Metagenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e230" source="notebook:tumbling-oysters/38-klone" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e231" source="notebook:tumbling-oysters/38-klone" target="keyword:klone"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e232" source="notebook:tumbling-oysters/36-merry" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e233" source="notebook:tumbling-oysters/35-myt-meth" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e234" source="notebook:tumbling-oysters/35-myt-meth" target="species:Blue mussel (Mytilus spp.)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e235" source="notebook:tumbling-oysters/35-myt-meth" target="method:DNA methylation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e236" source="notebook:tumbling-oysters/35-myt-meth" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e237" source="notebook:tumbling-oysters/35-myt-meth" target="keyword:methylation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e238" source="notebook:tumbling-oysters/35-myt-meth" target="project:Mytilus methylation"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e239" source="notebook:tumbling-oysters/33-bismark-array" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e240" source="notebook:tumbling-oysters/33-bismark-array" target="method:Bisulfite / BS-seq"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e241" source="notebook:tumbling-oysters/33-bismark-array" target="omics:Epigenomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e242" source="notebook:tumbling-oysters/31-e5-genome-stats" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e243" source="notebook:tumbling-oysters/31-e5-genome-stats" target="species:Coral (E5 / reef corals)"><data key="rel">studies_species</data><data key="conf">0.9</data></edge>
+<edge id="e244" source="notebook:tumbling-oysters/31-e5-genome-stats" target="omics:Genomics"><data key="rel">has_omics</data><data key="conf">0.9</data></edge>
+<edge id="e245" source="notebook:tumbling-oysters/31-e5-genome-stats" target="keyword:genome"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e246" source="notebook:tumbling-oysters/31-e5-genome-stats" target="project:Coral E5 deep-dive"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e247" source="notebook:tumbling-oysters/30-hisat-annot" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e248" source="notebook:tumbling-oysters/30-hisat-annot" target="method:Genome annotation"><data key="rel">uses_method</data><data key="conf">0.9</data></edge>
+<edge id="e249" source="notebook:tumbling-oysters/30-hisat-annot" target="keyword:annotation"><data key="rel">shares_keyword</data><data key="conf">0.9</data></edge>
+<edge id="e250" source="notebook:tumbling-oysters/29-prime" target="person:Steven Roberts"><data key="rel">authored_by</data><data key="conf">0.9</data></edge>
+<edge id="e251" source="notebook:tumbling-oysters/29-prime" target="project:Priming / environmental memory"><data key="rel">part_of_project</data><data key="conf">0.9</data></edge>
+<edge id="e252" source="notebook:tumbling-oysters/83-mytilus-reboot" target="repo:project-mytilus-methylation"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e253" source="notebook:tumbling-oysters/83-mytilus-reboot" target="repo:project-myt-crass-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e254" source="notebook:tumbling-oysters/82-trout-recip-pav" target="repo:project-lake-trout"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e255" source="notebook:tumbling-oysters/81-trout-mapping-diff" target="repo:project-lake-trout"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e256" source="notebook:tumbling-oysters/80-sormi-post-mort" target="repo:sormi-assay-development"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e257" source="notebook:tumbling-oysters/79-trout-synteny" target="repo:project-lake-trout"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e258" source="notebook:tumbling-oysters/78-trout-lift-over" target="repo:project-lake-trout"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e259" source="notebook:tumbling-oysters/76-lake-trout-gene-pheno" target="repo:project-lake-trout"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e260" source="notebook:tumbling-oysters/73-sormi-mort" target="repo:sormi-assay-development"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e261" source="notebook:tumbling-oysters/72-manchester-mort" target="repo:manchester-hardening"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e262" source="notebook:tumbling-oysters/71-10k" target="repo:10K-seed-Cgigas"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e263" source="notebook:tumbling-oysters/70-sormi" target="repo:sormi-assay-development"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e264" source="notebook:tumbling-oysters/65-gbm-plots" target="repo:project-mytilus-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e265" source="notebook:tumbling-oysters/65-gbm-plots" target="repo:project-caligus-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e266" source="notebook:tumbling-oysters/65-gbm-plots" target="repo:project-myt-crass-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e267" source="notebook:tumbling-oysters/65-gbm-plots" target="repo:EpiDiverse-snp"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e268" source="notebook:tumbling-oysters/65-gbm-plots" target="repo:project-gigas-oa-meth"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e269" source="notebook:tumbling-oysters/65-gbm-plots" target="repo:paper-gigas-metaanalysis"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e270" source="notebook:tumbling-oysters/61-gene-meth" target="repo:project-mytilus-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e271" source="notebook:tumbling-oysters/61-gene-meth" target="repo:project-caligus-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e272" source="notebook:tumbling-oysters/61-gene-meth" target="repo:project-myt-crass-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e273" source="notebook:tumbling-oysters/61-gene-meth" target="repo:EpiDiverse-snp"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e274" source="notebook:tumbling-oysters/61-gene-meth" target="repo:project-gigas-oa-meth"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e275" source="notebook:tumbling-oysters/61-gene-meth" target="repo:paper-gigas-metaanalysis"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e276" source="notebook:tumbling-oysters/55-cod-talk" target="repo:project-cod-temperature"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e277" source="notebook:tumbling-oysters/48-cod-bwa" target="repo:project-cod-temperature"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e278" source="notebook:tumbling-oysters/42-megan" target="repo:project-eDNA-yellow"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e279" source="notebook:tumbling-oysters/42-megan" target="repo:laby-18s"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e280" source="notebook:tumbling-oysters/35-myt-meth" target="repo:project-mytilus-methylation"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e281" source="notebook:tumbling-oysters/35-myt-meth" target="repo:project-caligus-methylation"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e282" source="notebook:tumbling-oysters/35-myt-meth" target="repo:project-myt-crass-methylation"><data key="rel">mentions</data><data key="conf">0.8</data></edge>
+<edge id="e283" source="notebook:tumbling-oysters/35-myt-meth" target="repo:EpiDiverse-snp"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e284" source="notebook:tumbling-oysters/35-myt-meth" target="repo:project-gigas-oa-meth"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e285" source="notebook:tumbling-oysters/35-myt-meth" target="repo:paper-gigas-metaanalysis"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e286" source="notebook:tumbling-oysters/33-bismark-array" target="repo:EpiDiverse-snp"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e287" source="notebook:tumbling-oysters/31-e5-genome-stats" target="repo:project-lake-trout"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e288" source="notebook:tumbling-oysters/31-e5-genome-stats" target="repo:duck-genome-viz"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+<edge id="e289" source="notebook:tumbling-oysters/31-e5-genome-stats" target="repo:project-geoduck-genome"><data key="rel">possible_connection</data><data key="conf">0.2</data></edge>
+</graph>
+</graphml>

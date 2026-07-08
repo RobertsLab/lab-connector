@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Lab Connector — RobertsLab notebook ⇄ repository network map</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1720; --panel:#182430; --panel2:#1f2e3d; --ink:#e7edf3; --muted:#93a4b3;
+    --line:#2b3a49; --accent:#5aa9e6;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+  #app{display:grid;grid-template-columns:290px 1fr 320px;height:100vh}
+  .col{height:100vh;overflow-y:auto}
+  #controls{background:var(--panel);border-right:1px solid var(--line);padding:14px}
+  #detail{background:var(--panel);border-left:1px solid var(--line);padding:14px}
+  #stage{position:relative;overflow:hidden;background:radial-gradient(circle at 40% 30%,#12202c,#0d141c)}
+  h1{font-size:15px;margin:0 0 2px}
+  .sub{font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.4}
+  h2{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:16px 0 6px;border-bottom:1px solid var(--line);padding-bottom:4px}
+  input[type=text],select{width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:7px 9px;font-size:13px}
+  input[type=range]{width:100%}
+  label.chk{display:flex;align-items:center;gap:7px;font-size:12.5px;padding:2px 0;cursor:pointer}
+  .swatch{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+  .count{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+  button{background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:7px 9px;font-size:12px;cursor:pointer;width:100%;margin-top:6px}
+  button:hover{border-color:var(--accent)}
+  .btnrow{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  .stat{display:flex;justify-content:space-between;font-size:12px;padding:2px 0;color:var(--muted)}
+  .stat b{color:var(--ink);font-variant-numeric:tabular-nums}
+  svg{width:100%;height:100%;display:block;cursor:grab}
+  .node circle{stroke:#0d141c;stroke-width:1.2px;cursor:pointer}
+  .node.dim{opacity:.12}
+  .link{stroke-linecap:round;cursor:pointer}
+  .link.dim{opacity:.04}
+  .node text{font-size:9px;fill:var(--muted);pointer-events:none}
+  #legend{position:absolute;left:12px;bottom:12px;background:rgba(15,23,32,.82);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11px}
+  #legend .row{display:flex;align-items:center;gap:6px;padding:1px 0;color:var(--muted)}
+  #hint{position:absolute;right:12px;top:12px;font-size:11px;color:var(--muted);background:rgba(15,23,32,.7);padding:5px 9px;border-radius:6px;border:1px solid var(--line)}
+  .kv{font-size:12.5px;margin:5px 0;line-height:1.45;word-break:break-word}
+  .kv .k{color:var(--muted)}
+  .pill{display:inline-block;background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:2px 8px;margin:2px 3px 0 0;font-size:11px}
+  a{color:var(--accent);text-decoration:none;word-break:break-all}
+  a:hover{text-decoration:underline}
+  .conf-bar{height:6px;border-radius:3px;background:var(--panel2);overflow:hidden;margin-top:3px}
+  .conf-bar>i{display:block;height:100%}
+  .empty{color:var(--muted);font-size:12.5px;margin-top:12px}
+  #err{color:#ffb4a2;font-size:12px;padding:10px;display:none}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="controls" class="col">
+    <h1>Lab Connector</h1>
+    <div class="sub">Network map linking RobertsLab GitHub repositories with lab notebooks, people, species, methods, and projects.</div>
+
+    <h2>Search</h2>
+    <input id="search" type="text" placeholder="repo, notebook, species, method…"/>
+
+    <h2>Node types</h2>
+    <div id="typeFilters"></div>
+
+    <h2>Filter by species</h2>
+    <select id="speciesFilter"><option value="">— all species —</option></select>
+
+    <h2>Filter by method</h2>
+    <select id="methodFilter"><option value="">— all methods —</option></select>
+
+    <h2>Min. edge confidence <span id="confVal" class="count">0.0</span></h2>
+    <input id="confSlider" type="range" min="0" max="1" step="0.1" value="0"/>
+    <div class="sub" style="margin-top:6px">Inferred notebook⇄repo edges below the threshold are hidden. Structural edges (species/method/etc.) are fixed at 0.9.</div>
+
+    <h2>Export</h2>
+    <div class="btnrow">
+      <button id="expJson">Graph JSON</button>
+      <button id="expCsv">Edges CSV</button>
+    </div>
+    <div class="btnrow">
+      <button id="expSvg">SVG</button>
+      <button id="expPng">PNG</button>
+    </div>
+    <button id="reset">Reset view / filters</button>
+
+    <h2>Summary</h2>
+    <div id="stats"></div>
+    <div id="err"></div>
+  </div>
+
+  <div id="stage" class="col">
+    <svg id="svg"></svg>
+    <div id="hint">Drag nodes • scroll to zoom • click a node or edge for detail</div>
+    <div id="legend"></div>
+  </div>
+
+  <div id="detail" class="col">
+    <div class="empty">Click a node or an edge to see its metadata, evidence, and source links.</div>
+  </div>
+</div>
+
+<script src="graph-data.js" onerror="window.__noEmbed=true"></script>
+<script>
+const COLORS = {
+  repo:"#4C78A8", notebook:"#F58518", person:"#54A24B", project:"#B279A2",
+  species:"#E45756", method:"#72B7B2", omics:"#EECA3B", keyword:"#9D755D",
+  dataset:"#BAB0AC"
+};
+const TYPE_ORDER = ["repo","notebook","person","project","species","method","omics","keyword","dataset"];
+
+let GRAPH=null, sim=null, nodeSel=null, linkSel=null, labelSel=null;
+let svg, g, zoom, width, height;
+const state = { types:new Set(TYPE_ORDER), species:"", method:"", minConf:0, search:"" };
+
+async function boot(){
+  try{
+    if(window.GRAPH){ GRAPH = window.GRAPH; }
+    else{ const r = await fetch("../data/graph.json"); GRAPH = await r.json(); }
+  }catch(e){
+    document.getElementById("err").style.display="block";
+    document.getElementById("err").textContent =
+      "Could not load graph data. Run `python run_all.py --offline` first, or serve the folder (python -m http.server) and open app/index.html.";
+    return;
+  }
+  init();
+}
+
+function init(){
+  // normalize link source/target to ids (D3 mutates them into objects)
+  GRAPH.links.forEach(l=>{ l.source=(l.source.id||l.source); l.target=(l.target.id||l.target); });
+  const byId = Object.fromEntries(GRAPH.nodes.map(n=>[n.id,n]));
+  GRAPH._byId = byId;
+
+  buildTypeFilters();
+  buildEntitySelects();
+  buildLegend();
+  buildStats();
+  wireControls();
+  setupSvg();
+  redraw();
+}
+
+function buildTypeFilters(){
+  const counts={}; GRAPH.nodes.forEach(n=>counts[n.type]=(counts[n.type]||0)+1);
+  const box=document.getElementById("typeFilters"); box.innerHTML="";
+  TYPE_ORDER.filter(t=>counts[t]).forEach(t=>{
+    const l=document.createElement("label"); l.className="chk";
+    l.innerHTML=`<input type="checkbox" checked data-type="${t}">
+      <span class="swatch" style="background:${COLORS[t]}"></span>${t}
+      <span class="count">${counts[t]}</span>`;
+    l.querySelector("input").addEventListener("change",e=>{
+      e.target.checked?state.types.add(t):state.types.delete(t); redraw();
+    });
+    box.appendChild(l);
+  });
+}
+
+function buildEntitySelects(){
+  const add=(sel,type)=>{
+    GRAPH.nodes.filter(n=>n.type===type).sort((a,b)=>d3.ascending(a.label,b.label))
+      .forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=n.label; sel.appendChild(o);});
+  };
+  add(document.getElementById("speciesFilter"),"species");
+  add(document.getElementById("methodFilter"),"method");
+}
+
+function buildLegend(){
+  const L=document.getElementById("legend");
+  L.innerHTML="<div style='color:var(--ink);margin-bottom:4px'>Node type</div>"+
+    TYPE_ORDER.map(t=>`<div class="row"><span class="swatch" style="background:${COLORS[t]}"></span>${t}</div>`).join("");
+}
+
+function buildStats(){
+  const c={}; GRAPH.nodes.forEach(n=>c[n.type]=(c[n.type]||0)+1);
+  const infer = GRAPH.links.filter(l=>["links_to","mentions","part_of_project","shares_keyword","possible_connection"].includes(l.relationship)
+                && byType(l.source)==="notebook" && byType(l.target)==="repo");
+  const direct = infer.filter(l=>l.confidence>=1.0).length;
+  const strong = infer.filter(l=>l.confidence>=0.8).length;
+  const weak = infer.filter(l=>l.relationship==="possible_connection").length;
+  document.getElementById("stats").innerHTML=
+    `<div class="stat"><span>Nodes</span><b>${GRAPH.nodes.length}</b></div>
+     <div class="stat"><span>Edges</span><b>${GRAPH.links.length}</b></div>
+     <div class="stat"><span>Repos</span><b>${c.repo||0}</b></div>
+     <div class="stat"><span>Notebooks</span><b>${c.notebook||0}</b></div>
+     <div class="stat"><span>Notebook⇄repo links</span><b>${infer.length}</b></div>
+     <div class="stat"><span>Direct (1.0)</span><b>${direct}</b></div>
+     <div class="stat"><span>≥0.8 confidence</span><b>${strong}</b></div>
+     <div class="stat"><span>Possible (0.2)</span><b>${weak}</b></div>`;
+}
+function byType(id){ return (GRAPH._byId[id]||{}).type; }
+
+function wireControls(){
+  document.getElementById("search").addEventListener("input",e=>{state.search=e.target.value.trim().toLowerCase();applyHighlight();});
+  document.getElementById("speciesFilter").addEventListener("change",e=>{state.species=e.target.value;redraw();});
+  document.getElementById("methodFilter").addEventListener("change",e=>{state.method=e.target.value;redraw();});
+  const cs=document.getElementById("confSlider");
+  cs.addEventListener("input",e=>{state.minConf=+e.target.value;document.getElementById("confVal").textContent=(+e.target.value).toFixed(1);redraw();});
+  document.getElementById("expJson").onclick=exportJson;
+  document.getElementById("expCsv").onclick=exportCsv;
+  document.getElementById("expSvg").onclick=exportSvg;
+  document.getElementById("expPng").onclick=exportPng;
+  document.getElementById("reset").onclick=resetAll;
+}
+
+function setupSvg(){
+  const stage=document.getElementById("stage");
+  width=stage.clientWidth; height=stage.clientHeight;
+  svg=d3.select("#svg").attr("viewBox",[0,0,width,height]);
+  svg.selectAll("*").remove();
+  g=svg.append("g");
+  zoom=d3.zoom().scaleExtent([0.15,6]).on("zoom",ev=>g.attr("transform",ev.transform));
+  svg.call(zoom);
+  svg.on("click",()=>clearDetail());
+  window.addEventListener("resize",()=>{width=stage.clientWidth;height=stage.clientHeight;svg.attr("viewBox",[0,0,width,height]);});
+}
+
+// ---- filtering ----
+function neighborsOf(id){
+  const set=new Set([id]);
+  GRAPH.links.forEach(l=>{ if(l.source===id)set.add(l.target); if(l.target===id)set.add(l.source); });
+  return set;
+}
+function visibleData(){
+  let entityFocus=null;
+  if(state.species) entityFocus=neighborsOf(state.species);
+  if(state.method){ const m=neighborsOf(state.method); entityFocus = entityFocus? new Set([...entityFocus].filter(x=>m.has(x))) : m; }
+
+  const nodeOk=n=>{
+    if(!state.types.has(n.type)) return false;
+    if(entityFocus && !entityFocus.has(n.id)) return false;
+    return true;
+  };
+  const idset=new Set(GRAPH.nodes.filter(nodeOk).map(n=>n.id));
+  const linkOk=l=>{
+    if(!idset.has(l.source)||!idset.has(l.target)) return false;
+    const inferred=["links_to","mentions","part_of_project","shares_keyword","possible_connection"].includes(l.relationship)
+                  && byType(l.source)==="notebook" && byType(l.target)==="repo";
+    if(inferred && l.confidence < state.minConf) return false;
+    return true;
+  };
+  const links=GRAPH.links.filter(linkOk).map(l=>({...l}));
+  const keep=new Set(); links.forEach(l=>{keep.add(l.source);keep.add(l.target);});
+  // keep singletons of focused entity too
+  const nodes=GRAPH.nodes.filter(n=>idset.has(n.id) && (keep.has(n.id)|| (entityFocus&&n.id===state.species)||(entityFocus&&n.id===state.method)|| (!entityFocus))).map(n=>({...n}));
+  return {nodes,links};
+}
+
+function redraw(){
+  const data=visibleData();
+  const r=d=>4+Math.sqrt(d.degree||1)*2.2;
+  g.selectAll("*").remove();
+
+  sim && sim.stop();
+  sim=d3.forceSimulation(data.nodes)
+    .force("link",d3.forceLink(data.links).id(d=>d.id).distance(l=>l.relationship==="possible_connection"?120:70).strength(l=>0.2+0.5*(l.confidence||0.3)))
+    .force("charge",d3.forceManyBody().strength(-130))
+    .force("center",d3.forceCenter(width/2,height/2))
+    .force("collide",d3.forceCollide().radius(d=>r(d)+3));
+
+  linkSel=g.append("g").selectAll("line").data(data.links).join("line")
+    .attr("class","link")
+    .attr("stroke",l=>l.relationship==="possible_connection"?"#6b7a89":"#3f5a6b")
+    .attr("stroke-width",l=>0.6+2.2*(l.confidence||0.3))
+    .attr("stroke-dasharray",l=>l.relationship==="possible_connection"?"3,3":null)
+    .on("click",(e,l)=>{e.stopPropagation();showEdge(l);});
+
+  const node=g.append("g").selectAll("g").data(data.nodes).join("g").attr("class","node")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}));
+  node.append("circle").attr("r",r).attr("fill",d=>COLORS[d.type]||"#888")
+    .on("click",(e,d)=>{e.stopPropagation();showNode(d);});
+  node.append("title").text(d=>`${d.label}  (${d.type}, ${d.degree} links)`);
+  labelSel=node.append("text").attr("x",d=>r(d)+2).attr("y",3)
+    .text(d=>(d.type==="repo"||d.type==="notebook"||d.degree>=6)?d.label:"");
+  nodeSel=node;
+
+  sim.on("tick",()=>{
+    linkSel.attr("x1",l=>l.source.x).attr("y1",l=>l.source.y).attr("x2",l=>l.target.x).attr("y2",l=>l.target.y);
+    node.attr("transform",d=>`translate(${d.x},${d.y})`);
+  });
+  applyHighlight();
+}
+
+function applyHighlight(){
+  if(!nodeSel) return;
+  const q=state.search;
+  if(!q){ nodeSel.classed("dim",false); linkSel.classed("dim",false); return; }
+  const match=d=> (d.label&&d.label.toLowerCase().includes(q)) || (d.description&&d.description.toLowerCase().includes(q));
+  const hot=new Set(); nodeSel.each(d=>{if(match(d))hot.add(d.id);});
+  const near=new Set(hot); linkSel.each(l=>{if(hot.has(l.source.id))near.add(l.target.id);if(hot.has(l.target.id))near.add(l.source.id);});
+  nodeSel.classed("dim",d=>!near.has(d.id));
+  linkSel.classed("dim",l=>!(hot.has(l.source.id)||hot.has(l.target.id)));
+}
+
+// ---- detail panel ----
+function esc(s){return (s==null?"":String(s)).replace(/</g,"&lt;");}
+function showNode(d){
+  const links=GRAPH.links.filter(l=>l.source===d.id||l.target===d.id||l.source.id===d.id||l.target.id===d.id);
+  const rel={};
+  links.forEach(l=>{const other=(l.source.id||l.source)===d.id?(l.target.id||l.target):(l.source.id||l.source);
+    (rel[l.relationship]=rel[l.relationship]||[]).push(GRAPH._byId[other]);});
+  let h=`<div style="display:flex;align-items:center;gap:8px"><span class="swatch" style="width:14px;height:14px;background:${COLORS[d.type]}"></span>
+    <div><div style="font-size:15px;font-weight:600">${esc(d.label)}</div><div class="sub" style="margin:0">${d.type}</div></div></div>`;
+  if(d.url) h+=`<div class="kv"><a href="${d.url}" target="_blank" rel="noopener">${esc(d.url)}</a></div>`;
+  if(d.description) h+=`<div class="kv"><span class="k">Description:</span> ${esc(d.description)}</div>`;
+  ["language","updated","created","author","site_title","date"].forEach(k=>{if(d[k])h+=`<div class="kv"><span class="k">${k.replace('_',' ')}:</span> ${esc(d[k])}</div>`;});
+  if(d.type==="repo") h+=`<div class="kv"><span class="k">stars/forks/issues:</span> ${d.stars||0} / ${d.forks||0} / ${d.open_issues||0}</div>`;
+  h+=`<div class="kv"><span class="k">Connections:</span> ${d.degree}</div>`;
+  Object.keys(rel).sort().forEach(k=>{
+    h+=`<h2>${k.replace(/_/g,' ')} (${rel[k].length})</h2><div>`;
+    rel[k].slice(0,40).forEach(o=>{if(o)h+=`<span class="pill" title="${o.type}">${esc(o.label)}</span>`;});
+    h+="</div>";
+  });
+  document.getElementById("detail").innerHTML=h;
+}
+function showEdge(l){
+  const s=GRAPH._byId[l.source.id||l.source], t=GRAPH._byId[l.target.id||l.target];
+  const c=l.confidence, col=c>=0.8?"#54A24B":c>=0.6?"#EECA3B":c>=0.4?"#F58518":"#E45756";
+  let h=`<h1 style="font-size:14px">Edge evidence</h1>
+    <div class="kv"><span class="k">${s.type}</span> <b>${esc(s.label)}</b></div>
+    <div class="kv" style="text-align:center;color:var(--muted)">— ${l.relationship.replace(/_/g,' ')} →</div>
+    <div class="kv"><span class="k">${t.type}</span> <b>${esc(t.label)}</b></div>
+    <div class="kv"><span class="k">Confidence:</span> ${c.toFixed(2)}
+      <div class="conf-bar"><i style="width:${c*100}%;background:${col}"></i></div></div>
+    <div class="kv"><span class="k">Evidence:</span> ${esc(l.evidence)}</div>`;
+  if(l.relationship==="possible_connection") h+=`<div class="kv" style="color:#ffb4a2">⚠ Low-confidence — flagged as a possible connection for human review, not a confirmed link.</div>`;
+  if(l.source_url) h+=`<div class="kv"><span class="k">Notebook:</span> <a href="${l.source_url}" target="_blank" rel="noopener">${esc(l.source_url)}</a></div>`;
+  if(l.target_url) h+=`<div class="kv"><span class="k">Repo:</span> <a href="${l.target_url}" target="_blank" rel="noopener">${esc(l.target_url)}</a></div>`;
+  document.getElementById("detail").innerHTML=h;
+}
+function clearDetail(){document.getElementById("detail").innerHTML='<div class="empty">Click a node or an edge to see its metadata, evidence, and source links.</div>';}
+
+// ---- exports ----
+function download(name,content,type){const b=new Blob([content],{type});const u=URL.createObjectURL(b);const a=document.createElement("a");a.href=u;a.download=name;a.click();URL.revokeObjectURL(u);}
+function exportJson(){download("graph.json",JSON.stringify(GRAPH,null,2),"application/json");}
+function exportCsv(){
+  const rows=[["source","target","relationship","confidence","evidence","source_url","target_url"]];
+  GRAPH.links.forEach(l=>rows.push([l.source.id||l.source,l.target.id||l.target,l.relationship,l.confidence,l.evidence,l.source_url,l.target_url]));
+  const csv=rows.map(r=>r.map(x=>`"${String(x==null?"":x).replace(/"/g,'""')}"`).join(",")).join("\n");
+  download("edges.csv",csv,"text/csv");
+}
+function exportSvg(){
+  const clone=svg.node().cloneNode(true);
+  clone.setAttribute("xmlns","http://www.w3.org/2000/svg");
+  clone.insertBefore(styleNode(),clone.firstChild);
+  download("network.svg",'<?xml version="1.0"?>\n'+clone.outerHTML,"image/svg+xml");
+}
+function styleNode(){const s=document.createElementNS("http://www.w3.org/2000/svg","style");
+  s.textContent=".link{stroke:#6a7f92}.node circle{stroke:#0d141c}.node text{font:9px sans-serif;fill:#7d8da6}";return s;}
+function exportPng(){
+  const s=new XMLSerializer().serializeToString(svg.node());
+  const img=new Image(); const url="data:image/svg+xml;base64,"+btoa(unescape(encodeURIComponent(s)));
+  img.onload=()=>{const c=document.createElement("canvas");c.width=width*2;c.height=height*2;const ctx=c.getContext("2d");
+    ctx.fillStyle="#0f1720";ctx.fillRect(0,0,c.width,c.height);ctx.scale(2,2);ctx.drawImage(img,0,0);
+    c.toBlob(b=>{const u=URL.createObjectURL(b);const a=document.createElement("a");a.href=u;a.download="network.png";a.click();});};
+  img.src=url;
+}
+function resetAll(){
+  state.types=new Set(TYPE_ORDER);state.species="";state.method="";state.minConf=0;state.search="";
+  document.querySelectorAll('#typeFilters input').forEach(i=>i.checked=true);
+  document.getElementById("speciesFilter").value="";document.getElementById("methodFilter").value="";
+  document.getElementById("confSlider").value=0;document.getElementById("confVal").textContent="0.0";
+  document.getElementById("search").value="";
+  svg.transition().call(zoom.transform,d3.zoomIdentity);
+  redraw();
+}
+boot();
+</script>
+</body>
+</html>

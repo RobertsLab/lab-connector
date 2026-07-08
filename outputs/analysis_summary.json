@@ -1,0 +1,511 @@
+{
+  "counts": {
+    "nodes": 221,
+    "edges": 290,
+    "repos": 94,
+    "notebooks": 45,
+    "by_type": {
+      "keyword": 30,
+      "method": 15,
+      "notebook": 45,
+      "omics": 5,
+      "person": 1,
+      "project": 13,
+      "repo": 94,
+      "species": 18
+    }
+  },
+  "top_connected_repos": [
+    {
+      "repo": "project-lake-trout",
+      "notebook_connections": 6,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-lake-trout",
+      "example_notebooks": "E5 genome stats; Lake trout gene-phenotype; Trout lift-over; Trout mapping differences; Trout reciprocal PAV"
+    },
+    {
+      "repo": "EpiDiverse-snp",
+      "notebook_connections": 4,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/EpiDiverse-snp",
+      "example_notebooks": "Bismark array; Gene body methylation plots; Gene methylation; Mytilus methylation"
+    },
+    {
+      "repo": "project-myt-crass-methylation",
+      "notebook_connections": 4,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-myt-crass-methylation",
+      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation; Mytilus reboot"
+    },
+    {
+      "repo": "project-mytilus-methylation",
+      "notebook_connections": 4,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-mytilus-methylation",
+      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation; Mytilus reboot"
+    },
+    {
+      "repo": "project-gigas-oa-meth",
+      "notebook_connections": 3,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/project-gigas-oa-meth",
+      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation"
+    },
+    {
+      "repo": "sormi-assay-development",
+      "notebook_connections": 3,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/sormi-assay-development",
+      "example_notebooks": "SORMI; SORMI mortality; SORMI post mortem"
+    },
+    {
+      "repo": "project-caligus-methylation",
+      "notebook_connections": 3,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/project-caligus-methylation",
+      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation"
+    },
+    {
+      "repo": "paper-gigas-metaanalysis",
+      "notebook_connections": 3,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/paper-gigas-metaanalysis",
+      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation"
+    },
+    {
+      "repo": "project-cod-temperature",
+      "notebook_connections": 2,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-cod-temperature",
+      "example_notebooks": "Cod BWA; Cod talk"
+    },
+    {
+      "repo": "manchester-hardening",
+      "notebook_connections": 1,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/manchester-hardening",
+      "example_notebooks": "Manchester mortality"
+    },
+    {
+      "repo": "duck-genome-viz",
+      "notebook_connections": 1,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/duck-genome-viz",
+      "example_notebooks": "E5 genome stats"
+    },
+    {
+      "repo": "10K-seed-Cgigas",
+      "notebook_connections": 1,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/10K-seed-Cgigas",
+      "example_notebooks": "10K seed"
+    },
+    {
+      "repo": "project-eDNA-yellow",
+      "notebook_connections": 1,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/project-eDNA-yellow",
+      "example_notebooks": "MEGAN"
+    },
+    {
+      "repo": "project-geoduck-genome",
+      "notebook_connections": 1,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/project-geoduck-genome",
+      "example_notebooks": "E5 genome stats"
+    },
+    {
+      "repo": "laby-18s",
+      "notebook_connections": 1,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/laby-18s",
+      "example_notebooks": "MEGAN"
+    }
+  ],
+  "top_connected_notebooks": [
+    {
+      "notebook": "Mytilus methylation",
+      "repo_connections": 6,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html",
+      "example_repos": "EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation"
+    },
+    {
+      "notebook": "Gene methylation",
+      "repo_connections": 6,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html",
+      "example_repos": "EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation"
+    },
+    {
+      "notebook": "Gene body methylation plots",
+      "repo_connections": 6,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html",
+      "example_repos": "EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation"
+    },
+    {
+      "notebook": "E5 genome stats",
+      "repo_connections": 3,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html",
+      "example_repos": "duck-genome-viz; project-geoduck-genome; project-lake-trout"
+    },
+    {
+      "notebook": "Mytilus reboot",
+      "repo_connections": 2,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/83-mytilus-reboot/index.html",
+      "example_repos": "project-myt-crass-methylation; project-mytilus-methylation"
+    },
+    {
+      "notebook": "MEGAN",
+      "repo_connections": 2,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/42-megan/index.html",
+      "example_repos": "laby-18s; project-eDNA-yellow"
+    },
+    {
+      "notebook": "Cod BWA",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/48-cod-bwa/index.html",
+      "example_repos": "project-cod-temperature"
+    },
+    {
+      "notebook": "Manchester mortality",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/72-manchester-mort/index.html",
+      "example_repos": "manchester-hardening"
+    },
+    {
+      "notebook": "Trout lift-over",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/78-trout-lift-over/index.html",
+      "example_repos": "project-lake-trout"
+    },
+    {
+      "notebook": "Lake trout gene-phenotype",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/76-lake-trout-gene-pheno/index.html",
+      "example_repos": "project-lake-trout"
+    },
+    {
+      "notebook": "Trout mapping differences",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/81-trout-mapping-diff/index.html",
+      "example_repos": "project-lake-trout"
+    },
+    {
+      "notebook": "SORMI post mortem",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/80-sormi-post-mort/index.html",
+      "example_repos": "sormi-assay-development"
+    },
+    {
+      "notebook": "SORMI",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/70-sormi/index.html",
+      "example_repos": "sormi-assay-development"
+    },
+    {
+      "notebook": "Trout synteny",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/79-trout-synteny/index.html",
+      "example_repos": "project-lake-trout"
+    },
+    {
+      "notebook": "SORMI mortality",
+      "repo_connections": 1,
+      "url": "https://sr320.github.io/tumbling-oysters/posts/73-sormi-mort/index.html",
+      "example_repos": "sormi-assay-development"
+    }
+  ],
+  "unlinked_repo_count": 79,
+  "unlinked_notebook_count": 26,
+  "species_reach": [
+    {
+      "label": "Pacific oyster (Crassostrea/Magallana gigas)",
+      "repos": 11,
+      "notebooks": 0,
+      "total": 11
+    },
+    {
+      "label": "Lake trout (Salvelinus namaycush)",
+      "repos": 1,
+      "notebooks": 5,
+      "total": 6
+    },
+    {
+      "label": "Geoduck (Panopea generosa)",
+      "repos": 5,
+      "notebooks": 0,
+      "total": 5
+    },
+    {
+      "label": "Crab (general)",
+      "repos": 5,
+      "notebooks": 0,
+      "total": 5
+    },
+    {
+      "label": "Blue mussel (Mytilus spp.)",
+      "repos": 2,
+      "notebooks": 2,
+      "total": 4
+    },
+    {
+      "label": "Barnacle",
+      "repos": 0,
+      "notebooks": 4,
+      "total": 4
+    },
+    {
+      "label": "Pacific cod (Gadus macrocephalus)",
+      "repos": 1,
+      "notebooks": 2,
+      "total": 3
+    },
+    {
+      "label": "Hematodinium (parasite)",
+      "repos": 3,
+      "notebooks": 0,
+      "total": 3
+    },
+    {
+      "label": "Olympia oyster (Ostrea lurida)",
+      "repos": 3,
+      "notebooks": 0,
+      "total": 3
+    },
+    {
+      "label": "Coral (E5 / reef corals)",
+      "repos": 0,
+      "notebooks": 2,
+      "total": 2
+    },
+    {
+      "label": "Manila clam / clam",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "Sea louse (Caligus)",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "Labyrinthula",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "Tanner crab (Chionoecetes bairdi)",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "Cockle",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    }
+  ],
+  "method_reach": [
+    {
+      "label": "DNA methylation",
+      "repos": 6,
+      "notebooks": 3,
+      "total": 9
+    },
+    {
+      "label": "Resazurin assay",
+      "repos": 3,
+      "notebooks": 0,
+      "total": 3
+    },
+    {
+      "label": "Metabarcoding / eDNA / taxonomy",
+      "repos": 2,
+      "notebooks": 1,
+      "total": 3
+    },
+    {
+      "label": "Bisulfite / BS-seq",
+      "repos": 1,
+      "notebooks": 1,
+      "total": 2
+    },
+    {
+      "label": "Proteomics",
+      "repos": 2,
+      "notebooks": 0,
+      "total": 2
+    },
+    {
+      "label": "Read mapping / alignment",
+      "repos": 0,
+      "notebooks": 2,
+      "total": 2
+    },
+    {
+      "label": "Orthology / synteny",
+      "repos": 0,
+      "notebooks": 2,
+      "total": 2
+    },
+    {
+      "label": "Genome annotation",
+      "repos": 0,
+      "notebooks": 2,
+      "total": 2
+    },
+    {
+      "label": "Genome browser",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "RNA-seq",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "SNP / variant calling",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "Carbonate chemistry / titration",
+      "repos": 1,
+      "notebooks": 0,
+      "total": 1
+    },
+    {
+      "label": "Liftover",
+      "repos": 0,
+      "notebooks": 1,
+      "total": 1
+    },
+    {
+      "label": "WGCNA",
+      "repos": 0,
+      "notebooks": 1,
+      "total": 1
+    },
+    {
+      "label": "Genome assembly / long-read",
+      "repos": 0,
+      "notebooks": 1,
+      "total": 1
+    }
+  ],
+  "high_confidence_links": [
+    {
+      "notebook": "Mytilus reboot",
+      "repo": "project-mytilus-methylation",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '83-mytilus-reboot' mentions repo token(s) mytilus matching 'project-mytilus-methylation'"
+    },
+    {
+      "notebook": "Trout reciprocal PAV",
+      "repo": "project-lake-trout",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '82-trout-recip-pav' mentions repo token(s) trout matching 'project-lake-trout'"
+    },
+    {
+      "notebook": "Trout mapping differences",
+      "repo": "project-lake-trout",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '81-trout-mapping-diff' mentions repo token(s) trout matching 'project-lake-trout'"
+    },
+    {
+      "notebook": "SORMI post mortem",
+      "repo": "sormi-assay-development",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '80-sormi-post-mort' mentions repo token(s) sormi matching 'sormi-assay-development'"
+    },
+    {
+      "notebook": "Trout synteny",
+      "repo": "project-lake-trout",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '79-trout-synteny' mentions repo token(s) trout matching 'project-lake-trout'"
+    },
+    {
+      "notebook": "Trout lift-over",
+      "repo": "project-lake-trout",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '78-trout-lift-over' mentions repo token(s) trout matching 'project-lake-trout'"
+    },
+    {
+      "notebook": "Lake trout gene-phenotype",
+      "repo": "project-lake-trout",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '76-lake-trout-gene-pheno' mentions repo token(s) trout matching 'project-lake-trout'"
+    },
+    {
+      "notebook": "SORMI mortality",
+      "repo": "sormi-assay-development",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '73-sormi-mort' mentions repo token(s) sormi matching 'sormi-assay-development'"
+    },
+    {
+      "notebook": "Manchester mortality",
+      "repo": "manchester-hardening",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '72-manchester-mort' mentions repo token(s) manchester matching 'manchester-hardening'"
+    },
+    {
+      "notebook": "10K seed",
+      "repo": "10K-seed-Cgigas",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '71-10k' mentions repo token(s) 10k matching '10K-seed-Cgigas'"
+    },
+    {
+      "notebook": "SORMI",
+      "repo": "sormi-assay-development",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '70-sormi' mentions repo token(s) sormi matching 'sormi-assay-development'"
+    },
+    {
+      "notebook": "Cod talk",
+      "repo": "project-cod-temperature",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '55-cod-talk' mentions repo token(s) cod matching 'project-cod-temperature'"
+    },
+    {
+      "notebook": "Cod BWA",
+      "repo": "project-cod-temperature",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '48-cod-bwa' mentions repo token(s) cod matching 'project-cod-temperature'"
+    },
+    {
+      "notebook": "Mytilus methylation",
+      "repo": "project-mytilus-methylation",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '35-myt-meth' mentions repo token(s) mytilus matching 'project-mytilus-methylation'"
+    },
+    {
+      "notebook": "Mytilus methylation",
+      "repo": "project-myt-crass-methylation",
+      "confidence": 0.8,
+      "relationship": "mentions",
+      "evidence": "Notebook '35-myt-meth' mentions repo token(s) myt matching 'project-myt-crass-methylation'"
+    }
+  ],
+  "possible_connection_count": 23
+}

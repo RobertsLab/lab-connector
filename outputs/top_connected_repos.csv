@@ -1,0 +1,16 @@
+repo,notebook_connections,max_confidence,example_notebooks,url
+project-lake-trout,6,0.8,E5 genome stats; Lake trout gene-phenotype; Trout lift-over; Trout mapping differences; Trout reciprocal PAV,https://github.com/RobertsLab/project-lake-trout
+EpiDiverse-snp,4,0.2,Bismark array; Gene body methylation plots; Gene methylation; Mytilus methylation,https://github.com/RobertsLab/EpiDiverse-snp
+project-myt-crass-methylation,4,0.8,Gene body methylation plots; Gene methylation; Mytilus methylation; Mytilus reboot,https://github.com/RobertsLab/project-myt-crass-methylation
+project-mytilus-methylation,4,0.8,Gene body methylation plots; Gene methylation; Mytilus methylation; Mytilus reboot,https://github.com/RobertsLab/project-mytilus-methylation
+project-gigas-oa-meth,3,0.2,Gene body methylation plots; Gene methylation; Mytilus methylation,https://github.com/RobertsLab/project-gigas-oa-meth
+sormi-assay-development,3,0.8,SORMI; SORMI mortality; SORMI post mortem,https://github.com/RobertsLab/sormi-assay-development
+project-caligus-methylation,3,0.2,Gene body methylation plots; Gene methylation; Mytilus methylation,https://github.com/RobertsLab/project-caligus-methylation
+paper-gigas-metaanalysis,3,0.2,Gene body methylation plots; Gene methylation; Mytilus methylation,https://github.com/RobertsLab/paper-gigas-metaanalysis
+project-cod-temperature,2,0.8,Cod BWA; Cod talk,https://github.com/RobertsLab/project-cod-temperature
+manchester-hardening,1,0.8,Manchester mortality,https://github.com/RobertsLab/manchester-hardening
+duck-genome-viz,1,0.2,E5 genome stats,https://github.com/RobertsLab/duck-genome-viz
+10K-seed-Cgigas,1,0.8,10K seed,https://github.com/RobertsLab/10K-seed-Cgigas
+project-eDNA-yellow,1,0.2,MEGAN,https://github.com/RobertsLab/project-eDNA-yellow
+project-geoduck-genome,1,0.2,E5 genome stats,https://github.com/RobertsLab/project-geoduck-genome
+laby-18s,1,0.2,MEGAN,https://github.com/RobertsLab/laby-18s

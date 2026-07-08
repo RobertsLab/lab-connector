@@ -1,0 +1,12 @@
+# Core pipeline (live crawl). The --offline example build needs nothing beyond
+# the Python 3.8+ standard library.
+requests>=2.28
+beautifulsoup4>=4.11
+
+# Optional: richer graph analysis / alternate exports
+networkx>=3.0
+pandas>=1.5
+
+# Optional convenience wrappers (not required):
+# PyGithub>=2.0
+# pyyaml>=6.0

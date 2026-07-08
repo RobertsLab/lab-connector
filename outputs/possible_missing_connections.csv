@@ -1,0 +1,24 @@
+notebook,repo,confidence,evidence,notebook_url,repo_url
+Mytilus reboot,project-myt-crass-methylation,0.2,Weak overlap: Blue mussel (Mytilus spp.),https://sr320.github.io/tumbling-oysters/posts/83-mytilus-reboot/index.html,https://github.com/RobertsLab/project-myt-crass-methylation
+Gene body methylation plots,project-mytilus-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html,https://github.com/RobertsLab/project-mytilus-methylation
+Gene body methylation plots,project-caligus-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html,https://github.com/RobertsLab/project-caligus-methylation
+Gene body methylation plots,project-myt-crass-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html,https://github.com/RobertsLab/project-myt-crass-methylation
+Gene body methylation plots,EpiDiverse-snp,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html,https://github.com/RobertsLab/EpiDiverse-snp
+Gene body methylation plots,project-gigas-oa-meth,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html,https://github.com/RobertsLab/project-gigas-oa-meth
+Gene body methylation plots,paper-gigas-metaanalysis,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html,https://github.com/RobertsLab/paper-gigas-metaanalysis
+Gene methylation,project-mytilus-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html,https://github.com/RobertsLab/project-mytilus-methylation
+Gene methylation,project-caligus-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html,https://github.com/RobertsLab/project-caligus-methylation
+Gene methylation,project-myt-crass-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html,https://github.com/RobertsLab/project-myt-crass-methylation
+Gene methylation,EpiDiverse-snp,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html,https://github.com/RobertsLab/EpiDiverse-snp
+Gene methylation,project-gigas-oa-meth,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html,https://github.com/RobertsLab/project-gigas-oa-meth
+Gene methylation,paper-gigas-metaanalysis,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html,https://github.com/RobertsLab/paper-gigas-metaanalysis
+MEGAN,project-eDNA-yellow,0.2,Weak overlap: Metabarcoding / eDNA / taxonomy,https://sr320.github.io/tumbling-oysters/posts/42-megan/index.html,https://github.com/RobertsLab/project-eDNA-yellow
+MEGAN,laby-18s,0.2,Weak overlap: Metabarcoding / eDNA / taxonomy,https://sr320.github.io/tumbling-oysters/posts/42-megan/index.html,https://github.com/RobertsLab/laby-18s
+Mytilus methylation,project-caligus-methylation,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html,https://github.com/RobertsLab/project-caligus-methylation
+Mytilus methylation,EpiDiverse-snp,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html,https://github.com/RobertsLab/EpiDiverse-snp
+Mytilus methylation,project-gigas-oa-meth,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html,https://github.com/RobertsLab/project-gigas-oa-meth
+Mytilus methylation,paper-gigas-metaanalysis,0.2,"Weak overlap: DNA methylation, methylation",https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html,https://github.com/RobertsLab/paper-gigas-metaanalysis
+Bismark array,EpiDiverse-snp,0.2,Weak overlap: Bisulfite / BS-seq,https://sr320.github.io/tumbling-oysters/posts/33-bismark-array/index.html,https://github.com/RobertsLab/EpiDiverse-snp
+E5 genome stats,project-lake-trout,0.2,Weak overlap: genome,https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html,https://github.com/RobertsLab/project-lake-trout
+E5 genome stats,duck-genome-viz,0.2,Weak overlap: genome,https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html,https://github.com/RobertsLab/duck-genome-viz
+E5 genome stats,project-geoduck-genome,0.2,Weak overlap: genome,https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html,https://github.com/RobertsLab/project-geoduck-genome

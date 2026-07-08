@@ -1,0 +1,929 @@
+{
+  "notebook_sites": [
+    {
+      "id": "tumbling-oysters",
+      "title": "Tumbling Oysters",
+      "author": "Steven Roberts",
+      "url": "https://sr320.github.io/tumbling-oysters/",
+      "platform": "Quarto"
+    },
+    {
+      "id": "sams-notebook",
+      "title": "Sam's Notebook",
+      "author": "Sam White",
+      "url": "https://robertslab.github.io/sams-notebook/",
+      "platform": "Quarto"
+    }
+  ],
+  "posts": [
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "83-mytilus-reboot",
+      "title": "Mytilus reboot",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/83-mytilus-reboot/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "83-mytilus-reboot Mytilus reboot",
+      "entities": {
+        "species": [
+          "Blue mussel (Mytilus spp.)"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "Mytilus methylation"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "82-trout-recip-pav",
+      "title": "Trout reciprocal PAV",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/82-trout-recip-pav/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "82-trout-recip-pav Trout reciprocal PAV",
+      "entities": {
+        "species": [
+          "Lake trout (Salvelinus namaycush)"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "81-trout-mapping-diff",
+      "title": "Trout mapping differences",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/81-trout-mapping-diff/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "81-trout-mapping-diff Trout mapping differences",
+      "entities": {
+        "species": [
+          "Lake trout (Salvelinus namaycush)"
+        ],
+        "methods": [
+          "Read mapping / alignment"
+        ],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "Lake trout genome"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "80-sormi-post-mort",
+      "title": "SORMI post mortem",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/80-sormi-post-mort/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "80-sormi-post-mort SORMI post mortem",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "SORMI"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "79-trout-synteny",
+      "title": "Trout synteny",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/79-trout-synteny/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "79-trout-synteny Trout synteny",
+      "entities": {
+        "species": [
+          "Lake trout (Salvelinus namaycush)"
+        ],
+        "methods": [
+          "Orthology / synteny"
+        ],
+        "omics": [],
+        "keywords": [
+          "synteny"
+        ],
+        "projects": [
+          "Lake trout genome"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "78-trout-lift-over",
+      "title": "Trout lift-over",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/78-trout-lift-over/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "78-trout-lift-over Trout lift-over",
+      "entities": {
+        "species": [
+          "Lake trout (Salvelinus namaycush)"
+        ],
+        "methods": [
+          "Liftover"
+        ],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "Lake trout genome"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "78-priming-w2",
+      "title": "Priming week 2",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/78-priming-w2/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "78-priming-w2 Priming week 2",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "priming"
+        ],
+        "projects": [
+          "Priming / environmental memory"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "76-lake-trout-gene-pheno",
+      "title": "Lake trout gene-phenotype",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/76-lake-trout-gene-pheno/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "76-lake-trout-gene-pheno Lake trout gene-phenotype",
+      "entities": {
+        "species": [
+          "Lake trout (Salvelinus namaycush)"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "phenotype"
+        ],
+        "projects": [
+          "Lake trout genome"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "77-priming-w2",
+      "title": "Priming week 2 (cont.)",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/77-priming-w2/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "77-priming-w2 Priming week 2 (cont.)",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "priming"
+        ],
+        "projects": [
+          "Priming / environmental memory"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "76-detection",
+      "title": "Detection",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/76-detection/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "76-detection Detection",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "74-wescott-mort",
+      "title": "Wescott mortality",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/74-wescott-mort/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "74-wescott-mort Wescott mortality",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "mortality"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "73-sormi-mort",
+      "title": "SORMI mortality",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/73-sormi-mort/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "73-sormi-mort SORMI mortality",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "mortality"
+        ],
+        "projects": [
+          "SORMI"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "72-manchester-mort",
+      "title": "Manchester mortality",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/72-manchester-mort/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "72-manchester-mort Manchester mortality",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "mortality"
+        ],
+        "projects": [
+          "Manchester hardening"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "71-10k",
+      "title": "10K seed",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/71-10k/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "71-10k 10K seed",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "10K seed hardening"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "70-sormi",
+      "title": "SORMI",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/70-sormi/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "70-sormi SORMI",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "SORMI"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "69-linksmas",
+      "title": "Linksmas",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/69-linksmas/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "69-linksmas Linksmas",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "68-barnacle",
+      "title": "Barnacle",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/68-barnacle/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "68-barnacle Barnacle",
+      "entities": {
+        "species": [
+          "Barnacle"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "67-coeff-var",
+      "title": "Coefficient of variation",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/67-coeff-var/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "67-coeff-var Coefficient of variation",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "65-gbm-plots",
+      "title": "Gene body methylation plots",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "65-gbm-plots Gene body methylation plots",
+      "entities": {
+        "species": [],
+        "methods": [
+          "DNA methylation"
+        ],
+        "omics": [
+          "Epigenomics"
+        ],
+        "keywords": [
+          "methylation"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "64-barnacle",
+      "title": "Barnacle (cont.)",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/64-barnacle/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "64-barnacle Barnacle (cont.)",
+      "entities": {
+        "species": [
+          "Barnacle"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "63-contra",
+      "title": "Contra",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/63-contra/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "63-contra Contra",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "62-biomin",
+      "title": "Biomineralization",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/62-biomin/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "62-biomin Biomineralization",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "biomineralization"
+        ],
+        "projects": [
+          "Biomineralization"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "61-gene-meth",
+      "title": "Gene methylation",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "61-gene-meth Gene methylation",
+      "entities": {
+        "species": [],
+        "methods": [
+          "DNA methylation"
+        ],
+        "omics": [
+          "Epigenomics"
+        ],
+        "keywords": [
+          "methylation"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "58-biomin",
+      "title": "Biomineralization (earlier)",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/58-biomin/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "58-biomin Biomineralization (earlier)",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "biomineralization"
+        ],
+        "projects": [
+          "Biomineralization"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "59-wgcna-annotation",
+      "title": "WGCNA annotation",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/59-wgcna-annotation/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "59-wgcna-annotation WGCNA annotation",
+      "entities": {
+        "species": [],
+        "methods": [
+          "WGCNA",
+          "Genome annotation"
+        ],
+        "omics": [
+          "Transcriptomics"
+        ],
+        "keywords": [
+          "wgcna",
+          "annotation"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "58-contra-24",
+      "title": "Contra 24",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/58-contra-24/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "58-contra-24 Contra 24",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "60-contra-random",
+      "title": "Contra random",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/60-contra-random/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "60-contra-random Contra random",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "57-barnacle-35opt",
+      "title": "Barnacle 35 opt",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/57-barnacle-35opt/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "57-barnacle-35opt Barnacle 35 opt",
+      "entities": {
+        "species": [
+          "Barnacle"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "56-barnacle",
+      "title": "Barnacle (earlier)",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/56-barnacle/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "56-barnacle Barnacle (earlier)",
+      "entities": {
+        "species": [
+          "Barnacle"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "55-cod-talk",
+      "title": "Cod talk",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/55-cod-talk/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "55-cod-talk Cod talk",
+      "entities": {
+        "species": [
+          "Pacific cod (Gadus macrocephalus)"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "53-ortho-select",
+      "title": "Ortholog selection",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/53-ortho-select/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "53-ortho-select Ortholog selection",
+      "entities": {
+        "species": [],
+        "methods": [
+          "Orthology / synteny"
+        ],
+        "omics": [],
+        "keywords": [
+          "ortholog"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "52-e5-orthologs",
+      "title": "E5 orthologs",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/52-e5-orthologs/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "52-e5-orthologs E5 orthologs",
+      "entities": {
+        "species": [
+          "Coral (E5 / reef corals)"
+        ],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "Coral E5 deep-dive"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "51-nano-next",
+      "title": "Nanopore next",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/51-nano-next/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "51-nano-next Nanopore next",
+      "entities": {
+        "species": [],
+        "methods": [
+          "Genome assembly / long-read"
+        ],
+        "omics": [],
+        "keywords": [
+          "nanopore"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "49-ptwhit",
+      "title": "Pt Whitney",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/49-ptwhit/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "49-ptwhit Pt Whitney",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "48-cod-bwa",
+      "title": "Cod BWA",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/48-cod-bwa/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "48-cod-bwa Cod BWA",
+      "entities": {
+        "species": [
+          "Pacific cod (Gadus macrocephalus)"
+        ],
+        "methods": [
+          "Read mapping / alignment"
+        ],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "47-ffs",
+      "title": "FFS",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/47-ffs/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "47-ffs FFS",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "43-intersect",
+      "title": "Intersect",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/43-intersect/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "43-intersect Intersect",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "42-megan",
+      "title": "MEGAN",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/42-megan/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "42-megan MEGAN",
+      "entities": {
+        "species": [],
+        "methods": [
+          "Metabarcoding / eDNA / taxonomy"
+        ],
+        "omics": [
+          "Metagenomics"
+        ],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "38-klone",
+      "title": "Klone",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/38-klone/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "38-klone Klone",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [
+          "klone"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "36-merry",
+      "title": "Merry",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/36-merry/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "36-merry Merry",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "35-myt-meth",
+      "title": "Mytilus methylation",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "35-myt-meth Mytilus methylation",
+      "entities": {
+        "species": [
+          "Blue mussel (Mytilus spp.)"
+        ],
+        "methods": [
+          "DNA methylation"
+        ],
+        "omics": [
+          "Epigenomics"
+        ],
+        "keywords": [
+          "methylation"
+        ],
+        "projects": [
+          "Mytilus methylation"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "33-bismark-array",
+      "title": "Bismark array",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/33-bismark-array/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "33-bismark-array Bismark array",
+      "entities": {
+        "species": [],
+        "methods": [
+          "Bisulfite / BS-seq"
+        ],
+        "omics": [
+          "Epigenomics"
+        ],
+        "keywords": [],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "31-e5-genome-stats",
+      "title": "E5 genome stats",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "31-e5-genome-stats E5 genome stats",
+      "entities": {
+        "species": [
+          "Coral (E5 / reef corals)"
+        ],
+        "methods": [],
+        "omics": [
+          "Genomics"
+        ],
+        "keywords": [
+          "genome"
+        ],
+        "projects": [
+          "Coral E5 deep-dive"
+        ]
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "30-hisat-annot",
+      "title": "HISAT annotation",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/30-hisat-annot/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "30-hisat-annot HISAT annotation",
+      "entities": {
+        "species": [],
+        "methods": [
+          "Genome annotation"
+        ],
+        "omics": [],
+        "keywords": [
+          "annotation"
+        ],
+        "projects": []
+      }
+    },
+    {
+      "site": "tumbling-oysters",
+      "author": "Steven Roberts",
+      "slug": "29-prime",
+      "title": "Prime",
+      "url": "https://sr320.github.io/tumbling-oysters/posts/29-prime/index.html",
+      "github_links": [],
+      "date": "",
+      "text": "29-prime Prime",
+      "entities": {
+        "species": [],
+        "methods": [],
+        "omics": [],
+        "keywords": [],
+        "projects": [
+          "Priming / environmental memory"
+        ]
+      }
+    }
+  ]
+}

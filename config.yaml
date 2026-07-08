@@ -1,0 +1,97 @@
+# Lab Connector — controlled-vocabulary reference.
+#
+# This file documents the vocabularies used for entity detection. The live
+# authority is labconnector/vocab.py (kept dependency-free). Editing this YAML
+# does not by itself change behavior unless you wire it in; it exists so the
+# vocabulary is reviewable in one place and easy to propose changes to.
+#
+# To actually extend detection, add terms to the matching dict in vocab.py and
+# re-run:  python run_all.py --offline
+
+sources:
+  notebook_index: https://faculty.washington.edu/sr320/notebooks.html
+  github_org: https://github.com/RobertsLab
+
+crawl:
+  github_api: https://api.github.com/orgs/RobertsLab/repos
+  max_posts_per_site: 40          # --max-posts
+  max_repos: null                 # --max-repos (null = all)
+  fetch_readme: true
+  fetch_issue_titles: true
+  cache_dir: data/raw
+
+confidence:
+  direct_url_link: 1.0
+  exact_name_mention: 0.8
+  shared_project_or_pages: 0.6
+  species_method_multi_keyword: 0.4
+  weak_keyword_overlap: 0.2       # -> relationship = possible_connection
+  structural_entity_edge: 0.9
+
+species:
+  - Pacific oyster (Crassostrea/Magallana gigas)
+  - Olympia oyster (Ostrea lurida)
+  - Eastern oyster (Crassostrea virginica)
+  - Chilean oyster (Ostrea chilensis)
+  - Geoduck (Panopea generosa)
+  - Blue mussel (Mytilus spp.)
+  - Manila clam / clam
+  - Cockle
+  - Pacific cod (Gadus macrocephalus)
+  - Lake trout (Salvelinus namaycush)
+  - Sablefish (Anoplopoma fimbria)
+  - Dungeness crab (Metacarcinus magister)
+  - Tanner crab (Chionoecetes bairdi)
+  - Sunflower sea star (Pycnopodia helianthoides)
+  - Coral (E5 / reef corals)
+  - Barnacle
+  - Hematodinium (parasite)
+  - Sea louse (Caligus)
+  - Labyrinthula
+
+methods:
+  - WGBS (whole-genome bisulfite seq)
+  - Bisulfite / BS-seq
+  - EM-seq
+  - DNA methylation
+  - RNA-seq
+  - Single-cell RNA-seq
+  - ATAC-seq
+  - Proteomics
+  - Metabolomics
+  - Resazurin assay
+  - qPCR
+  - Differential expression
+  - WGCNA
+  - Genome annotation
+  - Genome assembly / long-read
+  - Genome browser
+  - Orthology / synteny
+  - Liftover
+  - SNP / variant calling
+  - Metabarcoding / eDNA / taxonomy
+  - Read mapping / alignment
+  - Carbonate chemistry / titration
+
+omics:
+  - Genomics
+  - Transcriptomics
+  - Epigenomics
+  - Proteomics
+  - Metabolomics
+  - Metagenomics
+
+projects:
+  - Ocean Acidification (OA)
+  - Gigas carryover (USDA Aquaculture)
+  - 10K seed hardening
+  - SORMI
+  - Manchester hardening
+  - Priming / environmental memory
+  - Coral E5 deep-dive
+  - Lake trout genome
+  - Mytilus methylation
+  - Resazurin assay development
+  - Geoduck proteomics (DNR)
+  - Tanner crab / Hematodinium
+  - Biomineralization

@@ -1,0 +1,20 @@
+notebook,repo_connections,example_repos,url
+Mytilus methylation,6,EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation,https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html
+Gene methylation,6,EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation,https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html
+Gene body methylation plots,6,EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation,https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html
+E5 genome stats,3,duck-genome-viz; project-geoduck-genome; project-lake-trout,https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html
+Mytilus reboot,2,project-myt-crass-methylation; project-mytilus-methylation,https://sr320.github.io/tumbling-oysters/posts/83-mytilus-reboot/index.html
+MEGAN,2,laby-18s; project-eDNA-yellow,https://sr320.github.io/tumbling-oysters/posts/42-megan/index.html
+Cod BWA,1,project-cod-temperature,https://sr320.github.io/tumbling-oysters/posts/48-cod-bwa/index.html
+Manchester mortality,1,manchester-hardening,https://sr320.github.io/tumbling-oysters/posts/72-manchester-mort/index.html
+Trout lift-over,1,project-lake-trout,https://sr320.github.io/tumbling-oysters/posts/78-trout-lift-over/index.html
+Lake trout gene-phenotype,1,project-lake-trout,https://sr320.github.io/tumbling-oysters/posts/76-lake-trout-gene-pheno/index.html
+Trout mapping differences,1,project-lake-trout,https://sr320.github.io/tumbling-oysters/posts/81-trout-mapping-diff/index.html
+SORMI post mortem,1,sormi-assay-development,https://sr320.github.io/tumbling-oysters/posts/80-sormi-post-mort/index.html
+SORMI,1,sormi-assay-development,https://sr320.github.io/tumbling-oysters/posts/70-sormi/index.html
+Trout synteny,1,project-lake-trout,https://sr320.github.io/tumbling-oysters/posts/79-trout-synteny/index.html
+SORMI mortality,1,sormi-assay-development,https://sr320.github.io/tumbling-oysters/posts/73-sormi-mort/index.html
+Cod talk,1,project-cod-temperature,https://sr320.github.io/tumbling-oysters/posts/55-cod-talk/index.html
+Bismark array,1,EpiDiverse-snp,https://sr320.github.io/tumbling-oysters/posts/33-bismark-array/index.html
+Trout reciprocal PAV,1,project-lake-trout,https://sr320.github.io/tumbling-oysters/posts/82-trout-recip-pav/index.html
+10K seed,1,10K-seed-Cgigas,https://sr320.github.io/tumbling-oysters/posts/71-10k/index.html
