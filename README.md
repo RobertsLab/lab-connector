@@ -13,9 +13,10 @@ It crawls two public sources —
 value and supporting evidence, and renders everything as a force-directed graph
 you can explore in the browser.
 
-> Open `app/index.html` to explore the live example graph (94 repos, 115 notebook
-> posts across two notebooks — Steven Roberts' *Tumbling Oysters* and Sam White's
-> *Sam's Notebook* — 298 nodes, 1,213 edges built from the sources above).
+> Open `app/index.html` to explore the live example graph (94 repos, 440 notebook
+> posts across four notebooks — Steven Roberts' *Tumbling Oysters*, Sam White's
+> *Sam's Notebook*, and Ariana Huffmyer's current *Lab Notebook* and archived
+> *ASH Putnam Lab Notebook* — 627 nodes, 5,592 edges built from the sources above).
 
 ---
 
@@ -49,9 +50,10 @@ open app/index.html              # macOS; or double-click the file
 ```
 
 `--offline` uses `data/raw/repos_seed.json` (a snapshot of all public RobertsLab
-repos) and `data/raw/notebooks_seed.json` (real posts from *Tumbling Oysters* and
-*Sam's Notebook*, each carrying its direct `github.com/RobertsLab` links), so it
-runs with only the Python standard library.
+repos) and `data/raw/notebooks_seed.json` (real posts from *Tumbling Oysters*,
+*Sam's Notebook*, and Ariana Huffmyer's current and archived notebooks, each
+carrying its direct `github.com/RobertsLab` links), so it runs with only the
+Python standard library.
 
 ## Live crawl (fresh data)
 
@@ -84,6 +86,29 @@ calendar automatically; override or preview with:
 ```bash
 python scripts/refresh_sams_notebook.py --since-year 2024   # go further back
 python scripts/refresh_sams_notebook.py --dry-run           # report, don't write
+```
+
+## Import Ariana Huffmyer's notebooks
+
+Ariana keeps two notebooks: her current open lab notebook (Quarto, live at
+<https://ahuffmyer.github.io/notebook.html>) and her archived Putnam-Lab notebook
+(Jekyll, live at <https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/>). The
+dedicated importer reads local checkouts of both, extracts each post's
+title/date/categories/body and any `github.com/RobertsLab/<repo>` links, and
+rewrites only the `ahuffmyer` and `ASH_Putnam_Lab_Notebook` entries in the seed
+(other notebooks untouched). Standard library only:
+
+```bash
+python scripts/import_ariana_notebook.py    # parse both local notebooks into the seed
+python run_all.py --offline                 # rebuild the graph
+open app/index.html
+```
+
+Point it at other checkouts, or preview first, with:
+
+```bash
+python scripts/import_ariana_notebook.py --quarto-dir PATH --archive-dir PATH
+python scripts/import_ariana_notebook.py --dry-run          # report, don't write
 ```
 
 ### Optional GitHub token
