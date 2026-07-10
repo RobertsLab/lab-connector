@@ -64,6 +64,28 @@ python run_all.py --max-repos 40 --max-posts 30
 open app/index.html
 ```
 
+## Refresh Sam's Notebook from the web
+
+To pull the latest **Sam's Notebook** posts into the offline seed without a full
+crawl, run the dedicated refresher (standard library only, no token needed):
+
+```bash
+python scripts/refresh_sams_notebook.py   # fetch recent posts from the live site
+python run_all.py --offline               # rebuild the graph
+open app/index.html
+```
+
+It scans the live site newest-first, keeps recent posts that carry a direct
+`github.com/RobertsLab/<repo>` link (each yields a confidence-1.0 edge), and
+rewrites only the `sams-notebook` entries in `data/raw/notebooks_seed.json`
+(Tumbling Oysters entries are left untouched). The year cutoff follows the
+calendar automatically; override or preview with:
+
+```bash
+python scripts/refresh_sams_notebook.py --since-year 2024   # go further back
+python scripts/refresh_sams_notebook.py --dry-run           # report, don't write
+```
+
 ### Optional GitHub token
 
 A token is **not required** (the tool works on public data unauthenticated), but

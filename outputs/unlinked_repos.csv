@@ -1,47 +1,48 @@
 repo,updated,description,url
-mock-farm-dashboard,2026-06-07,,https://github.com/RobertsLab/mock-farm-dashboard
-you_wreck_me,2023-10-19,Git/GitHub testing sandbox.,https://github.com/RobertsLab/you_wreck_me
-paper-Wang2020,2020-11-02,,https://github.com/RobertsLab/paper-Wang2020
-pubathon-2026,2026-07-06,,https://github.com/RobertsLab/pubathon-2026
-project-cockle-repro,2020-11-23,,https://github.com/RobertsLab/project-cockle-repro
 project-ostrea-chil,2025-08-16,,https://github.com/RobertsLab/project-ostrea-chil
-hackweek-project,2018-06-05,,https://github.com/RobertsLab/hackweek-project
-project-white-whale,2026-06-11,,https://github.com/RobertsLab/project-white-whale
-project-m4,2025-08-20,,https://github.com/RobertsLab/project-m4
-project-geoduck-repro,2016-09-07,,https://github.com/RobertsLab/project-geoduck-repro
-onboarding,2020-09-02,,https://github.com/RobertsLab/onboarding
 journal-selector-woa,2026-06-22,,https://github.com/RobertsLab/journal-selector-woa
-RNA,2026-03-19,Repositories Needing Attention,https://github.com/RobertsLab/RNA
-project-oyster-comparative-omics,2022-03-03,,https://github.com/RobertsLab/project-oyster-comparative-omics
-BBC,2016-12-12,,https://github.com/RobertsLab/BBC
-SHIELD,2026-07-08,,https://github.com/RobertsLab/SHIELD
-oyster-image-agent,2026-07-08,AI Agent repository for training oyster image analysis,https://github.com/RobertsLab/oyster-image-agent
-2017-hackweek,2017-07-27,,https://github.com/RobertsLab/2017-hackweek
-hackweek-2020,2020-08-29,,https://github.com/RobertsLab/hackweek-2020
-current-findings,2026-06-23,,https://github.com/RobertsLab/current-findings
-MOPE,2026-07-06,,https://github.com/RobertsLab/MOPE
-poster-geoduck-NSA-2023,2023-03-23,,https://github.com/RobertsLab/poster-geoduck-NSA-2023
-project-maturation-control,2024-05-19,,https://github.com/RobertsLab/project-maturation-control
-lab-website,2026-07-08,,https://github.com/RobertsLab/lab-website
-GuavaMuse,2025-07-09,,https://github.com/RobertsLab/GuavaMuse
-titrator,2018-09-06,Data and SOPs for titrator,https://github.com/RobertsLab/titrator
-tusk,2024-02-02,Things U Should Know,https://github.com/RobertsLab/tusk
-project-sablefish,2016-11-25,,https://github.com/RobertsLab/project-sablefish
-marine-stress-data-atlas,2026-07-08,,https://github.com/RobertsLab/marine-stress-data-atlas
-m2m-dashboard,2025-09-26,,https://github.com/RobertsLab/m2m-dashboard
-CRESST-OAE,2026-05-18,,https://github.com/RobertsLab/CRESST-OAE
-hackweek-2018,2018-01-30,,https://github.com/RobertsLab/hackweek-2018
-hackweek-p2,2018-06-05,,https://github.com/RobertsLab/hackweek-p2
-OCEAN,2025-08-27,,https://github.com/RobertsLab/OCEAN
-paper-Olurida-gene,2017-06-29,Gene expression data and R scripts for analysis,https://github.com/RobertsLab/paper-Olurida-gene
-paper_oly_gbs,2017-04-19,,https://github.com/RobertsLab/paper_oly_gbs
-project-template,2021-12-16,,https://github.com/RobertsLab/project-template
-hackweek-2021,2021-07-20,,https://github.com/RobertsLab/hackweek-2021
-project-dungeness-crab,2020-10-20,,https://github.com/RobertsLab/project-dungeness-crab
-Open-House-2021,2021-05-19,SEAS Open House 2021,https://github.com/RobertsLab/Open-House-2021
 website,2023-08-31,,https://github.com/RobertsLab/website
-hack-nb,2018-06-04,nb,https://github.com/RobertsLab/hack-nb
-Paper-DNR-Geoduck-Proteomics,2018-05-12,Repo for paper on the DNR p. generosa proteomics experiment,https://github.com/RobertsLab/Paper-DNR-Geoduck-Proteomics
-ftr-tanks,2025-11-01,Tank data for FTR,https://github.com/RobertsLab/ftr-tanks
-OluridaSurvey2014,2018-03-27,Raw data and R scripts for statistical analysis and figure creation,https://github.com/RobertsLab/OluridaSurvey2014
+project-maturation-control,2024-05-19,,https://github.com/RobertsLab/project-maturation-control
+poster-geoduck-NSA-2023,2023-03-23,,https://github.com/RobertsLab/poster-geoduck-NSA-2023
+you_wreck_me,2023-10-19,Git/GitHub testing sandbox.,https://github.com/RobertsLab/you_wreck_me
 xenobiotic-oyster,2021-06-29,,https://github.com/RobertsLab/xenobiotic-oyster
+current-findings,2026-06-23,,https://github.com/RobertsLab/current-findings
+project-dungeness-crab,2020-10-20,,https://github.com/RobertsLab/project-dungeness-crab
+RNA,2026-03-19,Repositories Needing Attention,https://github.com/RobertsLab/RNA
+Open-House-2021,2021-05-19,SEAS Open House 2021,https://github.com/RobertsLab/Open-House-2021
+pubathon-2026,2026-07-06,,https://github.com/RobertsLab/pubathon-2026
+project-m4,2025-08-20,,https://github.com/RobertsLab/project-m4
+GuavaMuse,2025-07-09,,https://github.com/RobertsLab/GuavaMuse
+project-white-whale,2026-06-11,,https://github.com/RobertsLab/project-white-whale
+tusk,2024-02-02,Things U Should Know,https://github.com/RobertsLab/tusk
+onboarding,2020-09-02,,https://github.com/RobertsLab/onboarding
+oyster-image-agent,2026-07-08,AI Agent repository for training oyster image analysis,https://github.com/RobertsLab/oyster-image-agent
+lab-website,2026-07-08,,https://github.com/RobertsLab/lab-website
+titrator,2018-09-06,Data and SOPs for titrator,https://github.com/RobertsLab/titrator
+project-cockle-repro,2020-11-23,,https://github.com/RobertsLab/project-cockle-repro
+mock-farm-dashboard,2026-06-07,,https://github.com/RobertsLab/mock-farm-dashboard
+hackweek-p2,2018-06-05,,https://github.com/RobertsLab/hackweek-p2
+paper-hatchery-microbiome,2020-09-30,,https://github.com/RobertsLab/paper-hatchery-microbiome
+BBC,2016-12-12,,https://github.com/RobertsLab/BBC
+paper-Wang2020,2020-11-02,,https://github.com/RobertsLab/paper-Wang2020
+CRESST-OAE,2026-05-18,,https://github.com/RobertsLab/CRESST-OAE
+project-sablefish,2016-11-25,,https://github.com/RobertsLab/project-sablefish
+hack-nb,2018-06-04,nb,https://github.com/RobertsLab/hack-nb
+hackweek-2018,2018-01-30,,https://github.com/RobertsLab/hackweek-2018
+OCEAN,2025-08-27,,https://github.com/RobertsLab/OCEAN
+Paper-DNR-Geoduck-Proteomics,2018-05-12,Repo for paper on the DNR p. generosa proteomics experiment,https://github.com/RobertsLab/Paper-DNR-Geoduck-Proteomics
+project-template,2021-12-16,,https://github.com/RobertsLab/project-template
+marine-stress-data-atlas,2026-07-08,,https://github.com/RobertsLab/marine-stress-data-atlas
+hackweek-project,2018-06-05,,https://github.com/RobertsLab/hackweek-project
+project-geoduck-repro,2016-09-07,,https://github.com/RobertsLab/project-geoduck-repro
+project-oyster-comparative-omics,2022-03-03,,https://github.com/RobertsLab/project-oyster-comparative-omics
+2017-hackweek,2017-07-27,,https://github.com/RobertsLab/2017-hackweek
+ftr-tanks,2025-11-01,Tank data for FTR,https://github.com/RobertsLab/ftr-tanks
+MOPE,2026-07-06,,https://github.com/RobertsLab/MOPE
+m2m-dashboard,2025-09-26,,https://github.com/RobertsLab/m2m-dashboard
+hackweek-2020,2020-08-29,,https://github.com/RobertsLab/hackweek-2020
+SHIELD,2026-07-08,,https://github.com/RobertsLab/SHIELD
+OluridaSurvey2014,2018-03-27,Raw data and R scripts for statistical analysis and figure creation,https://github.com/RobertsLab/OluridaSurvey2014
+hackweek-2021,2021-07-20,,https://github.com/RobertsLab/hackweek-2021
+paper_oly_gbs,2017-04-19,,https://github.com/RobertsLab/paper_oly_gbs
+paper-Olurida-gene,2017-06-29,Gene expression data and R scripts for analysis,https://github.com/RobertsLab/paper-Olurida-gene
