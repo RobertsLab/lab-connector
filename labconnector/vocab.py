@@ -34,7 +34,7 @@ SPECIES: Dict[str, List[str]] = {
         "mytilus", "blue mussel", "myt-", "myt ", "myt-meth", "myt-crass"],
     "Manila clam / clam": ["manila clam", "ruditapes", "clam"],
     "Cockle": ["cockle"],
-    "Pacific cod (Gadus macrocephalus)": ["gadus", "pacific cod", "cod"],
+    "Pacific cod (Gadus macrocephalus)": ["gadus", "macrocephalus", "pacific cod", "cod"],
     "Lake trout (Salvelinus namaycush)": [
         "salvelinus", "namaycush", "lake trout", "trout"],
     "Sablefish (Anoplopoma fimbria)": ["anoplopoma", "sablefish"],
@@ -47,7 +47,7 @@ SPECIES: Dict[str, List[str]] = {
         "coral", "acropora", "pocillopora", "montipora", "porites", "e5"],
     "Barnacle": ["barnacle"],
     "Hematodinium (parasite)": ["hematodinium"],
-    "Sea louse (Caligus)": ["caligus", "sea lice", "sea louse"],
+    "Sea louse (Caligus)": ["caligus", "rogercresseyi", "sea lice", "sea louse"],
     "Labyrinthula": ["labyrinthula", "laby-18s", "laby"],
 }
 

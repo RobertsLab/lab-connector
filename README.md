@@ -13,8 +13,9 @@ It crawls two public sources —
 value and supporting evidence, and renders everything as a force-directed graph
 you can explore in the browser.
 
-> Open `app/index.html` to explore the live example graph (94 repos, 45 notebook
-> posts, 221 nodes, 290 edges built from the two sources above).
+> Open `app/index.html` to explore the live example graph (94 repos, 115 notebook
+> posts across two notebooks — Steven Roberts' *Tumbling Oysters* and Sam White's
+> *Sam's Notebook* — 298 nodes, 1,213 edges built from the sources above).
 
 ---
 
@@ -48,7 +49,8 @@ open app/index.html              # macOS; or double-click the file
 ```
 
 `--offline` uses `data/raw/repos_seed.json` (a snapshot of all public RobertsLab
-repos) and `data/raw/notebooks_seed.json` (real Tumbling Oysters posts), so it
+repos) and `data/raw/notebooks_seed.json` (real posts from *Tumbling Oysters* and
+*Sam's Notebook*, each carrying its direct `github.com/RobertsLab` links), so it
 runs with only the Python standard library.
 
 ## Live crawl (fresh data)
@@ -150,9 +152,10 @@ fixed at **0.9** because the entity was detected directly in the item's own text
 `outputs/possible_missing_connections.csv` for human review. Use the
 **confidence slider** in the app to hide everything below a threshold.
 
-> Note: direct **1.0** links are only found when notebook *post bodies* are
-> crawled (the live crawl does this). The bundled offline example therefore tops
-> out at 0.8 name-mention links; run a live crawl to surface direct links.
+> Note: direct **1.0** links come from notebook *post bodies* linking to
+> `github.com/RobertsLab/<repo>`. Sam's Notebook posts in the bundled seed carry
+> their real inline links, so the offline example already includes 86 direct
+> `links_to` edges; a live crawl surfaces these for every post body it fetches.
 
 ---
 

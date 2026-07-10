@@ -24,8 +24,10 @@ downloaded — only text metadata.
 polite). From each post we pull outbound `github.com/RobertsLab/<repo>` links,
 dates, and the visible text. All pages are cached under
 `data/raw/notebooks_cache/` so re-runs are cheap and gentle on the servers. The
-offline seed (`data/raw/notebooks_seed.json`) contains real Tumbling Oysters
-posts so the pipeline yields a meaningful graph with no network.
+offline seed (`data/raw/notebooks_seed.json`) contains real posts from Tumbling
+Oysters and Sam's Notebook — the latter carrying their inline
+`github.com/RobertsLab` links — so the pipeline yields a meaningful graph
+(including direct `links_to` edges) with no network.
 
 ## 2. Entity extraction
 

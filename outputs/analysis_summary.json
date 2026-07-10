@@ -1,15 +1,15 @@
 {
   "counts": {
-    "nodes": 221,
-    "edges": 290,
+    "nodes": 298,
+    "edges": 1213,
     "repos": 94,
-    "notebooks": 45,
+    "notebooks": 115,
     "by_type": {
-      "keyword": 30,
-      "method": 15,
-      "notebook": 45,
+      "keyword": 33,
+      "method": 18,
+      "notebook": 115,
       "omics": 5,
-      "person": 1,
+      "person": 2,
       "project": 13,
       "repo": 94,
       "species": 18
@@ -17,216 +17,234 @@
   },
   "top_connected_repos": [
     {
-      "repo": "project-lake-trout",
-      "notebook_connections": 6,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/project-lake-trout",
-      "example_notebooks": "E5 genome stats; Lake trout gene-phenotype; Trout lift-over; Trout mapping differences; Trout reciprocal PAV"
-    },
-    {
-      "repo": "EpiDiverse-snp",
-      "notebook_connections": 4,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/EpiDiverse-snp",
-      "example_notebooks": "Bismark array; Gene body methylation plots; Gene methylation; Mytilus methylation"
-    },
-    {
-      "repo": "project-myt-crass-methylation",
-      "notebook_connections": 4,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/project-myt-crass-methylation",
-      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation; Mytilus reboot"
-    },
-    {
-      "repo": "project-mytilus-methylation",
-      "notebook_connections": 4,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/project-mytilus-methylation",
-      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation; Mytilus reboot"
+      "repo": "resources",
+      "notebook_connections": 45,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/resources",
+      "example_notebooks": "Bismark Alignments - A.pulchra Trimmed Reads Using Bismark on Hyak; Bisulfite Genome - A.pulchra BS Genome Using Bismark; DIAMOND BLAST Database - NCBI NR Database and Taxonomy Nodes on Raven; DNA Alignments - Pacific cod Heatwave Genetics Samples Using BWA on Raven; DNA Concentration - S.namaycush DNA from 20250220 Using SpeedVac"
     },
     {
       "repo": "project-gigas-oa-meth",
-      "notebook_connections": 3,
-      "max_confidence": 0.2,
+      "notebook_connections": 32,
+      "max_confidence": 0.6,
       "url": "https://github.com/RobertsLab/project-gigas-oa-meth",
-      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation"
-    },
-    {
-      "repo": "sormi-assay-development",
-      "notebook_connections": 3,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/sormi-assay-development",
-      "example_notebooks": "SORMI; SORMI mortality; SORMI post mortem"
-    },
-    {
-      "repo": "project-caligus-methylation",
-      "notebook_connections": 3,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/project-caligus-methylation",
-      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation"
-    },
-    {
-      "repo": "paper-gigas-metaanalysis",
-      "notebook_connections": 3,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/paper-gigas-metaanalysis",
-      "example_notebooks": "Gene body methylation plots; Gene methylation; Mytilus methylation"
+      "example_notebooks": "Bisulfite Genome - A.pulchra BS Genome Using Bismark; Demultiplexing - S.namaychush PacBio Sequencing Using Lima; Differential Expression - R.philippinarum miRNAs Using DEseq2; Gene body methylation plots; Gene methylation"
     },
     {
       "repo": "project-cod-temperature",
-      "notebook_connections": 2,
-      "max_confidence": 0.8,
+      "notebook_connections": 30,
+      "max_confidence": 1.0,
       "url": "https://github.com/RobertsLab/project-cod-temperature",
-      "example_notebooks": "Cod BWA; Cod talk"
+      "example_notebooks": "Cod BWA; Cod talk; DNA Alignments - Pacific cod Heatwave Genetics Samples Using BWA on Raven; DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep; DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep Plus Kit"
     },
     {
-      "repo": "manchester-hardening",
-      "notebook_connections": 1,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/manchester-hardening",
-      "example_notebooks": "Manchester mortality"
-    },
-    {
-      "repo": "duck-genome-viz",
-      "notebook_connections": 1,
+      "repo": "paper-gigas-metaanalysis",
+      "notebook_connections": 30,
       "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/duck-genome-viz",
-      "example_notebooks": "E5 genome stats"
+      "url": "https://github.com/RobertsLab/paper-gigas-metaanalysis",
+      "example_notebooks": "Bisulfite Genome - A.pulchra BS Genome Using Bismark; Demultiplexing - S.namaychush PacBio Sequencing Using Lima; Gene body methylation plots; Gene methylation; Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate"
+    },
+    {
+      "repo": "project-gigas_ploidy",
+      "notebook_connections": 27,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/project-gigas_ploidy",
+      "example_notebooks": "Genome Assembly - S.namaycush Lean Ecotype with PacBio HiFi Reads Using hifiasm on Hyak; Genome Assembly - S.namaycush Siscowet Ecotype with PacBio HiFi Reads Using hifiasm on Hyak; Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C"
+    },
+    {
+      "repo": "project-gigas-ploidy-oa",
+      "notebook_connections": 27,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/project-gigas-ploidy-oa",
+      "example_notebooks": "Differential Expression - R.philippinarum miRNAs Using DEseq2; Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress"
+    },
+    {
+      "repo": "oyster-ploidy-hardening",
+      "notebook_connections": 27,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/oyster-ploidy-hardening",
+      "example_notebooks": "Genome Assembly - S.namaycush Lean Ecotype with PacBio HiFi Reads Using hifiasm on Hyak; Genome Assembly - S.namaycush Siscowet Ecotype with PacBio HiFi Reads Using hifiasm on Hyak; Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C"
     },
     {
       "repo": "10K-seed-Cgigas",
-      "notebook_connections": 1,
+      "notebook_connections": 26,
       "max_confidence": 0.8,
       "url": "https://github.com/RobertsLab/10K-seed-Cgigas",
-      "example_notebooks": "10K seed"
+      "example_notebooks": "10K seed; Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress"
     },
     {
-      "repo": "project-eDNA-yellow",
-      "notebook_connections": 1,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/project-eDNA-yellow",
-      "example_notebooks": "MEGAN"
+      "repo": "project-gigas-conditioning",
+      "notebook_connections": 25,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-gigas-conditioning",
+      "example_notebooks": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress; Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3"
     },
     {
-      "repo": "project-geoduck-genome",
-      "notebook_connections": 1,
+      "repo": "paper-gigas-DNR-proteomics",
+      "notebook_connections": 25,
       "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/project-geoduck-genome",
-      "example_notebooks": "E5 genome stats"
+      "url": "https://github.com/RobertsLab/paper-gigas-DNR-proteomics",
+      "example_notebooks": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress; Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3"
     },
     {
-      "repo": "laby-18s",
-      "notebook_connections": 1,
+      "repo": "pgc-edc-oyster",
+      "notebook_connections": 25,
       "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/laby-18s",
-      "example_notebooks": "MEGAN"
+      "url": "https://github.com/RobertsLab/pgc-edc-oyster",
+      "example_notebooks": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress; Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3"
+    },
+    {
+      "repo": "paper-gigas-early-gametogenic-exposure",
+      "notebook_connections": 25,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure",
+      "example_notebooks": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress; Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3"
+    },
+    {
+      "repo": "project-gigas-carryover",
+      "notebook_connections": 25,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/project-gigas-carryover",
+      "example_notebooks": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Heat Stress Survivorship - USDA M.gigas Families in Heat Stressed at 36C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress; Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3"
+    },
+    {
+      "repo": "project-pacific.oyster-larvae",
+      "notebook_connections": 23,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-pacific.oyster-larvae",
+      "example_notebooks": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate; Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C; Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress; Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3; RNA Isolation - C.gigas Lifestage Carryover Samples Using Direct-zol RNA MiniPrep Plus Kit"
+    },
+    {
+      "repo": "project-lake-trout",
+      "notebook_connections": 21,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/project-lake-trout",
+      "example_notebooks": "Bisulfite Genome - A.pulchra BS Genome Using Bismark; DNA Alignments - Pacific cod Heatwave Genetics Samples Using BWA on Raven; DNA Concentration - S.namaycush DNA from 20250220 Using SpeedVac; DNA Isolation Quantification and Concentration - S.namaycush Siscowet Liver Samples Using Zymo Quick-DNA RNA MiniPrep Plus Kit; DNA Isolation and Quantification - S.namaycush Liver"
     }
   ],
   "top_connected_notebooks": [
     {
-      "notebook": "Mytilus methylation",
-      "repo_connections": 6,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/35-myt-meth/index.html",
-      "example_repos": "EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation"
+      "notebook": "Tissue Collection and Homogenization - M.gigas Ctenidia for Glycogen-Glo Assay",
+      "repo_connections": 18,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-12-10-Tissue-Collection-and-Homogenization---M.gigas-Ctenidia-for-Glycogen-Glo-Assay/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Gene methylation",
-      "repo_connections": 6,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/61-gene-meth/index.html",
-      "example_repos": "EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Temperature Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-04-15-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Temperature-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Gene body methylation plots",
-      "repo_connections": 6,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/65-gbm-plots/index.html",
-      "example_repos": "EpiDiverse-snp; paper-gigas-metaanalysis; project-caligus-methylation; project-gigas-oa-meth; project-myt-crass-methylation"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Freshwater Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-04-29-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Freshwater-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "E5 genome stats",
-      "repo_connections": 3,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/31-e5-genome-stats/index.html",
-      "example_repos": "duck-genome-viz; project-geoduck-genome; project-lake-trout"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Freshwater Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-05-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Freshwater-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Mytilus reboot",
-      "repo_connections": 2,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/83-mytilus-reboot/index.html",
-      "example_repos": "project-myt-crass-methylation; project-mytilus-methylation"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Temperature Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-06-04-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Temperature-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "MEGAN",
-      "repo_connections": 2,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/42-megan/index.html",
-      "example_repos": "laby-18s; project-eDNA-yellow"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Freshwater Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-06-02-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Freshwater-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Cod BWA",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/48-cod-bwa/index.html",
-      "example_repos": "project-cod-temperature"
+      "notebook": "Resazurin Overview - Pacific oyster USDA Freshwater Stress Raw Fluorescence",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-06-06-Resazurin-Overview---Pacific-oyster-USDA-Freshwater-Stress-Raw-Fluorescence/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Manchester mortality",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/72-manchester-mort/index.html",
-      "example_repos": "manchester-hardening"
+      "notebook": "Resazurin Overview - Pacific Oyster USDA Heat Stress Raw Fluorescence",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-06-08-Resazurin-Overview---Pacific-Oyster-USDA-Heat-Stress-Raw-Fluorescence/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Trout lift-over",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/78-trout-lift-over/index.html",
-      "example_repos": "project-lake-trout"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Temperature Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-06-02-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Temperature-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Lake trout gene-phenotype",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/76-lake-trout-gene-pheno/index.html",
-      "example_repos": "project-lake-trout"
+      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to Freshwater Stress",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-11-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-Freshwater-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Trout mapping differences",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/81-trout-mapping-diff/index.html",
-      "example_repos": "project-lake-trout"
+      "notebook": "Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3",
+      "repo_connections": 17,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-01-17-Primer-Design---C.gigas-Alternative-Oxidase-AOX-Variants-Using-Primer3/index.html",
+      "example_repos": "10K-seed-Cgigas; code; duck-genome-viz; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
     },
     {
-      "notebook": "SORMI post mortem",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/80-sormi-post-mort/index.html",
-      "example_repos": "sormi-assay-development"
+      "notebook": "Heat Stress Survivorship - M.gigas USDA Families Heat Stressed at 33C",
+      "repo_connections": 16,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-04-27-Heat-Stress-Survivorship---M.gigas-USDA-Families-Heat-Stressed-at-33C/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "SORMI",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/70-sormi/index.html",
-      "example_repos": "sormi-assay-development"
+      "notebook": "Homogenization - C.gigas Juvenile Whole Body from polyIC Temp and Mech Stress",
+      "repo_connections": 15,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-08-20-Homogenization---C.gigas-Juvenile-Whole-Body-from-polyIC-Temp-and-Mech-Stress/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "Trout synteny",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/79-trout-synteny/index.html",
-      "example_repos": "project-lake-trout"
+      "notebook": "Glycogen Assay - Glycogen-Glo Dilution Testing with M.gigas Ctenidia Homogenate",
+      "repo_connections": 15,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-01-12-Glycogen-Assay---Glycogen-Glo-Dilution-Testing-with-M.gigas-Ctenidia-Homogenate/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     },
     {
-      "notebook": "SORMI mortality",
-      "repo_connections": 1,
-      "url": "https://sr320.github.io/tumbling-oysters/posts/73-sormi-mort/index.html",
-      "example_repos": "sormi-assay-development"
+      "notebook": "Sample Homogenization - C.gigas Lifestage Carryover Samples Using TriZol and Bullet Blender",
+      "repo_connections": 14,
+      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-05-12-Sample-Homogenization---C.gigas-Lifestage-Carryover-Samples-Using-TriZol-and-Bullet-Blender/index.html",
+      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
     }
   ],
-  "unlinked_repo_count": 79,
+  "unlinked_repo_count": 46,
   "unlinked_notebook_count": 26,
   "species_reach": [
     {
       "label": "Pacific oyster (Crassostrea/Magallana gigas)",
       "repos": 11,
-      "notebooks": 0,
-      "total": 11
+      "notebooks": 25,
+      "total": 36
     },
     {
       "label": "Lake trout (Salvelinus namaycush)",
       "repos": 1,
-      "notebooks": 5,
+      "notebooks": 14,
+      "total": 15
+    },
+    {
+      "label": "Pacific cod (Gadus macrocephalus)",
+      "repos": 1,
+      "notebooks": 11,
+      "total": 12
+    },
+    {
+      "label": "Manila clam / clam",
+      "repos": 1,
+      "notebooks": 9,
+      "total": 10
+    },
+    {
+      "label": "Crab (general)",
+      "repos": 5,
+      "notebooks": 1,
       "total": 6
     },
     {
@@ -236,9 +254,9 @@
       "total": 5
     },
     {
-      "label": "Crab (general)",
-      "repos": 5,
-      "notebooks": 0,
+      "label": "Coral (E5 / reef corals)",
+      "repos": 0,
+      "notebooks": 5,
       "total": 5
     },
     {
@@ -248,21 +266,27 @@
       "total": 4
     },
     {
+      "label": "Sea louse (Caligus)",
+      "repos": 1,
+      "notebooks": 3,
+      "total": 4
+    },
+    {
       "label": "Barnacle",
       "repos": 0,
       "notebooks": 4,
       "total": 4
     },
     {
-      "label": "Pacific cod (Gadus macrocephalus)",
-      "repos": 1,
-      "notebooks": 2,
-      "total": 3
-    },
-    {
       "label": "Hematodinium (parasite)",
       "repos": 3,
       "notebooks": 0,
+      "total": 3
+    },
+    {
+      "label": "Tanner crab (Chionoecetes bairdi)",
+      "repos": 1,
+      "notebooks": 2,
       "total": 3
     },
     {
@@ -272,31 +296,7 @@
       "total": 3
     },
     {
-      "label": "Coral (E5 / reef corals)",
-      "repos": 0,
-      "notebooks": 2,
-      "total": 2
-    },
-    {
-      "label": "Manila clam / clam",
-      "repos": 1,
-      "notebooks": 0,
-      "total": 1
-    },
-    {
-      "label": "Sea louse (Caligus)",
-      "repos": 1,
-      "notebooks": 0,
-      "total": 1
-    },
-    {
       "label": "Labyrinthula",
-      "repos": 1,
-      "notebooks": 0,
-      "total": 1
-    },
-    {
-      "label": "Tanner crab (Chionoecetes bairdi)",
       "repos": 1,
       "notebooks": 0,
       "total": 1
@@ -310,39 +310,63 @@
   ],
   "method_reach": [
     {
-      "label": "DNA methylation",
-      "repos": 6,
-      "notebooks": 3,
-      "total": 9
-    },
-    {
       "label": "Resazurin assay",
       "repos": 3,
-      "notebooks": 0,
-      "total": 3
+      "notebooks": 20,
+      "total": 23
+    },
+    {
+      "label": "DNA methylation",
+      "repos": 6,
+      "notebooks": 5,
+      "total": 11
+    },
+    {
+      "label": "Genome assembly / long-read",
+      "repos": 0,
+      "notebooks": 11,
+      "total": 11
+    },
+    {
+      "label": "RNA-seq",
+      "repos": 1,
+      "notebooks": 8,
+      "total": 9
     },
     {
       "label": "Metabarcoding / eDNA / taxonomy",
       "repos": 2,
-      "notebooks": 1,
-      "total": 3
+      "notebooks": 5,
+      "total": 7
+    },
+    {
+      "label": "Genome annotation",
+      "repos": 0,
+      "notebooks": 6,
+      "total": 6
+    },
+    {
+      "label": "qPCR",
+      "repos": 0,
+      "notebooks": 5,
+      "total": 5
     },
     {
       "label": "Bisulfite / BS-seq",
       "repos": 1,
-      "notebooks": 1,
-      "total": 2
+      "notebooks": 3,
+      "total": 4
+    },
+    {
+      "label": "Read mapping / alignment",
+      "repos": 0,
+      "notebooks": 4,
+      "total": 4
     },
     {
       "label": "Proteomics",
       "repos": 2,
       "notebooks": 0,
-      "total": 2
-    },
-    {
-      "label": "Read mapping / alignment",
-      "repos": 0,
-      "notebooks": 2,
       "total": 2
     },
     {
@@ -352,19 +376,13 @@
       "total": 2
     },
     {
-      "label": "Genome annotation",
+      "label": "WGBS (whole-genome bisulfite seq)",
       "repos": 0,
       "notebooks": 2,
       "total": 2
     },
     {
       "label": "Genome browser",
-      "repos": 1,
-      "notebooks": 0,
-      "total": 1
-    },
-    {
-      "label": "RNA-seq",
       "repos": 1,
       "notebooks": 0,
       "total": 1
@@ -380,132 +398,184 @@
       "repos": 1,
       "notebooks": 0,
       "total": 1
-    },
-    {
-      "label": "Liftover",
-      "repos": 0,
-      "notebooks": 1,
-      "total": 1
-    },
-    {
-      "label": "WGCNA",
-      "repos": 0,
-      "notebooks": 1,
-      "total": 1
-    },
-    {
-      "label": "Genome assembly / long-read",
-      "repos": 0,
-      "notebooks": 1,
-      "total": 1
     }
   ],
   "high_confidence_links": [
     {
-      "notebook": "Mytilus reboot",
-      "repo": "project-mytilus-methylation",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '83-mytilus-reboot' mentions repo token(s) mytilus matching 'project-mytilus-methylation'"
+      "notebook": "Bismark Alignments - A.pulchra Trimmed Reads Using Bismark on Hyak",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-01-02-Bismark-Alignments---A.pulchra-Trimmed-Reads-Using-Bismark-on-Hyak' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Trout reciprocal PAV",
-      "repo": "project-lake-trout",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '82-trout-recip-pav' mentions repo token(s) trout matching 'project-lake-trout'"
+      "notebook": "Bisulfite Genome - A.pulchra BS Genome Using Bismark",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-01-02-Bisulfite-Genome---A.pulchra-BS-Genome-Using-Bismark' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Trout mapping differences",
-      "repo": "project-lake-trout",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '81-trout-mapping-diff' mentions repo token(s) trout matching 'project-lake-trout'"
+      "notebook": "Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3",
+      "repo": "code",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-01-17-Primer-Design---C.gigas-Alternative-Oxidase-AOX-Variants-Using-Primer3' links directly to github.com/RobertsLab/code"
     },
     {
-      "notebook": "SORMI post mortem",
-      "repo": "sormi-assay-development",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '80-sormi-post-mort' mentions repo token(s) sormi matching 'sormi-assay-development'"
+      "notebook": "Differential Expression - R.philippinarum miRNAs Using DEseq2",
+      "repo": "project-clam-oa",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-01-31-Differential-Expression---R.philippinarum-miRNAs-Using-DEseq2' links directly to github.com/RobertsLab/project-clam-oa"
     },
     {
-      "notebook": "Trout synteny",
-      "repo": "project-lake-trout",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '79-trout-synteny' mentions repo token(s) trout matching 'project-lake-trout'"
+      "notebook": "DNA Isolation and Quantification - S.namaycush Liver",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-02-20-DNA-Isolation-and-Quantification---S.namaycush-Liver' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Trout lift-over",
-      "repo": "project-lake-trout",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '78-trout-lift-over' mentions repo token(s) trout matching 'project-lake-trout'"
+      "notebook": "DNA Concentration - S.namaycush DNA from 20250220 Using SpeedVac",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-03-10-DNA-Concentration---S.namaycush-DNA-from-20250220-Using-SpeedVac' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Lake trout gene-phenotype",
-      "repo": "project-lake-trout",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '76-lake-trout-gene-pheno' mentions repo token(s) trout matching 'project-lake-trout'"
+      "notebook": "DNA and RNA Isolations and Quantification - G.macrocephalus Blood Using Zymo Quick-RNA RNA MiniPrep Plus Kit",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-03-25-DNA-and-RNA-Isolations-and-Quantification---G.macrocephalus-Blood-Using-Zymo-Quick-RNA-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "SORMI mortality",
-      "repo": "sormi-assay-development",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '73-sormi-mort' mentions repo token(s) sormi matching 'sormi-assay-development'"
+      "notebook": "DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep Plus Kit",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-10-DNA-RNA-Isolation-and-Quantification---G.macrocephalus-Blood-Using-Bullet-Blender-and-Zymo-Quick-DNA-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Manchester mortality",
-      "repo": "manchester-hardening",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '72-manchester-mort' mentions repo token(s) manchester matching 'manchester-hardening'"
+      "notebook": "FastQC MultiQC - Yellow Island eDNA Project",
+      "repo": "project-eDNA-yellow",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-18-FastQC-MultiQC---Yellow-Island-eDNA-Project' links directly to github.com/RobertsLab/project-eDNA-yellow"
     },
     {
-      "notebook": "10K seed",
-      "repo": "10K-seed-Cgigas",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '71-10k' mentions repo token(s) 10k matching '10K-seed-Cgigas'"
+      "notebook": "Trimming - Yellow Island eDNA FastQs Using Fastp FastQC and MultiQC",
+      "repo": "project-eDNA-yellow",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-18-Trimming---Yellow-Island-eDNA-FastQs-Using-Fastp-FastQC-and-MultiQC' links directly to github.com/RobertsLab/project-eDNA-yellow"
     },
     {
-      "notebook": "SORMI",
-      "repo": "sormi-assay-development",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '70-sormi' mentions repo token(s) sormi matching 'sormi-assay-development'"
+      "notebook": "Taxonomy Assignment - Yellow Island 2018 eDNA Samples Using QIIME 2",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-24-Taxonomy-Assignment---Yellow-Island-2018-eDNA-Samples-Using-QIIME-2' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Cod talk",
-      "repo": "project-cod-temperature",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '55-cod-talk' mentions repo token(s) cod matching 'project-cod-temperature'"
+      "notebook": "Taxonomy Assignment - Yellow Island 2018 eDNA Samples Using QIIME 2",
+      "repo": "project-eDNA-yellow",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-24-Taxonomy-Assignment---Yellow-Island-2018-eDNA-Samples-Using-QIIME-2' links directly to github.com/RobertsLab/project-eDNA-yellow"
     },
     {
-      "notebook": "Cod BWA",
-      "repo": "project-cod-temperature",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '48-cod-bwa' mentions repo token(s) cod matching 'project-cod-temperature'"
+      "notebook": "DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep Plus Kit",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-25-DNA-RNA-Isolation-and-Quantification---G.macrocephalus-Blood-Using-Bullet-Blender-and-Zymo-Quick-DNA-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Mytilus methylation",
-      "repo": "project-mytilus-methylation",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '35-myt-meth' mentions repo token(s) mytilus matching 'project-mytilus-methylation'"
+      "notebook": "DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-28-DNA-RNA-Isolation-and-Quantification---G.macrocephalus-Blood-Using-Bullet-Blender-and-Zymo-Quick-DNA-RNA-MiniPrep' links directly to github.com/RobertsLab/resources"
     },
     {
-      "notebook": "Mytilus methylation",
-      "repo": "project-myt-crass-methylation",
-      "confidence": 0.8,
-      "relationship": "mentions",
-      "evidence": "Notebook '35-myt-meth' mentions repo token(s) myt matching 'project-myt-crass-methylation'"
+      "notebook": "DIAMOND BLAST Database - NCBI NR Database and Taxonomy Nodes on Raven",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-29-DIAMOND-BLAST-Database---NCBI-NR-Database-and-Taxonomy-Nodes-on-Raven' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-04-30-DNA-RNA-Isolation-and-Quantification---G.macrocephalus-Blood-Using-Bullet-Blender-and-Zymo-Quick-DNA-RNA-MiniPrep' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-01-DNA-RNA-Isolation-and-Quantification---G.macrocephalus-Blood-Using-Bullet-Blender-and-Zymo-Quick-DNA-RNA-MiniPrep' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "DNA RNA Isolation and Quantification - G.macrocephalus Blood Using Bullet Blender and Zymo Quick DNA RNA MiniPrep",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-02-DNA-RNA-Isolation-and-Quantification---G.macrocephalus-Blood-Using-Bullet-Blender-and-Zymo-Quick-DNA-RNA-MiniPrep' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "RNA Isolation - C.gigas Lifestage Carryover Samples Using Direct-zol RNA MiniPrep Plus Kit",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-12-RNA-Isolation---C.gigas-Lifestage-Carryover-Samples-Using-Direct-zol-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "RNA Isolation - C.gigas Lifestage Carryover Samples Using Direct-zol RNA MiniPrep Plus Kit",
+      "repo": "project-gigas-carryover",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-12-RNA-Isolation---C.gigas-Lifestage-Carryover-Samples-Using-Direct-zol-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/project-gigas-carryover"
+    },
+    {
+      "notebook": "Sample Homogenization - C.gigas Lifestage Carryover Samples Using TriZol and Bullet Blender",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-12-Sample-Homogenization---C.gigas-Lifestage-Carryover-Samples-Using-TriZol-and-Bullet-Blender' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "Sample Homogenization - C.gigas Lifestage Carryover Samples Using TriZol and Bullet Blender",
+      "repo": "project-gigas-carryover",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-12-Sample-Homogenization---C.gigas-Lifestage-Carryover-Samples-Using-TriZol-and-Bullet-Blender' links directly to github.com/RobertsLab/project-gigas-carryover"
+    },
+    {
+      "notebook": "RNA Isolation - C.gigas Lifestage Carryover Samples Using Direct-zol RNA MiniPrep Plus Kit",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-13-RNA-Isolation---C.gigas-Lifestage-Carryover-Samples-Using-Direct-zol-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/resources"
+    },
+    {
+      "notebook": "RNA Isolation - C.gigas Lifestage Carryover Samples Using Direct-zol RNA MiniPrep Plus Kit",
+      "repo": "project-gigas-carryover",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-13-RNA-Isolation---C.gigas-Lifestage-Carryover-Samples-Using-Direct-zol-RNA-MiniPrep-Plus-Kit' links directly to github.com/RobertsLab/project-gigas-carryover"
+    },
+    {
+      "notebook": "RNA Quantification - C.gigas Lifestage Carryover RNA Samples Using Qubit High Sensitivity RNA Assay",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2025-05-13-RNA-Quantification---C.gigas-Lifestage-Carryover-RNA-Samples-Using-Qubit-High-Sensitivity-RNA-Assay' links directly to github.com/RobertsLab/resources"
     }
   ],
-  "possible_connection_count": 23
+  "possible_connection_count": 375
 }

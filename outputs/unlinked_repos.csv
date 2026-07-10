@@ -1,80 +1,47 @@
 repo,updated,description,url
-project-oyster-oa,2026-07-08,,https://github.com/RobertsLab/project-oyster-oa
-project-clam-oa,2026-04-18,,https://github.com/RobertsLab/project-clam-oa
-resazurin-family-screenings,2025-10-21,,https://github.com/RobertsLab/resazurin-family-screenings
-resources,2026-07-06,,https://github.com/RobertsLab/resources
-GuavaMuse,2025-07-09,,https://github.com/RobertsLab/GuavaMuse
-paper-tanner-crab,2022-02-25,"Repository for scripts, notebooks, data, and analyses associated with the paper on Southern Alaska Tanner crabs and Hematodinium.",https://github.com/RobertsLab/paper-tanner-crab
-xenobiotic-oyster,2021-06-29,,https://github.com/RobertsLab/xenobiotic-oyster
-project-pacific.oyster-larvae,2019-03-26,,https://github.com/RobertsLab/project-pacific.oyster-larvae
-hyak_mox,2017-06-21,Documentation for usage of our Hyak (mox) node.,https://github.com/RobertsLab/hyak_mox
-OluridaSurvey2014,2018-03-27,Raw data and R scripts for statistical analysis and figure creation,https://github.com/RobertsLab/OluridaSurvey2014
-ftr-tanks,2025-11-01,Tank data for FTR,https://github.com/RobertsLab/ftr-tanks
-project-cockle-repro,2020-11-23,,https://github.com/RobertsLab/project-cockle-repro
-project-white-whale,2026-06-11,,https://github.com/RobertsLab/project-white-whale
-journal-selector-woa,2026-06-22,,https://github.com/RobertsLab/journal-selector-woa
-oyster-ploidy-hardening,2024-07-09,Data and data analysis for Pacific oyster diploid/triploid hardening experiment,https://github.com/RobertsLab/oyster-ploidy-hardening
-project-gigas-ploidy-oa,2021-04-01,,https://github.com/RobertsLab/project-gigas-ploidy-oa
-paper-Olurida-gene,2017-06-29,Gene expression data and R scripts for analysis,https://github.com/RobertsLab/paper-Olurida-gene
-hackweek-2018,2018-01-30,,https://github.com/RobertsLab/hackweek-2018
-project-gigas-conditioning,2026-07-07,Seed and adult conditioning of C. gigas oysters,https://github.com/RobertsLab/project-gigas-conditioning
-Paper-oly-adult-oa,2019-09-25,For files associated with the Olympia oyster adult OA exposure paper,https://github.com/RobertsLab/Paper-oly-adult-oa
-project-olympia.oyster-genomic,2018-05-13,,https://github.com/RobertsLab/project-olympia.oyster-genomic
-you_wreck_me,2023-10-19,Git/GitHub testing sandbox.,https://github.com/RobertsLab/you_wreck_me
-explore-crab-data,2020-05-17,,https://github.com/RobertsLab/explore-crab-data
-oyster-image-agent,2026-07-08,AI Agent repository for training oyster image analysis,https://github.com/RobertsLab/oyster-image-agent
-project-geoduck-repro,2016-09-07,,https://github.com/RobertsLab/project-geoduck-repro
-m2m-dashboard,2025-09-26,,https://github.com/RobertsLab/m2m-dashboard
-project-crab-capstone,2021-02-02,Claudia's capstone project,https://github.com/RobertsLab/project-crab-capstone
-project-geoduck-oa,2021-05-28,,https://github.com/RobertsLab/project-geoduck-oa
-titrator,2018-09-06,Data and SOPs for titrator,https://github.com/RobertsLab/titrator
-hackweek-2020,2020-08-29,,https://github.com/RobertsLab/hackweek-2020
-SHIELD,2026-07-08,,https://github.com/RobertsLab/SHIELD
-project-hematodinium,2020-07-31,Associated with prior NPRB project and Jensen archival samples,https://github.com/RobertsLab/project-hematodinium
-onboarding,2020-09-02,,https://github.com/RobertsLab/onboarding
-project-ostrea-chil,2025-08-16,,https://github.com/RobertsLab/project-ostrea-chil
-polyIC-larvae,2026-07-01,,https://github.com/RobertsLab/polyIC-larvae
-project-historical-hematodinium-crab,2022-03-17,,https://github.com/RobertsLab/project-historical-hematodinium-crab
-pgc-edc-oyster,2025-10-28,Primordial Germ Cell Specification and Early Developmental Cell States in Pacific Oyster,https://github.com/RobertsLab/pgc-edc-oyster
-project-sablefish,2016-11-25,,https://github.com/RobertsLab/project-sablefish
-MOPE,2026-07-06,,https://github.com/RobertsLab/MOPE
-marine-stress-data-atlas,2026-07-08,,https://github.com/RobertsLab/marine-stress-data-atlas
-vims-resazurin,2026-05-21,,https://github.com/RobertsLab/vims-resazurin
 mock-farm-dashboard,2026-06-07,,https://github.com/RobertsLab/mock-farm-dashboard
-BBC,2016-12-12,,https://github.com/RobertsLab/BBC
-paper-gigas-early-gametogenic-exposure,2019-03-16,Supporting information for paper on observed larval carryover effects after pH exposure in adult Pacific oysters.,https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure
-paper_oly_gbs,2017-04-19,,https://github.com/RobertsLab/paper_oly_gbs
-Open-House-2021,2021-05-19,SEAS Open House 2021,https://github.com/RobertsLab/Open-House-2021
-CRESST-OAE,2026-05-18,,https://github.com/RobertsLab/CRESST-OAE
-project-template,2021-12-16,,https://github.com/RobertsLab/project-template
-paper-gigas-DNR-proteomics,2018-12-11,Supporting information for paper detailing proteomic variation in Pacific oysters (Crassostrea gigas) between different outplant locations,https://github.com/RobertsLab/paper-gigas-DNR-proteomics
-project-gigas-carryover,2026-02-02,USDA Aquaculture Program,https://github.com/RobertsLab/project-gigas-carryover
-OCEAN,2025-08-27,,https://github.com/RobertsLab/OCEAN
-project-maturation-control,2024-05-19,,https://github.com/RobertsLab/project-maturation-control
-project-virginica-oa,2018-10-25,,https://github.com/RobertsLab/project-virginica-oa
-2017-hackweek,2017-07-27,,https://github.com/RobertsLab/2017-hackweek
-project-m4,2025-08-20,,https://github.com/RobertsLab/project-m4
-RNA,2026-03-19,Repositories Needing Attention,https://github.com/RobertsLab/RNA
-project-sc-RNAseq,2023-04-23,,https://github.com/RobertsLab/project-sc-RNAseq
-poster-geoduck-NSA-2023,2023-03-23,,https://github.com/RobertsLab/poster-geoduck-NSA-2023
-lab-website,2026-07-08,,https://github.com/RobertsLab/lab-website
-Paper-DNR-Geoduck-Proteomics,2018-05-12,Repo for paper on the DNR p. generosa proteomics experiment,https://github.com/RobertsLab/Paper-DNR-Geoduck-Proteomics
-hack-nb,2018-06-04,nb,https://github.com/RobertsLab/hack-nb
-project-dungeness-crab,2020-10-20,,https://github.com/RobertsLab/project-dungeness-crab
-resazurin-assay-development,2026-06-27,Developing resazurin protocol for use in shellfish,https://github.com/RobertsLab/resazurin-assay-development
-lab-package-tracker,2026-07-08,,https://github.com/RobertsLab/lab-package-tracker
-pubathon-2026,2026-07-06,,https://github.com/RobertsLab/pubathon-2026
-tusk,2024-02-02,Things U Should Know,https://github.com/RobertsLab/tusk
-current-findings,2026-06-23,,https://github.com/RobertsLab/current-findings
-code,2026-06-17,,https://github.com/RobertsLab/code
+you_wreck_me,2023-10-19,Git/GitHub testing sandbox.,https://github.com/RobertsLab/you_wreck_me
 paper-Wang2020,2020-11-02,,https://github.com/RobertsLab/paper-Wang2020
-paper-hatchery-microbiome,2020-09-30,,https://github.com/RobertsLab/paper-hatchery-microbiome
+pubathon-2026,2026-07-06,,https://github.com/RobertsLab/pubathon-2026
+project-cockle-repro,2020-11-23,,https://github.com/RobertsLab/project-cockle-repro
+project-ostrea-chil,2025-08-16,,https://github.com/RobertsLab/project-ostrea-chil
 hackweek-project,2018-06-05,,https://github.com/RobertsLab/hackweek-project
-project-gigas_ploidy,2020-11-16,Project investigating the effects of desiccation/elevated temp. exposure on triploid and diploid Pacific oysters,https://github.com/RobertsLab/project-gigas_ploidy
-paper-crab,2020-08-12,"Repo for scripts, notebooks, data, analyses related to the crab project paper",https://github.com/RobertsLab/paper-crab
-sams-notebook,2026-07-01,Sam's Notebook,https://github.com/RobertsLab/sams-notebook
+project-white-whale,2026-06-11,,https://github.com/RobertsLab/project-white-whale
+project-m4,2025-08-20,,https://github.com/RobertsLab/project-m4
+project-geoduck-repro,2016-09-07,,https://github.com/RobertsLab/project-geoduck-repro
+onboarding,2020-09-02,,https://github.com/RobertsLab/onboarding
+journal-selector-woa,2026-06-22,,https://github.com/RobertsLab/journal-selector-woa
+RNA,2026-03-19,Repositories Needing Attention,https://github.com/RobertsLab/RNA
 project-oyster-comparative-omics,2022-03-03,,https://github.com/RobertsLab/project-oyster-comparative-omics
-website,2023-08-31,,https://github.com/RobertsLab/website
-hackweek-2021,2021-07-20,,https://github.com/RobertsLab/hackweek-2021
+BBC,2016-12-12,,https://github.com/RobertsLab/BBC
+SHIELD,2026-07-08,,https://github.com/RobertsLab/SHIELD
+oyster-image-agent,2026-07-08,AI Agent repository for training oyster image analysis,https://github.com/RobertsLab/oyster-image-agent
+2017-hackweek,2017-07-27,,https://github.com/RobertsLab/2017-hackweek
+hackweek-2020,2020-08-29,,https://github.com/RobertsLab/hackweek-2020
+current-findings,2026-06-23,,https://github.com/RobertsLab/current-findings
+MOPE,2026-07-06,,https://github.com/RobertsLab/MOPE
+poster-geoduck-NSA-2023,2023-03-23,,https://github.com/RobertsLab/poster-geoduck-NSA-2023
+project-maturation-control,2024-05-19,,https://github.com/RobertsLab/project-maturation-control
+lab-website,2026-07-08,,https://github.com/RobertsLab/lab-website
+GuavaMuse,2025-07-09,,https://github.com/RobertsLab/GuavaMuse
+titrator,2018-09-06,Data and SOPs for titrator,https://github.com/RobertsLab/titrator
+tusk,2024-02-02,Things U Should Know,https://github.com/RobertsLab/tusk
+project-sablefish,2016-11-25,,https://github.com/RobertsLab/project-sablefish
+marine-stress-data-atlas,2026-07-08,,https://github.com/RobertsLab/marine-stress-data-atlas
+m2m-dashboard,2025-09-26,,https://github.com/RobertsLab/m2m-dashboard
+CRESST-OAE,2026-05-18,,https://github.com/RobertsLab/CRESST-OAE
+hackweek-2018,2018-01-30,,https://github.com/RobertsLab/hackweek-2018
 hackweek-p2,2018-06-05,,https://github.com/RobertsLab/hackweek-p2
-project-crab,2021-08-25,,https://github.com/RobertsLab/project-crab
+OCEAN,2025-08-27,,https://github.com/RobertsLab/OCEAN
+paper-Olurida-gene,2017-06-29,Gene expression data and R scripts for analysis,https://github.com/RobertsLab/paper-Olurida-gene
+paper_oly_gbs,2017-04-19,,https://github.com/RobertsLab/paper_oly_gbs
+project-template,2021-12-16,,https://github.com/RobertsLab/project-template
+hackweek-2021,2021-07-20,,https://github.com/RobertsLab/hackweek-2021
+project-dungeness-crab,2020-10-20,,https://github.com/RobertsLab/project-dungeness-crab
+Open-House-2021,2021-05-19,SEAS Open House 2021,https://github.com/RobertsLab/Open-House-2021
+website,2023-08-31,,https://github.com/RobertsLab/website
+hack-nb,2018-06-04,nb,https://github.com/RobertsLab/hack-nb
+Paper-DNR-Geoduck-Proteomics,2018-05-12,Repo for paper on the DNR p. generosa proteomics experiment,https://github.com/RobertsLab/Paper-DNR-Geoduck-Proteomics
+ftr-tanks,2025-11-01,Tank data for FTR,https://github.com/RobertsLab/ftr-tanks
+OluridaSurvey2014,2018-03-27,Raw data and R scripts for statistical analysis and figure creation,https://github.com/RobertsLab/OluridaSurvey2014
+xenobiotic-oyster,2021-06-29,,https://github.com/RobertsLab/xenobiotic-oyster
