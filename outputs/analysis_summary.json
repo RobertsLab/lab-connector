@@ -1,21 +1,113 @@
 {
   "counts": {
-    "nodes": 627,
-    "edges": 5592,
-    "repos": 94,
+    "nodes": 641,
+    "edges": 11117,
+    "repos": 99,
     "notebooks": 440,
     "by_type": {
+      "dataset": 7,
       "keyword": 33,
-      "method": 19,
+      "method": 20,
       "notebook": 440,
       "omics": 6,
       "person": 3,
       "project": 13,
-      "repo": 94,
-      "species": 19
+      "repo": 99,
+      "species": 20
     }
   },
   "top_connected_repos": [
+    {
+      "repo": "marine-stress-data-atlas",
+      "notebook_connections": 310,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/marine-stress-data-atlas",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; 16S Pipeline in Mothur; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "project-oyster-oa",
+      "notebook_connections": 302,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/project-oyster-oa",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "resazurin-assay-development",
+      "notebook_connections": 290,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/resazurin-assay-development",
+      "example_notebooks": "10K outplant growth analysis; 10K seed; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis"
+    },
+    {
+      "repo": "project-myt-crass-methylation",
+      "notebook_connections": 287,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/project-myt-crass-methylation",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "project-cod-temperature",
+      "notebook_connections": 280,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/project-cod-temperature",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "SHIELD",
+      "notebook_connections": 279,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/SHIELD",
+      "example_notebooks": "10K outplant growth analysis; 10K seed; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis"
+    },
+    {
+      "repo": "paper-tanner-crab",
+      "notebook_connections": 246,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/paper-tanner-crab",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "project-gigas-carryover",
+      "notebook_connections": 245,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/project-gigas-carryover",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "project-crab",
+      "notebook_connections": 239,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/project-crab",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; 16S Pipeline in Mothur"
+    },
+    {
+      "repo": "project-gigas_ploidy",
+      "notebook_connections": 231,
+      "max_confidence": 0.2,
+      "url": "https://github.com/RobertsLab/project-gigas_ploidy",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "vims-resazurin",
+      "notebook_connections": 226,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/vims-resazurin",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "Paper-geoduck-eelgrass-OA",
+      "notebook_connections": 216,
+      "max_confidence": 0.8,
+      "url": "https://github.com/RobertsLab/Paper-geoduck-eelgrass-OA",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
+      "repo": "OluridaSurvey2014",
+      "notebook_connections": 215,
+      "max_confidence": 0.6,
+      "url": "https://github.com/RobertsLab/OluridaSurvey2014",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
     {
       "repo": "project-gigas-oa-meth",
       "notebook_connections": 213,
@@ -24,210 +116,119 @@
       "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project; ASCA Analysis for RNAseq and Lipidomics Datasets"
     },
     {
-      "repo": "project-cod-temperature",
-      "notebook_connections": 195,
-      "max_confidence": 1.0,
-      "url": "https://github.com/RobertsLab/project-cod-temperature",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
-    },
-    {
-      "repo": "10K-seed-Cgigas",
-      "notebook_connections": 161,
-      "max_confidence": 1.0,
-      "url": "https://github.com/RobertsLab/10K-seed-Cgigas",
-      "example_notebooks": "10K outplant growth analysis; 10K seed; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis"
-    },
-    {
-      "repo": "oyster-ploidy-hardening",
-      "notebook_connections": 158,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/oyster-ploidy-hardening",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; All Projects To Do List; Analysis of Effort D oyster lab survival tests"
-    },
-    {
-      "repo": "project-gigas-conditioning",
-      "notebook_connections": 149,
-      "max_confidence": 1.0,
-      "url": "https://github.com/RobertsLab/project-gigas-conditioning",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
-      "repo": "project-gigas-carryover",
-      "notebook_connections": 137,
-      "max_confidence": 1.0,
-      "url": "https://github.com/RobertsLab/project-gigas-carryover",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
-      "repo": "project-gigas_ploidy",
-      "notebook_connections": 136,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/project-gigas_ploidy",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
-      "repo": "paper-gigas-early-gametogenic-exposure",
-      "notebook_connections": 136,
-      "max_confidence": 0.8,
-      "url": "https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
-      "repo": "project-gigas-ploidy-oa",
-      "notebook_connections": 135,
-      "max_confidence": 0.6,
-      "url": "https://github.com/RobertsLab/project-gigas-ploidy-oa",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
-      "repo": "paper-gigas-metaanalysis",
-      "notebook_connections": 134,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/paper-gigas-metaanalysis",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
       "repo": "project-pacific.oyster-larvae",
-      "notebook_connections": 133,
+      "notebook_connections": 213,
       "max_confidence": 0.8,
       "url": "https://github.com/RobertsLab/project-pacific.oyster-larvae",
-      "example_notebooks": "10K outplant growth analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project; ASCA Analysis for RNAseq and Lipidomics Datasets; ASCA Analysis of Temperature and Parent Effects on Gene Expression; ASCA Analysis of Temperature and Parent Effects on Lipid Profiles"
-    },
-    {
-      "repo": "polyIC-larvae",
-      "notebook_connections": 129,
-      "max_confidence": 1.0,
-      "url": "https://github.com/RobertsLab/polyIC-larvae",
-      "example_notebooks": "10K outplant growth analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project; ASCA Analysis for RNAseq and Lipidomics Datasets; ASCA Analysis of Temperature and Parent Effects on Gene Expression; ASCA Analysis of Temperature and Parent Effects on Lipid Profiles"
-    },
-    {
-      "repo": "paper-gigas-DNR-proteomics",
-      "notebook_connections": 126,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/paper-gigas-DNR-proteomics",
       "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project; ASCA Analysis for RNAseq and Lipidomics Datasets"
-    },
-    {
-      "repo": "pgc-edc-oyster",
-      "notebook_connections": 124,
-      "max_confidence": 0.2,
-      "url": "https://github.com/RobertsLab/pgc-edc-oyster",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; Analysis of Effort D oyster lab survival tests; Analysis of Efforts BDE oyster lab survival tests"
-    },
-    {
-      "repo": "manchester-hardening",
-      "notebook_connections": 122,
-      "max_confidence": 1.0,
-      "url": "https://github.com/RobertsLab/manchester-hardening",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis of Temperature and Parent Effects on Gene Expression; Alignment and assembly of RNAseq reads for Montipora capitata larval thermal tolerance 2023 project"
     }
   ],
   "top_connected_notebooks": [
     {
       "notebook": "Washington Sea Grant Shellfish Growers Meeting Notes",
-      "repo_connections": 30,
+      "repo_connections": 52,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Washington-Sea-Grant-Shellfish-Growers-Meeting-Notes/",
-      "example_repos": "10K-seed-Cgigas; Paper-DNR-Geoduck-Proteomics; Paper-oly-adult-oa; explore-crab-data; manchester-hardening"
-    },
-    {
-      "notebook": "PolyIC Seed Resazurin Assay Testing",
-      "repo_connections": 20,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Assay-Testing/",
-      "example_repos": "10K-seed-Cgigas; ftr-tanks; manchester-hardening; oyster-image-agent; oyster-ploidy-hardening"
-    },
-    {
-      "notebook": "Resazurin Metabolic Assays Protocol for PolyIC Seed Testing",
-      "repo_connections": 20,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Resazurin-Metabolic-Assays-Protocol-for-PolyIC-Seed-Testing/",
-      "example_repos": "10K-seed-Cgigas; ftr-tanks; manchester-hardening; oyster-image-agent; oyster-ploidy-hardening"
-    },
-    {
-      "notebook": "Poly IC Resazurin Trials 10 March 2025",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-10-March/",
-      "example_repos": "10K-seed-Cgigas; oyster-image-agent; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure"
-    },
-    {
-      "notebook": "Launching experiment at Manchester and maintaining stocks at Point Whitney",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Launching-experiment-at-Manchester-and-maintaining-stocks-at-Point-Whitney/",
-      "example_repos": "10K-seed-Cgigas; manchester-hardening; oyster-image-agent; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
-    },
-    {
-      "notebook": "Poly IC Resazurin Trials 18 March 2025",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-18-March/",
-      "example_repos": "10K-seed-Cgigas; manchester-hardening; oyster-image-agent; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
-    },
-    {
-      "notebook": "Poly IC Resazurin Trials 20 March 2025",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-20-March/",
-      "example_repos": "10K-seed-Cgigas; manchester-hardening; oyster-image-agent; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
-    },
-    {
-      "notebook": "PolyIC Seed Resazurin Assay January 28 and 29 2025",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Jan-28-and-29-2025/",
-      "example_repos": "10K-seed-Cgigas; ftr-tanks; manchester-hardening; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
-    },
-    {
-      "notebook": "Point Whitney Field Day 26 Feb 2025",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Point-Whitney-Field-Day-27-Feb-2025/",
-      "example_repos": "10K-seed-Cgigas; ftr-tanks; manchester-hardening; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-DNR-Geoduck-Proteomics; Paper-geoduck-eelgrass-OA"
     },
     {
       "notebook": "Testing CO2 bubbling in FTR",
-      "repo_connections": 19,
+      "repo_connections": 39,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Testing-CO2-bubbling-in-FTR/",
-      "example_repos": "10K-seed-Cgigas; Paper-oly-adult-oa; ftr-tanks; manchester-hardening; oyster-ploidy-hardening"
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-oa; SHIELD"
     },
     {
-      "notebook": "Poly IC Resazurin Trials 13 March 2025",
-      "repo_connections": 19,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-13-March/",
-      "example_repos": "10K-seed-Cgigas; oyster-image-agent; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure"
+      "notebook": "Westcott oyster survival and resazurin lab testing",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Westcott-Oyster-Survival-and-Resazurin-Lab-Testing/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "Resazurin Assays - USDA M.gigas Families in Response to 36C and Freshwater Co-stressors",
-      "repo_connections": 18,
-      "url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-05-Resazurin-Assays---USDA-M.gigas-Families-in-Response-to-36C-and-Freshwater-Co-stressors/index.html",
-      "example_repos": "10K-seed-Cgigas; manchester-hardening; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure"
+      "notebook": "USDA Families Resazurin Trials 3 June 2025",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-3-June/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
     },
     {
-      "notebook": "Tissue Collection and Homogenization - M.gigas Ctenidia for Glycogen-Glo Assay",
-      "repo_connections": 18,
-      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-12-10-Tissue-Collection-and-Homogenization---M.gigas-Ctenidia-for-Glycogen-Glo-Assay/index.html",
-      "example_repos": "10K-seed-Cgigas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics; paper-gigas-early-gametogenic-exposure; paper-gigas-metaanalysis"
+      "notebook": "Launching experiment at Manchester and maintaining stocks at Point Whitney",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Launching-experiment-at-Manchester-and-maintaining-stocks-at-Point-Whitney/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "Next steps for SORMI assays",
-      "repo_connections": 18,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Next-steps-for-SORMI-assays/",
-      "example_repos": "10K-seed-Cgigas; manchester-hardening; marine-stress-data-atlas; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
+      "notebook": "PolyIC Seed Resazurin Assay Testing",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Assay-Testing/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "Sampling 10K seed oyster project at UW",
-      "repo_connections": 18,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Sampling-10K-seed-oyster-project-at-UW/",
-      "example_repos": "10K-seed-Cgigas; manchester-hardening; oyster-image-agent; oyster-ploidy-hardening; paper-gigas-DNR-proteomics"
+      "notebook": "USDA Families Resazurin Trials 20 May 2025",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "USDA Families Resazurin Trials Complete Results",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "Plan for Westcott Oyster Survival Testing",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Plan-for-Westcott-Oyster-Survival-Testing/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Oyster survival testing for lifestage carryover project",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oyster-survival-test-planning/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Poly IC Resazurin Trials 10 March 2025",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-10-March/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "PolyIC Seed Resazurin Assay January 28 and 29 2025",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Jan-28-and-29-2025/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "USDA Families Resazurin Trials 13 May 2025",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-13-May/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "Initial analysis of resazurin metabolic rates in 10K Seed oysters",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Initial-analysis-of-resazurin-metabolic-rates-in-10K-Seed-oysters/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Hatchery field day at Point Whitney April 3 2024",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Hatchery-field-day-at-Point-Whitney-April-3-2024/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
     }
   ],
-  "unlinked_repo_count": 37,
-  "unlinked_notebook_count": 72,
+  "unlinked_repo_count": 27,
+  "unlinked_notebook_count": 27,
   "species_reach": [
     {
       "label": "Coral (E5 / reef corals)",
-      "repos": 0,
+      "repos": 3,
       "notebooks": 164,
-      "total": 164
+      "total": 167
     },
     {
       "label": "Pacific oyster (Crassostrea/Magallana gigas)",
-      "repos": 11,
+      "repos": 23,
       "notebooks": 124,
-      "total": 135
+      "total": 147
     },
     {
       "label": "Lake trout (Salvelinus namaycush)",
@@ -237,14 +238,26 @@
     },
     {
       "label": "Manila clam / clam",
-      "repos": 1,
+      "repos": 2,
       "notebooks": 11,
-      "total": 12
+      "total": 13
     },
     {
       "label": "Pacific cod (Gadus macrocephalus)",
-      "repos": 1,
+      "repos": 2,
       "notebooks": 9,
+      "total": 11
+    },
+    {
+      "label": "Eastern oyster (Crassostrea virginica)",
+      "repos": 4,
+      "notebooks": 6,
+      "total": 10
+    },
+    {
+      "label": "Geoduck (Panopea generosa)",
+      "repos": 8,
+      "notebooks": 2,
       "total": 10
     },
     {
@@ -254,22 +267,16 @@
       "total": 9
     },
     {
-      "label": "Geoduck (Panopea generosa)",
-      "repos": 5,
-      "notebooks": 2,
-      "total": 7
-    },
-    {
       "label": "Crab (general)",
-      "repos": 5,
+      "repos": 4,
       "notebooks": 2,
-      "total": 7
+      "total": 6
     },
     {
-      "label": "Eastern oyster (Crassostrea virginica)",
-      "repos": 1,
-      "notebooks": 6,
-      "total": 7
+      "label": "Olympia oyster (Ostrea lurida)",
+      "repos": 6,
+      "notebooks": 0,
+      "total": 6
     },
     {
       "label": "Blue mussel (Mytilus spp.)",
@@ -285,24 +292,18 @@
     },
     {
       "label": "Hematodinium (parasite)",
-      "repos": 3,
+      "repos": 4,
       "notebooks": 0,
-      "total": 3
+      "total": 4
     },
     {
       "label": "Tanner crab (Chionoecetes bairdi)",
-      "repos": 1,
+      "repos": 2,
       "notebooks": 2,
-      "total": 3
+      "total": 4
     },
     {
-      "label": "Olympia oyster (Ostrea lurida)",
-      "repos": 3,
-      "notebooks": 0,
-      "total": 3
-    },
-    {
-      "label": "Labyrinthula",
+      "label": "Chilean oyster (Ostrea chilensis)",
       "repos": 1,
       "notebooks": 0,
       "total": 1
@@ -311,21 +312,21 @@
   "method_reach": [
     {
       "label": "Resazurin assay",
-      "repos": 3,
+      "repos": 6,
       "notebooks": 86,
-      "total": 89
+      "total": 92
     },
     {
       "label": "Metabolomics",
-      "repos": 0,
+      "repos": 2,
       "notebooks": 76,
-      "total": 76
+      "total": 78
     },
     {
       "label": "RNA-seq",
-      "repos": 1,
+      "repos": 9,
       "notebooks": 51,
-      "total": 52
+      "total": 60
     },
     {
       "label": "WGCNA",
@@ -334,34 +335,46 @@
       "total": 33
     },
     {
-      "label": "Genome assembly / long-read",
-      "repos": 0,
-      "notebooks": 19,
-      "total": 19
+      "label": "DNA methylation",
+      "repos": 16,
+      "notebooks": 10,
+      "total": 26
     },
     {
-      "label": "qPCR",
-      "repos": 0,
-      "notebooks": 18,
-      "total": 18
+      "label": "Genome assembly / long-read",
+      "repos": 7,
+      "notebooks": 19,
+      "total": 26
     },
     {
       "label": "Genome annotation",
-      "repos": 0,
+      "repos": 8,
       "notebooks": 17,
-      "total": 17
+      "total": 25
     },
     {
-      "label": "DNA methylation",
-      "repos": 6,
-      "notebooks": 10,
-      "total": 16
+      "label": "qPCR",
+      "repos": 2,
+      "notebooks": 18,
+      "total": 20
     },
     {
       "label": "Read mapping / alignment",
-      "repos": 0,
+      "repos": 3,
       "notebooks": 15,
-      "total": 15
+      "total": 18
+    },
+    {
+      "label": "Bisulfite / BS-seq",
+      "repos": 9,
+      "notebooks": 3,
+      "total": 12
+    },
+    {
+      "label": "Differential expression",
+      "repos": 6,
+      "notebooks": 6,
+      "total": 12
     },
     {
       "label": "Metabarcoding / eDNA / taxonomy",
@@ -370,34 +383,22 @@
       "total": 11
     },
     {
-      "label": "Orthology / synteny",
-      "repos": 0,
-      "notebooks": 7,
-      "total": 7
-    },
-    {
-      "label": "Differential expression",
-      "repos": 0,
-      "notebooks": 6,
-      "total": 6
-    },
-    {
-      "label": "Bisulfite / BS-seq",
-      "repos": 1,
-      "notebooks": 3,
-      "total": 4
+      "label": "WGBS (whole-genome bisulfite seq)",
+      "repos": 6,
+      "notebooks": 4,
+      "total": 10
     },
     {
       "label": "Proteomics",
-      "repos": 2,
+      "repos": 6,
       "notebooks": 2,
-      "total": 4
+      "total": 8
     },
     {
-      "label": "WGBS (whole-genome bisulfite seq)",
-      "repos": 0,
-      "notebooks": 4,
-      "total": 4
+      "label": "Orthology / synteny",
+      "repos": 1,
+      "notebooks": 7,
+      "total": 8
     }
   ],
   "high_confidence_links": [
@@ -577,5 +578,5 @@
       "evidence": "Notebook post '2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST' links directly to github.com/RobertsLab/resources"
     }
   ],
-  "possible_connection_count": 1936
+  "possible_connection_count": 6438
 }
