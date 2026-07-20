@@ -137,6 +137,24 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-oa; SHIELD"
     },
     {
+      "notebook": "USDA Families Resazurin Trials 20 May 2025",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "PolyIC Seed Resazurin Assay Testing",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Assay-Testing/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "USDA Families Resazurin Trials Complete Results",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
       "notebook": "Westcott oyster survival and resazurin lab testing",
       "repo_connections": 37,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Westcott-Oyster-Survival-and-Resazurin-Lab-Testing/",
@@ -155,28 +173,28 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "PolyIC Seed Resazurin Assay Testing",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Assay-Testing/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
-      "notebook": "USDA Families Resazurin Trials 20 May 2025",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
-      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
-    },
-    {
-      "notebook": "USDA Families Resazurin Trials Complete Results",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
-      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
-    },
-    {
-      "notebook": "Plan for Westcott Oyster Survival Testing",
+      "notebook": "PolyIC Seed Resazurin Assay January 28 and 29 2025",
       "repo_connections": 36,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Plan-for-Westcott-Oyster-Survival-Testing/",
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Jan-28-and-29-2025/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Hatchery field day at Point Whitney April 3 2024",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Hatchery-field-day-at-Point-Whitney-April-3-2024/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
+    },
+    {
+      "notebook": "Resazurin Metabolic Assays Protocol for PolyIC Seed Testing",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Resazurin-Metabolic-Assays-Protocol-for-PolyIC-Seed-Testing/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Oysters at FTR 8 Jan 2025",
+      "repo_connections": 36,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oysters-at-FTR-8-Jan-2025/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
     },
     {
       "notebook": "Oyster survival testing for lifestage carryover project",
@@ -191,28 +209,10 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "PolyIC Seed Resazurin Assay January 28 and 29 2025",
-      "repo_connections": 36,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Jan-28-and-29-2025/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
       "notebook": "USDA Families Resazurin Trials 13 May 2025",
       "repo_connections": 36,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-13-May/",
       "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
-    },
-    {
-      "notebook": "Initial analysis of resazurin metabolic rates in 10K Seed oysters",
-      "repo_connections": 36,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Initial-analysis-of-resazurin-metabolic-rates-in-10K-Seed-oysters/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
-      "notebook": "Hatchery field day at Point Whitney April 3 2024",
-      "repo_connections": 36,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Hatchery-field-day-at-Point-Whitney-April-3-2024/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
     }
   ],
   "unlinked_repo_count": 27,
@@ -453,17 +453,17 @@
     },
     {
       "notebook": "Resazurin - Fluorescence Stability Over 96hrs Post-Heat Stress of Pacific Oysters",
-      "repo": "resources",
-      "confidence": 1.0,
-      "relationship": "links_to",
-      "evidence": "Notebook post '2026-05-28-Resazurin---Fluorescence-Stability-Over-96hrs-Post-Heat-Stress-of-Pacific-Oysters' links directly to github.com/RobertsLab/resources"
-    },
-    {
-      "notebook": "Resazurin - Fluorescence Stability Over 96hrs Post-Heat Stress of Pacific Oysters",
       "repo": "resazurin-assay-development",
       "confidence": 1.0,
       "relationship": "links_to",
       "evidence": "Notebook post '2026-05-28-Resazurin---Fluorescence-Stability-Over-96hrs-Post-Heat-Stress-of-Pacific-Oysters' links directly to github.com/RobertsLab/resazurin-assay-development"
+    },
+    {
+      "notebook": "Resazurin - Fluorescence Stability Over 96hrs Post-Heat Stress of Pacific Oysters",
+      "repo": "resources",
+      "confidence": 1.0,
+      "relationship": "links_to",
+      "evidence": "Notebook post '2026-05-28-Resazurin---Fluorescence-Stability-Over-96hrs-Post-Heat-Stress-of-Pacific-Oysters' links directly to github.com/RobertsLab/resources"
     },
     {
       "notebook": "Resazurin Assays - Low Salinity Selected Juvenile Ruditapes phillippinarum Exposed to 36C Acute Heat Stress",
