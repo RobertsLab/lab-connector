@@ -6,7 +6,7 @@
     "topics": [],
     "language": "JavaScript",
     "created": "2026-06-07",
-    "updated": "2026-07-20",
+    "updated": "2026-07-27",
     "stars": 0,
     "forks": 0,
     "open_issues": 0,
@@ -18,33 +18,13 @@
     ]
   },
   {
-    "name": "project-gigas-conditioning",
-    "url": "https://github.com/RobertsLab/project-gigas-conditioning",
-    "description": "Seed and adult conditioning of C. gigas oysters",
-    "topics": [],
-    "language": "Jupyter Notebook",
-    "created": "2024-04-04",
-    "updated": "2026-07-17",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 4,
-    "archived": false,
-    "pages_url": "https://robertslab.github.io/project-gigas-conditioning/",
-    "readme": "# project-gigas-conditioning\n\n![](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/overview.png?raw=true)\n\nEffects of oyster stress hardening\n",
-    "issue_titles": [
-      "Grant reporting",
-      "Develop ML code for oyster image analysis",
-      "Oyster conditioning recommendation"
-    ]
-  },
-  {
     "name": "project-oyster-oa",
     "url": "https://github.com/RobertsLab/project-oyster-oa",
     "description": "",
     "topics": [],
     "language": "HTML",
     "created": "2016-09-20",
-    "updated": "2026-07-16",
+    "updated": "2026-07-26",
     "stars": 3,
     "forks": 3,
     "open_issues": 3,
@@ -58,8 +38,7 @@
       "Investigate why heatmaps don't provide confidence in DML identification",
       "Environmental data analyses",
       "Samples with poor technical replication",
-      "Step 3a: Dilution-curve folder empty",
-      "Peptide-level analyses"
+      "Step 3a: Dilution-curve folder empty"
     ]
   },
   {
@@ -69,7 +48,7 @@
     "topics": [],
     "language": "Python",
     "created": "2024-12-05",
-    "updated": "2026-07-15",
+    "updated": "2026-07-24",
     "stars": 0,
     "forks": 0,
     "open_issues": 1,
@@ -85,13 +64,33 @@
     ]
   },
   {
+    "name": "vims-resazurin",
+    "url": "https://github.com/RobertsLab/vims-resazurin",
+    "description": "",
+    "topics": [],
+    "language": "R",
+    "created": "2025-06-30",
+    "updated": "2026-07-24",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "archived": false,
+    "pages_url": "https://github.com/RobertsLab/vims-resazurin/blob/main/research-summary-and-industry-implications.md",
+    "readme": "# VIMS Resazurin Research Project\n\nThis repository contains research on resazurin metabolic assays for shellfish aquaculture conducted at the Virginia Institute of Marine Science (VIMS).\n\n## Project Overview\n\nThis research evaluates resazurin-based metabolic assays as biomarkers for oyster performance in aquaculture, with applications for:\n\n- Breeding program enhancement\n- Environmental stress tolerance prediction\n- Production optimization\n- Risk management\n\n## Repository Structure\n\n### Analysis Scripts (`/code/`)\n- `resazurin-trials.Rmd` - Main analysis of metabolic biomarkers and trait correlations\n- `ploidy-trials-20250826.Rmd` - Ploidy comparison studies (triploid vs diploid)\n- `ploidy-trials-20250813.Rmd` - Earlier ploidy trials\n- `temperature-testing.Rmd` - Temperature stress testing analysis\n- `temperature.Rmd` - Environmental temperature monitoring\n- `plate-maps.Rmd` - Experimental design documentation\n\n### Data (`/data/`)\n- Raw experimental data files\n- Metadata and experimental design information\n- Performance trait predictions from breeding programs\n\n### Outputs (`/figures/` and `/output/`)\n- Generated plots and statistical outputs\n- Publication-ready figures\n\n## Key Findings\n\n1. **Metabolic activity is significantly correlated to survival in low-salinity environments** for environmentally-selected oyster populations\n2. **Ploidy affects metabolic performance patterns**, with distinct profiles between triploid and diploid oysters\n3. **Acute stress response correlates with performance traits**, enabling rapid screening of breeding stock\n4. **Family-level genetic variation** in metabolic activity supports selective breeding applications\n5. **Environmental context matters** - correlations are stronger when assays match production conditions\n\n## Getting Started\n\n### For Researchers\n1. Review the main analysis file: `code/resazurin-trials.Rmd`\n2. Examine methodology and statistical approaches\n3. Check data structure in `/data/` folder\n4. Refer to figure outputs for key visualizations\n\n\n",
+    "issue_titles": [
+      "Grant Reporting",
+      "Create brief highlight",
+      "Summary and industry implications"
+    ]
+  },
+  {
     "name": "sams-notebook",
     "url": "https://github.com/RobertsLab/sams-notebook",
     "description": "Sam's Notebook",
     "topics": [],
     "language": "HTML",
     "created": "2018-10-23",
-    "updated": "2026-07-15",
+    "updated": "2026-07-22",
     "stars": 2,
     "forks": 4,
     "open_issues": 0,
@@ -101,13 +100,49 @@
     "issue_titles": []
   },
   {
+    "name": "project-gigas-conditioning",
+    "url": "https://github.com/RobertsLab/project-gigas-conditioning",
+    "description": "Seed and adult conditioning of C. gigas oysters",
+    "topics": [],
+    "language": "Jupyter Notebook",
+    "created": "2024-04-04",
+    "updated": "2026-07-22",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 4,
+    "archived": false,
+    "pages_url": "https://robertslab.github.io/project-gigas-conditioning/",
+    "readme": "# project-gigas-conditioning\n\n![](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/overview.png?raw=true)\n\nEffects of oyster stress hardening\n",
+    "issue_titles": [
+      "Grant reporting",
+      "Develop ML code for oyster image analysis",
+      "Oyster conditioning recommendation"
+    ]
+  },
+  {
+    "name": "oyster-image-agent",
+    "url": "https://github.com/RobertsLab/oyster-image-agent",
+    "description": "AI Agent repository for training oyster image analysis",
+    "topics": [],
+    "language": "",
+    "created": "2026-07-07",
+    "updated": "2026-07-22",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 1,
+    "archived": false,
+    "pages_url": "",
+    "readme": "",
+    "issue_titles": []
+  },
+  {
     "name": "sormi-assay-development",
     "url": "https://github.com/RobertsLab/sormi-assay-development",
     "description": "",
     "topics": [],
     "language": "HTML",
     "created": "2025-12-10",
-    "updated": "2026-07-14",
+    "updated": "2026-07-22",
     "stars": 0,
     "forks": 0,
     "open_issues": 1,
@@ -117,6 +152,44 @@
     "issue_titles": [
       "How is glycogen assay being normalized?"
     ]
+  },
+  {
+    "name": "project-eDNA-yellow",
+    "url": "https://github.com/RobertsLab/project-eDNA-yellow",
+    "description": "",
+    "topics": [],
+    "language": "HTML",
+    "created": "2025-04-16",
+    "updated": "2026-07-21",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 2,
+    "archived": false,
+    "pages_url": "",
+    "readme": "# project-eDNA-yellow\n\nEnvironmental DNA (eDNA) metabarcoding analysis of water samples collected at\n**Yellow Island** (San Juan Islands, WA). This repository contains the\nbioinformatics pipeline that takes raw amplicon sequencing reads through quality\ncontrol, trimming, and taxonomic classification with\n[QIIME 2](https://qiime2.org/).\n\n> [!NOTE]\n> **TODO \u2014 study description.** Fill in the biological context that cannot be\n> inferred from the code: the target marker gene (e.g. 18S rRNA / COI), PCR\n> primers, sampling design and dates, number of biological vs. technical\n> replicates, and the overall project goal/hypothesis. Sample filenames use\n> `Yell_July18_...` while the raw-read host directory is named\n> `eDNA-yellow_island-2023` \u2014 confirm the actual collection year.\n\n## Study at a glance\n\n| | |\n|---|---|\n| **Location** | Yellow Island, San Juan Islands, WA |\n| **Sites** | Site 1 (n = 28) and Site 5 (n = 26) \u2014 54 samples total |\n| **Assay** | eDNA amplicon metabarcoding (marker: _TODO_) |\n| **Sequencing** | Paired-end Illumina, `L001_R[12]_001.fastq.gz` |\n| **Reference DB** | SILVA 138 99% (`silva-138-99`) |\n| **Classifier** | QIIME 2 2024.10, na\u00efve-Bayes sklearn |\n\n## Pipeline\n\nAnalyses run sequentially; each notebook writes to a matching directory in\n[`output/`](output/). Notebooks are authored in R Markdown and knitted to\n`.md` for viewing on GitHub.\n\n```\n00.00  raw reads \u2500\u2500\u25ba FastQC + MultiQC (raw QC)\n  \u2502\n01.00  raw reads \u2500\u2500\u25ba fastp trim \u2500\u2500\u25ba FastQC + MultiQC \u2500\u2500\u25ba QIIME2-compliant rename\n  \u2502                                                        \u2514\u25ba output/01.00-.../ (trimmed FastQs)\n02.00  trimmed reads \u2500\u2500\u25ba QIIME2 import \u2500\u2500\u25ba quality filter \u2500\u2500\u25ba deblur denoise\n                          \u2500\u2500\u25ba SILVA classify \u2500\u2500\u25ba taxa bar plots\n                                                  \u2514\u25ba output/02.00-qiime2/ (.qza / .qzv)\n```\n\n| Step | Notebook | Output |\n|---|---|---|\n| Raw-read QC | [`code/00.00-fastqc-multiqc-raw-reads.Rmd`](code/00.00-fastqc-multiqc-raw-reads.Rmd) ([md](code/00.00-fastqc-multiqc-raw-reads.md)) | MultiQC report |\n| Trimming + QC | [`code/01.00-trimming-fastp-fastqc-multiqc.Rmd`](code/01.00-trimming-fastp-fastqc-multiqc.Rmd) ([md](code/01.00-trimming-fastp-fastqc-multiqc.md)) | [`output/01.00-trimming-fastp-fastqc-multiqc/`](output/01.00-trimming-fastp-fastqc-multiqc/) |\n| Taxonomic classification | [`code/02.00-qiime2.Rmd`](code/02.00-qiime2.Rmd) ([md](code/02.00-qiime2.md)) | [`output/02.00-qiime2/`](output/02.00-qiime2/) |\n\n## Viewing results\n\nQIIME 2 `.qzv` visualizations in [`output/02.00-qiime2/`](output/02.00-qiime2/)\ncannot be rendered on GitHub. Download a `.qzv` file and open it at\n**[view.qiime2.org](https://view.qiime2.org)** (drag-and-drop; nothing is\nuploaded to a server). Key files: `taxa-bar-plots.qzv`, `table.qzv`,\n`taxonomy.qzv`, `deblur-stats.qzv`.\n\n## Reproducing the analysis\n\n**Software**\n\n- R + RStudio (notebooks use `knitr`, `dplyr`, `reticulate`)\n- [fastp](https://github.com/OpenGene/fastp), [FastQC](https://github.com/s-andrews/FastQC), [MultiQC](https://multiqc.info/)\n- [QIIME 2 2024.10](https://docs.qiime2.org/2024.10/) in a `qiime2-amplicon-2024.10` conda/mamba environment\n\n**Steps**\n\n1. Clone this repo.\n2. Update the path variables at the top of each notebook \u2014 e.g. `repo_dir`,\n   `qiime2_conda_path`, and `qiime2_conda_env_name` in\n   [`02.00-qiime2.Rmd`](code/02.00-qiime2.Rmd) \u2014 to match your machine.\n3. Provide the reference data in [`data/`](data/): the SILVA reference sequences\n   (`silva-138-99-seqs.qza`, tracked) and the na\u00efve-Bayes classifier\n   `silva-138-99-nb-classifier.qza` (not tracked \u2014 see [`data/README.md`](data/README.md)).\n4. Knit the notebooks in order (00 \u2192 01 \u2192 02).\n\n> [!NOTE]\n> **TODO \u2014 reproducibility.** Add a conda environment export\n> (`qiime2-amplicon-2024.10.yml`) and an R `sessionInfo()` capture so the exact\n> software versions are pinned.\n\n## Data provenance\n\n- **Raw reads** are hosted on the Roberts Lab server, not in git:\n  <https://owl.fish.washington.edu/nightingales/eDNA-yellow_island-2023/>\n  ([`00.00`](code/00.00-fastqc-multiqc-raw-reads.Rmd) downloads them).\n- **Sample metadata:** [`data/raw-fastqs/metadata.tsv`](data/raw-fastqs/metadata.tsv).\n- See [`data/README.md`](data/README.md) for the full data inventory.\n\n## Repository layout\n\n```\n\u251c\u2500\u2500 code/     Analysis notebooks (.Rmd + knitted .md) and references.bib\n\u251c\u2500\u2500 data/     Reference sequences, sample metadata, raw-read QC reports\n\u2514\u2500\u2500 output/   Per-notebook outputs (directory name matches the notebook)\n```\n\nNaming and organization conventions are documented in\n[`code/README.md`](code/README.md) and [`output/README.md`](output/README.md).\n\n## Status & roadmap\n\nThe pipeline runs end-to-end and all three notebooks have been executed. Open\nitems:\n\n- [ ] Fill study-description and reproducibility TODOs above.\n- [x] Summarize headline results \u2014 see [`output/02.00-qiime2/README.md`](output/02.00-qiime2/README.md).\n- [ ] Investigate low deblur retention (~7.8% of reads reach the feature table).\n- [ ] Add downstream ecology: alpha/beta diversity and Site 1 vs. Site 5 comparison, with exported figures/tables (not just `.qzv`).\n- [ ] Confirm paired-end handling in `02.00` \u2014 reads are imported as paired-end but `deblur denoise-other` operates on forward reads; verify R2 use is as intended.\n- [x] Untrack ~1.2 GB of intermediate data (trimmed FastQs + `multiqc_data.json`) \u2014 see [`data/README.md`](data/README.md). (History rewrite to shrink `.git` still optional.)\n\n## Attribution\n\nPart of the [Roberts Lab](https://github.com/RobertsLab), University of\nWashington. Pipeline authored by Sam White.\n",
+    "issue_titles": [
+      "Additional metadata for July 18 samples?",
+      "Library prep info for Yell_July18_*.fastq.gz files (primers)?",
+      "Provide explanation of eDNA minion data",
+      "Yellow eDNA - Illumina & MinION Sequences",
+      "Location of eDNA reads"
+    ]
+  },
+  {
+    "name": "lab-connector",
+    "url": "https://github.com/RobertsLab/lab-connector",
+    "description": "",
+    "topics": [],
+    "language": "Python",
+    "created": "2026-07-08",
+    "updated": "2026-07-20",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "archived": false,
+    "pages_url": "https://robertslab.github.io/lab-connector/",
+    "readme": "# Lab Connector\n\nAn interactive network map that connects **Roberts Lab GitHub repositories** with\n**lab notebooks**, and surfaces the people, projects, species, methods, omics\ntypes, keywords, and datasets that tie them together.\n\nIt crawls two public sources \u2014\n\n- Lab notebook index: <https://faculty.washington.edu/sr320/notebooks.html>\n- RobertsLab GitHub org: <https://github.com/RobertsLab>\n\n\u2014 extracts entities and relationships, scores each connection with a confidence\nvalue and supporting evidence, and renders everything as a force-directed graph\nyou can explore in the browser.\n\n> Open `app/index.html` to explore the live example graph (94 repos, 440 notebook\n> posts across four notebooks \u2014 Steven Roberts' *Tumbling Oysters*, Sam White's\n> *Sam's Notebook*, and Ariana Huffmyer's current *Lab Notebook* and archived\n> *ASH Putnam Lab Notebook* \u2014 627 nodes, 5,592 edges built from the sources above).\n\n---\n\n## What the tool does\n\n1. **Crawls the notebook index** and each linked notebook site, extracting post\n   titles, URLs, outbound GitHub links, dates, authors, and text.\n2. **Crawls the RobertsLab GitHub organization** (REST API, with an HTML\n   fallback), collecting name, description, topics, README, language, dates,\n   stars/forks/issues, GitHub Pages URL, and recent issue titles.\n3. **Detects notebook\u21c4repo connections** using several strategies (direct links,\n   name mentions, shared projects, shared species/methods/keywords) and assigns\n   each a **0\u20131 confidence score with evidence**.\n4. **Builds a graph** of typed nodes and edges and exports it as JSON, CSV, and\n   GraphML.\n5. **Serves an interactive visualization** (`app/index.html`) with search,\n   filters, node/edge detail panels, and export buttons.\n6. **Generates summary reports** answering \"which repos/notebooks/species/methods\n   are most connected,\" \"what is unlinked,\" and \"which connections need review.\"\n\nA ready-to-explore **example graph built from the two live sources** ships in\n`data/` and `outputs/` \u2014 just open `app/index.html`.\n\n---\n\n## Quick start (example graph, no network)\n\n```bash\npython run_all.py --offline      # builds the graph from bundled real snapshots\nopen app/index.html              # macOS; or double-click the file\n```\n\n`--offline` uses `data/raw/repos_seed.json` (a snapshot of all public RobertsLab\nrepos) and `data/raw/notebooks_seed.json` (real posts from *Tumbling Oysters*,\n*Sam's Notebook*, and Ariana Huffmyer's current and archived notebooks, each\ncarrying its direct `github.com/RobertsLab` links), so it runs with only the\nPython standard library.\n\n## Live crawl (fresh data)\n\n```bash\npython -m pip install -r requirements.txt\nexport GITHUB_TOKEN=ghp_xxx        # optional but recommended (raises rate limit)\npython run_all.py                  # full crawl of org + notebooks\n# bounded/polite crawl:\npython run_all.py --max-repos 40 --max-posts 30\nopen app/index.html\n```\n\n## Refresh Sam's Notebook from the web\n\nTo pull the latest **Sam's Notebook** posts into the offline seed without a full\ncrawl, run the dedicated refresher (standard library only, no token needed):\n\n```bash\npython scripts/refresh_sams_notebook.py   # fetch recent posts from the live site\npython run_all.py --offline               # rebuild the graph\nopen app/index.html\n```\n\nIt scans the live site newest-first, keeps recent posts that carry a direct\n`github.com/RobertsLab/<repo>` link (each yields a confidence-1.0 edge), and\nrewrites only the `sams-notebook` entries in `data/raw/notebooks_seed.json`\n(Tumbling Oysters entries are left untouched). The year cutoff follows the\ncalendar automatically; override or preview with:\n\n```bash\npython scripts/refresh_sams_notebook.py --since-year 2024   # go further back\npython scripts/refresh_sams_notebook.py --dry-run           # report, don't write\n```\n\n## Import Ariana Huffmyer's notebooks\n\nAriana keeps two notebooks: her current open lab notebook (Quarto, live at\n<https://ahuffmyer.github.io/notebook.html>) and her archived Putnam-Lab notebook\n(Jekyll, live at <https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/>). The\ndedicated importer reads local checkouts of both, extracts each post's\ntitle/date/categories/body and any `github.com/RobertsLab/<repo>` links, and\nrewrites only the `ahuffmyer` and `ASH_Putnam_Lab_Notebook` entries in the seed\n(other notebooks untouched). Standard library only:\n\n```bash\npython scripts/import_ariana_notebook.py    # parse both local notebooks into the seed\npython run_all.py --offline                 # rebuild the graph\nopen app/index.html\n```\n\nPoint it at other checkouts, or preview first, with:\n\n```bash\npython scripts/import_ariana_notebook.py --quarto-dir PATH --archive-dir PATH\npython scripts/import_ariana_notebook.py --dry-run          # report, don't write\n```\n\n### Optional GitHub token\n\nA token is **not required** (the tool works on public data unauthenticated), but\nsetting `GITHUB_TOKEN` raises the API rate limit from 60 to 5,000 requests/hour.\nCreate a fine-grained token with **public read** scope only, then\n`export GITHUB_TOKEN=...`. The token is read from the environment and never\nwritten to disk.\n\n## Launch the app\n\n`app/index.html` is a single self-contained file (D3 from CDN). Two ways to open:\n\n- **Double-click** it \u2014 the pipeline writes `app/graph-data.js`, which the page\n  loads via `<script>` so it works from `file://`.\n- **Serve it** for the cleanest experience:\n  `python -m http.server` then visit <http://localhost:8000/app/>.\n\n---\n\n## Repository structure\n\n```\nLab Connector/\n\u251c\u2500\u2500 run_all.py                 # end-to-end pipeline (crawl \u2192 detect \u2192 graph \u2192 export)\n\u251c\u2500\u2500 requirements.txt\n\u251c\u2500\u2500 config.yaml                # editable controlled-vocabulary reference\n\u251c\u2500\u2500 labconnector/\n\u2502   \u251c\u2500\u2500 vocab.py               # species/method/omics/keyword/project vocab + extraction\n\u2502   \u251c\u2500\u2500 crawl_github.py        # GitHub org crawler (API + HTML fallback + seed)\n\u2502   \u251c\u2500\u2500 crawl_notebooks.py     # notebook index + post crawler (+ seed)\n\u2502   \u251c\u2500\u2500 connections.py         # connection detection + confidence scoring\n\u2502   \u2514\u2500\u2500 graph.py               # graph assembly, exports, summary analytics\n\u251c\u2500\u2500 app/\n\u2502   \u251c\u2500\u2500 index.html             # interactive D3 network map\n\u2502   \u2514\u2500\u2500 graph-data.js          # generated: window.GRAPH for file:// use\n\u251c\u2500\u2500 data/\n\u2502   \u251c\u2500\u2500 raw/                   # cached crawl results + offline seeds\n\u2502   \u251c\u2500\u2500 repos.json  notebooks.json\n\u2502   \u251c\u2500\u2500 nodes.csv   edges.csv\n\u2502   \u251c\u2500\u2500 graph.json  graph.graphml\n\u251c\u2500\u2500 outputs/\n\u2502   \u251c\u2500\u2500 top_connected_repos.csv\n\u2502   \u251c\u2500\u2500 top_connected_notebooks.csv\n\u2502   \u251c\u2500\u2500 unlinked_repos.csv\n\u2502   \u251c\u2500\u2500 unlinked_notebooks.csv\n\u2502   \u251c\u2500\u2500 possible_missing_connections.csv\n\u2502   \u2514\u2500\u2500 analysis_summary.json\n\u251c\u2500\u2500 docs/METHODS.md            # how connections are inferred\n\u2514\u2500\u2500 .github/workflows/refresh-graph.yml   # weekly auto-refresh\n```\n\n---\n\n## The graph data model\n\n**Node types:** `repo`, `notebook`, `person`, `project`, `species`, `method`,\n`omics`, `keyword`, `dataset`.\n\n**Edge types:** `links_to`, `mentions`, `authored_by`, `uses_method`,\n`studies_species`, `part_of_project`, `shares_keyword`, `has_omics`,\n`possible_connection`.\n\nEvery edge carries: `source`, `target`, `relationship`, `confidence` (0\u20131),\n`evidence` (human-readable), and `source_url`/`target_url`.\n\nNode **size** scales with the number of connections (degree); node **color**\nencodes type.\n\n---\n\n## How to interpret edge confidence\n\n| Score | Meaning | Edge type |\n|------|---------|-----------|\n| **1.0** | Notebook body links directly to `github.com/RobertsLab/<repo>` | `links_to` |\n| **0.8** | A distinctive repo token (or \u22652 tokens) appears in the notebook text | `mentions` |\n| **0.6** | Shared project name or shared GitHub Pages link | `part_of_project` / `links_to` |\n| **0.4** | Shared species **and** method **and** \u22652 shared keywords | `shares_keyword` |\n| **0.2** | Weak keyword/species/method overlap only | `possible_connection` |\n\nStructural entity edges (a repo *studies* a species, *uses* a method, etc.) are\nfixed at **0.9** because the entity was detected directly in the item's own text.\n\n**Weak overlaps are never treated as confirmed.** They are labelled\n`possible_connection`, shown as dashed grey edges, and collected in\n`outputs/possible_missing_connections.csv` for human review. Use the\n**confidence slider** in the app to hide everything below a threshold.\n\n> Note: direct **1.0** links come from notebook *post bodies* linking to\n> `github.com/RobertsLab/<repo>`. Sam's Notebook posts in the bundled seed carry\n> their real inline links, so the offline example already includes 86 direct\n> `links_to` edges; a live crawl surfaces these for every post body it fetches.\n\n---\n\n## Summary reports\n\nAfter a run, see `outputs/`:\n\n- **top_connected_repos.csv** \u2014 repos most linked to notebooks.\n- **top_connected_notebooks.csv** \u2014 notebooks mentioning the most repos.\n- **unlinked_repos.csv** \u2014 repos with no apparent notebook connection.\n- **unlinked_notebooks.csv** \u2014 notebooks with no apparent repo connection.\n- **possible_missing_connections.csv** \u2014 low-confidence links to review.\n- **analysis_summary.json** \u2014 machine-readable rollups (species/method reach,\n  high-confidence links, counts), also shown live in the app's Summary panel.\n\n---\n\n## Extending the vocabularies\n\nAll entity detection is keyword-driven and interpretable. To add a species,\nmethod, keyword, or project cue, edit the lists in `labconnector/vocab.py`\n(mirrored for reference in `config.yaml`) and re-run the pipeline. No model\nretraining, no hidden state.\n\n---\n\n## Export & downstream use\n\nFrom the app: **Graph JSON**, **Edges CSV**, **SVG**, and **PNG** buttons.\nFrom disk: `data/graph.graphml` opens directly in **Gephi** for advanced layout\nand clustering.\n\n---\n\n## Known limitations\n\n- **JS-rendered notebook indexes.** Some Quarto/Jekyll listings load post cards\n  via JavaScript; the plain crawler sees static HTML. The bundled notebook seed\n  uses real posts captured from the Tumbling Oysters notebook so the example is\n  complete; a live crawl covers whatever static links are present.\n- **Name-mention heuristics** can over- or under-match. Distinctive tokens are\n  curated in `connections.STRONG_TOKENS`; tune as needed.\n- **Confidence is heuristic, not ground truth.** Treat 0.2 edges as leads.\n- **Rate limits.** Unauthenticated GitHub access is limited; set `GITHUB_TOKEN`\n  for full crawls.\n- **No large files.** Only metadata, README text, and issue titles are fetched;\n  binaries and data files are never downloaded.\n- **Public data only.** No private credentials are required or used.\n\n---\n\n## License / attribution\n\nBuilt for the Roberts Lab. Uses only public data from the sources above. See\n`docs/METHODS.md` for the full methodology.\n",
+    "issue_titles": []
   },
   {
     "name": "lab-website",
@@ -151,22 +224,6 @@
     "archived": false,
     "pages_url": "https://robertslab.github.io/MOPE/",
     "readme": "<p align=\"center\">\n  <img src=\"public/tidepath-logo.svg\" alt=\"TidePath: Marine Omics Pathway Explorer logo\" width=\"720\">\n</p>\n\n# TidePath: Marine Omics Pathway Explorer\n\nA free, browser-based tool for mapping marine and non-model organism omics results\nonto biological pathways. It ingests differential expression (DEG), differential\nmethylation (DMR), proteomics, metabolomics, or multi-omics tables; maps\nidentifiers to pathway entities directly or through orthology to a reference\norganism; and produces interactive, publication-ready pathway diagrams using open\npathway resources (WikiPathways and Reactome).\n\n**Everything runs client-side.** Your data never leaves your computer, and no API\nkey is required for ordinary use.\n\n## Highlights\n\n- **Flexible input** \u2014 CSV / TSV / XLSX / pasted text; multiple tables; automatic\n  column detection with full manual override.\n- **Built for non-model organisms** \u2014 direct, ortholog-reference, or user-supplied\n  ortholog-table mapping, with one-to-many and distant-reference ambiguity made\n  explicit.\n- **Transparent by design** \u2014 a clear distinction between a descriptive *mapping\n  summary* and a statistical *enrichment analysis* (Fisher's exact + Benjamini-\n  Hochberg, only when a background universe is supplied), plus visible uncertainty\n  warnings throughout.\n- **Interactive visualization** \u2014 zoom/pan pathway diagrams, multi-omics node\n  styling, colorblind-aware palettes, per-node detail panels, and SVG/PNG export.\n- **Reproducible** \u2014 deterministic layout and scoring; exportable audit tables,\n  session files, and an auto-generated methods paragraph.\n- **Open pathway data only** \u2014 WikiPathways (CC0) and Reactome (CC-BY 4.0). KEGG is\n  link-out only; no proprietary images are redistributed.\n\n## Quick start\n\n```bash\n# Node 20+ recommended\nnpm install\nnpm run dev        # start the dev server\nnpm run build      # production build to dist/\nnpm run preview    # preview the production build\nnpm test           # run the unit + integration test suite\nnpm run typecheck  # TypeScript type checking\n```\n\nThen open the app and click **Load demo data** to explore a bundled multi-omics\nexample end to end.\n\n## Deployment\n\nThe app is a static site \u2014 deploy `dist/` to any static host.\n\n- **GitHub Pages:** build with a base path matching your repo, e.g.\n  ```bash\n  VITE_BASE=/marine-pathway-mapper/ npm run build\n  ```\n  then publish `dist/`. The base path defaults to `/` for local dev and other hosts.\n- **Netlify / Vercel:** build command `npm run build`, publish directory `dist`.\n\n## Technology\n\nReact + TypeScript + Vite + Tailwind CSS, D3.js for visualization and layout,\npapaparse and SheetJS (xlsx) for client-side parsing, Vitest for testing.\n\n## Documentation\n\n- [User Guide](docs/USER_GUIDE.md) \u2014 full walkthrough of the six-step workflow.\n- [Data Model](docs/DATA_MODEL.md) \u2014 types, the transformation pipeline, and the\n  transparency guarantees.\n- [Sources & Attribution](docs/SOURCES.md) \u2014 bundled pathways, licenses, and how\n  they were obtained.\n\n## Sample data\n\nThe `sample_data/` directory (also served at `public/samples/`) contains example\nDEG, DMR, metabolomics, and ortholog tables you can load from the Upload page.\n\n## Testing\n\nThe suite covers column detection, identifier normalization, one-to-many ortholog\nhandling, mapping summaries, the color scale, CSV/TSV export, enrichment statistics,\nand an end-to-end pipeline run on the demo dataset.\n\n```bash\nnpm test\n```\n\n## Scope & limitations\n\nThe bundled pathway library is a curated static core for offline use, not the\ncomplete WikiPathways/Reactome collection (live API synchronization is a planned\nmodular extension). Pathway layouts are readable approximations, not byte-for-byte\nreproductions of the source diagrams. Ortholog-based mappings are annotations, not\ndirect evidence \u2014 interpret results with orthology quality, annotation\ncompleteness, and background choice in mind. Pathway overlap does not imply\ncausation.\n\n## License\n\nApplication code: **MIT**. Bundled pathway data retains its original source\nlicenses (WikiPathways **CC0**, Reactome **CC-BY 4.0**). See\n[docs/SOURCES.md](docs/SOURCES.md).\n",
-    "issue_titles": []
-  },
-  {
-    "name": "lab-connector",
-    "url": "https://github.com/RobertsLab/lab-connector",
-    "description": "",
-    "topics": [],
-    "language": "Python",
-    "created": "2026-07-08",
-    "updated": "2026-07-13",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 0,
-    "archived": false,
-    "pages_url": "https://robertslab.github.io/lab-connector/",
-    "readme": "# Lab Connector\n\nAn interactive network map that connects **Roberts Lab GitHub repositories** with\n**lab notebooks**, and surfaces the people, projects, species, methods, omics\ntypes, keywords, and datasets that tie them together.\n\nIt crawls two public sources \u2014\n\n- Lab notebook index: <https://faculty.washington.edu/sr320/notebooks.html>\n- RobertsLab GitHub org: <https://github.com/RobertsLab>\n\n\u2014 extracts entities and relationships, scores each connection with a confidence\nvalue and supporting evidence, and renders everything as a force-directed graph\nyou can explore in the browser.\n\n> Open `app/index.html` to explore the live example graph (94 repos, 440 notebook\n> posts across four notebooks \u2014 Steven Roberts' *Tumbling Oysters*, Sam White's\n> *Sam's Notebook*, and Ariana Huffmyer's current *Lab Notebook* and archived\n> *ASH Putnam Lab Notebook* \u2014 627 nodes, 5,592 edges built from the sources above).\n\n---\n\n## What the tool does\n\n1. **Crawls the notebook index** and each linked notebook site, extracting post\n   titles, URLs, outbound GitHub links, dates, authors, and text.\n2. **Crawls the RobertsLab GitHub organization** (REST API, with an HTML\n   fallback), collecting name, description, topics, README, language, dates,\n   stars/forks/issues, GitHub Pages URL, and recent issue titles.\n3. **Detects notebook\u21c4repo connections** using several strategies (direct links,\n   name mentions, shared projects, shared species/methods/keywords) and assigns\n   each a **0\u20131 confidence score with evidence**.\n4. **Builds a graph** of typed nodes and edges and exports it as JSON, CSV, and\n   GraphML.\n5. **Serves an interactive visualization** (`app/index.html`) with search,\n   filters, node/edge detail panels, and export buttons.\n6. **Generates summary reports** answering \"which repos/notebooks/species/methods\n   are most connected,\" \"what is unlinked,\" and \"which connections need review.\"\n\nA ready-to-explore **example graph built from the two live sources** ships in\n`data/` and `outputs/` \u2014 just open `app/index.html`.\n\n---\n\n## Quick start (example graph, no network)\n\n```bash\npython run_all.py --offline      # builds the graph from bundled real snapshots\nopen app/index.html              # macOS; or double-click the file\n```\n\n`--offline` uses `data/raw/repos_seed.json` (a snapshot of all public RobertsLab\nrepos) and `data/raw/notebooks_seed.json` (real posts from *Tumbling Oysters*,\n*Sam's Notebook*, and Ariana Huffmyer's current and archived notebooks, each\ncarrying its direct `github.com/RobertsLab` links), so it runs with only the\nPython standard library.\n\n## Live crawl (fresh data)\n\n```bash\npython -m pip install -r requirements.txt\nexport GITHUB_TOKEN=ghp_xxx        # optional but recommended (raises rate limit)\npython run_all.py                  # full crawl of org + notebooks\n# bounded/polite crawl:\npython run_all.py --max-repos 40 --max-posts 30\nopen app/index.html\n```\n\n## Refresh Sam's Notebook from the web\n\nTo pull the latest **Sam's Notebook** posts into the offline seed without a full\ncrawl, run the dedicated refresher (standard library only, no token needed):\n\n```bash\npython scripts/refresh_sams_notebook.py   # fetch recent posts from the live site\npython run_all.py --offline               # rebuild the graph\nopen app/index.html\n```\n\nIt scans the live site newest-first, keeps recent posts that carry a direct\n`github.com/RobertsLab/<repo>` link (each yields a confidence-1.0 edge), and\nrewrites only the `sams-notebook` entries in `data/raw/notebooks_seed.json`\n(Tumbling Oysters entries are left untouched). The year cutoff follows the\ncalendar automatically; override or preview with:\n\n```bash\npython scripts/refresh_sams_notebook.py --since-year 2024   # go further back\npython scripts/refresh_sams_notebook.py --dry-run           # report, don't write\n```\n\n## Import Ariana Huffmyer's notebooks\n\nAriana keeps two notebooks: her current open lab notebook (Quarto, live at\n<https://ahuffmyer.github.io/notebook.html>) and her archived Putnam-Lab notebook\n(Jekyll, live at <https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/>). The\ndedicated importer reads local checkouts of both, extracts each post's\ntitle/date/categories/body and any `github.com/RobertsLab/<repo>` links, and\nrewrites only the `ahuffmyer` and `ASH_Putnam_Lab_Notebook` entries in the seed\n(other notebooks untouched). Standard library only:\n\n```bash\npython scripts/import_ariana_notebook.py    # parse both local notebooks into the seed\npython run_all.py --offline                 # rebuild the graph\nopen app/index.html\n```\n\nPoint it at other checkouts, or preview first, with:\n\n```bash\npython scripts/import_ariana_notebook.py --quarto-dir PATH --archive-dir PATH\npython scripts/import_ariana_notebook.py --dry-run          # report, don't write\n```\n\n### Optional GitHub token\n\nA token is **not required** (the tool works on public data unauthenticated), but\nsetting `GITHUB_TOKEN` raises the API rate limit from 60 to 5,000 requests/hour.\nCreate a fine-grained token with **public read** scope only, then\n`export GITHUB_TOKEN=...`. The token is read from the environment and never\nwritten to disk.\n\n## Launch the app\n\n`app/index.html` is a single self-contained file (D3 from CDN). Two ways to open:\n\n- **Double-click** it \u2014 the pipeline writes `app/graph-data.js`, which the page\n  loads via `<script>` so it works from `file://`.\n- **Serve it** for the cleanest experience:\n  `python -m http.server` then visit <http://localhost:8000/app/>.\n\n---\n\n## Repository structure\n\n```\nLab Connector/\n\u251c\u2500\u2500 run_all.py                 # end-to-end pipeline (crawl \u2192 detect \u2192 graph \u2192 export)\n\u251c\u2500\u2500 requirements.txt\n\u251c\u2500\u2500 config.yaml                # editable controlled-vocabulary reference\n\u251c\u2500\u2500 labconnector/\n\u2502   \u251c\u2500\u2500 vocab.py               # species/method/omics/keyword/project vocab + extraction\n\u2502   \u251c\u2500\u2500 crawl_github.py        # GitHub org crawler (API + HTML fallback + seed)\n\u2502   \u251c\u2500\u2500 crawl_notebooks.py     # notebook index + post crawler (+ seed)\n\u2502   \u251c\u2500\u2500 connections.py         # connection detection + confidence scoring\n\u2502   \u2514\u2500\u2500 graph.py               # graph assembly, exports, summary analytics\n\u251c\u2500\u2500 app/\n\u2502   \u251c\u2500\u2500 index.html             # interactive D3 network map\n\u2502   \u2514\u2500\u2500 graph-data.js          # generated: window.GRAPH for file:// use\n\u251c\u2500\u2500 data/\n\u2502   \u251c\u2500\u2500 raw/                   # cached crawl results + offline seeds\n\u2502   \u251c\u2500\u2500 repos.json  notebooks.json\n\u2502   \u251c\u2500\u2500 nodes.csv   edges.csv\n\u2502   \u251c\u2500\u2500 graph.json  graph.graphml\n\u251c\u2500\u2500 outputs/\n\u2502   \u251c\u2500\u2500 top_connected_repos.csv\n\u2502   \u251c\u2500\u2500 top_connected_notebooks.csv\n\u2502   \u251c\u2500\u2500 unlinked_repos.csv\n\u2502   \u251c\u2500\u2500 unlinked_notebooks.csv\n\u2502   \u251c\u2500\u2500 possible_missing_connections.csv\n\u2502   \u2514\u2500\u2500 analysis_summary.json\n\u251c\u2500\u2500 docs/METHODS.md            # how connections are inferred\n\u2514\u2500\u2500 .github/workflows/refresh-graph.yml   # weekly auto-refresh\n```\n\n---\n\n## The graph data model\n\n**Node types:** `repo`, `notebook`, `person`, `project`, `species`, `method`,\n`omics`, `keyword`, `dataset`.\n\n**Edge types:** `links_to`, `mentions`, `authored_by`, `uses_method`,\n`studies_species`, `part_of_project`, `shares_keyword`, `has_omics`,\n`possible_connection`.\n\nEvery edge carries: `source`, `target`, `relationship`, `confidence` (0\u20131),\n`evidence` (human-readable), and `source_url`/`target_url`.\n\nNode **size** scales with the number of connections (degree); node **color**\nencodes type.\n\n---\n\n## How to interpret edge confidence\n\n| Score | Meaning | Edge type |\n|------|---------|-----------|\n| **1.0** | Notebook body links directly to `github.com/RobertsLab/<repo>` | `links_to` |\n| **0.8** | A distinctive repo token (or \u22652 tokens) appears in the notebook text | `mentions` |\n| **0.6** | Shared project name or shared GitHub Pages link | `part_of_project` / `links_to` |\n| **0.4** | Shared species **and** method **and** \u22652 shared keywords | `shares_keyword` |\n| **0.2** | Weak keyword/species/method overlap only | `possible_connection` |\n\nStructural entity edges (a repo *studies* a species, *uses* a method, etc.) are\nfixed at **0.9** because the entity was detected directly in the item's own text.\n\n**Weak overlaps are never treated as confirmed.** They are labelled\n`possible_connection`, shown as dashed grey edges, and collected in\n`outputs/possible_missing_connections.csv` for human review. Use the\n**confidence slider** in the app to hide everything below a threshold.\n\n> Note: direct **1.0** links come from notebook *post bodies* linking to\n> `github.com/RobertsLab/<repo>`. Sam's Notebook posts in the bundled seed carry\n> their real inline links, so the offline example already includes 86 direct\n> `links_to` edges; a live crawl surfaces these for every post body it fetches.\n\n---\n\n## Summary reports\n\nAfter a run, see `outputs/`:\n\n- **top_connected_repos.csv** \u2014 repos most linked to notebooks.\n- **top_connected_notebooks.csv** \u2014 notebooks mentioning the most repos.\n- **unlinked_repos.csv** \u2014 repos with no apparent notebook connection.\n- **unlinked_notebooks.csv** \u2014 notebooks with no apparent repo connection.\n- **possible_missing_connections.csv** \u2014 low-confidence links to review.\n- **analysis_summary.json** \u2014 machine-readable rollups (species/method reach,\n  high-confidence links, counts), also shown live in the app's Summary panel.\n\n---\n\n## Extending the vocabularies\n\nAll entity detection is keyword-driven and interpretable. To add a species,\nmethod, keyword, or project cue, edit the lists in `labconnector/vocab.py`\n(mirrored for reference in `config.yaml`) and re-run the pipeline. No model\nretraining, no hidden state.\n\n---\n\n## Export & downstream use\n\nFrom the app: **Graph JSON**, **Edges CSV**, **SVG**, and **PNG** buttons.\nFrom disk: `data/graph.graphml` opens directly in **Gephi** for advanced layout\nand clustering.\n\n---\n\n## Known limitations\n\n- **JS-rendered notebook indexes.** Some Quarto/Jekyll listings load post cards\n  via JavaScript; the plain crawler sees static HTML. The bundled notebook seed\n  uses real posts captured from the Tumbling Oysters notebook so the example is\n  complete; a live crawl covers whatever static links are present.\n- **Name-mention heuristics** can over- or under-match. Distinctive tokens are\n  curated in `connections.STRONG_TOKENS`; tune as needed.\n- **Confidence is heuristic, not ground truth.** Treat 0.2 edges as leads.\n- **Rate limits.** Unauthenticated GitHub access is limited; set `GITHUB_TOKEN`\n  for full crawls.\n- **No large files.** Only metadata, README text, and issue titles are fetched;\n  binaries and data files are never downloaded.\n- **Public data only.** No private credentials are required or used.\n\n---\n\n## License / attribution\n\nBuilt for the Roberts Lab. Uses only public data from the sources above. See\n`docs/METHODS.md` for the full methodology.\n",
     "issue_titles": []
   },
   {
@@ -256,36 +313,20 @@
     "updated": "2026-07-10",
     "stars": 21,
     "forks": 13,
-    "open_issues": 33,
+    "open_issues": 35,
     "archived": false,
     "pages_url": "https://robertslab.github.io/resources/",
     "readme": "# Roberts Lab Resources\n\nThis repository serves as the central hub for [Roberts Lab](http://faculty.washington.edu/sr320/) members, containing comprehensive documentation, protocols, and guidance for all aspects of lab operations. Whether you're a new member getting started or an experienced researcher looking for specific protocols, this repository provides the resources you need.\n\n## \ud83d\udcd6 Quick Start\n\n- **New to the lab?** Start with the [Roberts Lab Handbook](https://robertslab.github.io/resources/) for comprehensive onboarding information\n- **Looking for protocols?** Browse our [Lab Protocols](https://github.com/RobertsLab/resources/tree/master/protocols) collection\n- **Need help or have questions?** Submit an [issue](https://github.com/RobertsLab/resources/issues) or join the discussion on [Slack](https://genefish.slack.com)\n- **Major research projects** can be found [here](https://github.com/RobertsLab?utf8=%E2%9C%93&q=project&type=&language=)\n\n## \ud83e\udd1d How to Interact with This Repository\n\n### For All Lab Members:\n- **Browse resources**: Navigate through folders and files to find what you need\n- **Search**: Use GitHub's search function to quickly locate specific information\n- **Stay updated**: Watch this repository for notifications about important updates\n\n### Contributing and Getting Help:\n- **Report issues**: Found something outdated or incorrect? [Submit an issue](https://github.com/RobertsLab/resources/issues/new)\n- **Suggest improvements**: Use [GitHub Discussions](https://github.com/RobertsLab/resources/discussions) for ideas and feedback  \n- **Make edits**: Click the pencil icon (\u270f\ufe0f) on any page to edit directly, or submit a pull request\n- **Join conversations**: Connect with lab members on [Slack](https://genefish.slack.com)\n\n### Communication Channels:\n- **GitHub Issues**: For troubleshooting, requests, and lab meeting topics\n- **GitHub Discussions**: For broader conversations and feedback\n- **Slack**: For day-to-day lab communication ([genefish.slack.com](https://genefish.slack.com))\n\n[![issues](https://img.shields.io/github/issues/RobertsLab/resources.svg)](https://github.com/RobertsLab/resources/issues)\n![GitHub Discussions](https://img.shields.io/github/discussions/RobertsLab/resources)\n![GitHub contributors](https://img.shields.io/github/contributors/RobertsLab/resources)\n\n---\n\n## \ud83d\udcc1 Repository Structure\n\n### Core Documentation:\n- **`docs/`**: Source files for the [Roberts Lab Handbook](https://robertslab.github.io/resources/) including:\n  - Lab policies and expectations\n  - Computing resources and best practices  \n  - Safety protocols and training materials\n  - Communication guidelines and onboarding information\n\n### Lab Resources:\n- **`protocols/`**: Comprehensive collection of lab protocols, including both custom procedures and commercial kit protocols\n- **`equipment_manuals/`**: Equipment documentation and user manuals\n- **`lab_safety_docs/`**: Safety training materials and documentation\n\n### Administrative:\n- **`.readthedocs.yml`**: Configuration for the Roberts Lab Handbook website\n- **`mkdocs.yml`**: Configuration file for [MkDocs](https://www.mkdocs.org/) documentation generation\n- **`histology_request_form_2019.pdf`**: Histology sample submission form for consultation services\n\n### Additional Resources:\n- **`archive/`**: Historical documents and archived materials\n- **`img/`**: Images and media files used throughout the documentation\n",
     "issue_titles": [
+      "background used in topGO?",
+      "Analyze oyster size and counts in images from July 17 2026 Westcott outplant",
       "methylKit script to run on klone",
       "methylKit taking very long to run on Raven",
       "Draft a post / explainer on how we do science.",
       "Contribute to marine-stress-data-atlas",
       "Oyster image analyses",
-      "Final sampling of Manchester heat hardening oysters Aug 14th and assays week of Aug 17th",
-      "Run resazurin trials at 36C on SORMI families that were most divergent",
-      "Initiate Hydrogen Peroxide priming trials"
+      "Final sampling of Manchester heat hardening oysters Aug 14th and assays week of Aug 17th"
     ]
-  },
-  {
-    "name": "oyster-image-agent",
-    "url": "https://github.com/RobertsLab/oyster-image-agent",
-    "description": "AI Agent repository for training oyster image analysis",
-    "topics": [],
-    "language": "",
-    "created": "2026-07-07",
-    "updated": "2026-07-10",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 1,
-    "archived": false,
-    "pages_url": "",
-    "readme": "",
-    "issue_titles": []
   },
   {
     "name": "project-mytilus-methylation",
@@ -352,14 +393,14 @@
     "pages_url": "https://robertslab.github.io/pubathon-2026/",
     "readme": "# \ud83d\udea2 Pub-a-thon 2026\n\nA biweekly **scientific writing & peer-review workshop**. Every two weeks the crew\nmeets, picks one manuscript section, and works through it together using the\n[Roberts Lab Writing Guide](https://robertslab.github.io/resources/Writing/).\nEach manuscript is a little boat sailing from the *Port of Idea* to *Publication Harbor* \u2014 and\nthis repo's GitHub Page tracks the voyage. \u2693\n\n### \ud83d\udc49 [**View the live tracker**](https://robertslab.github.io/pubathon-2026/)\n\n*(Once Pages is enabled \u2014 see setup below.)*\n\n---\n\n## \u2693 The 8 Ports of Call\n\nWe tackle **one section per meeting**, in the order the writing guide recommends:\n\n| # | Port | What we do |\n|---|------|------------|\n| 1 | \ud83c\udfaf Title | Convey the central contribution in one line. |\n| 2 | \ud83d\udcdd Abstract | A self-contained mini-paper (150\u2013300 words). |\n| 3 | \ud83e\udded Introduction | Establish why the work matters. |\n| 4 | \ud83d\udd2c Methods | Enable replication and judge credibility. |\n| 5 | \ud83d\udcca Results | Present the data and the logical evidence. |\n| 6 | \ud83d\udcad Discussion | Interpret findings and implications. |\n| 7 | \ud83d\udcda Refs & Acks | Acknowledge prior work and helpers. |\n| 8 | \u2728 Final Edit | The three-pass review: details \u2192 structure \u2192 big picture. |\n\nA manuscript's **progress bar = sections complete \u00f7 8.** Reach 8/8 and the boat\npulls into the harbor \ud83c\udfdd\ufe0f (confetti included \ud83c\udf89).\n\n## \ud83d\uddd3\ufe0f How a meeting works\n\n1. Open the [Writing Guide](https://robertslab.github.io/resources/Writing/) to that meeting's section.\n2. The author shares their draft; the crew gives peer-review feedback on **that section only**.\n3. After the meeting, log what got done (see below) \u2014 the boat advances.\n\nWe meet **every two weeks.** The site shows a live countdown to the next meeting.\n\n## \u2795 Add your manuscript\n\nTwo ways:\n\n- **Easy (automatic):** open a [New manuscript issue](../../issues/new?template=new-manuscript.yml) and fill out the form. A bot ([`issue-update.yml`](.github/workflows/issue-update.yml)) parses it, adds the entry to `data/manuscripts.json`, commits, and closes the issue \u2014 the live page refreshes a minute or two later. \u2728\n- **Direct:** edit [`data/manuscripts.json`](data/manuscripts.json) and open a PR (see [CONTRIBUTING.md](CONTRIBUTING.md)).\n\n## \u2705 Log progress\n\nAfter each meeting, mark the section done with a\n[Progress issue](../../issues/new?template=update-progress.yml) \u2014 the same bot checks\noff those sections (and updates status) automatically. Or edit the manuscript's\n`sectionsComplete` list in `data/manuscripts.json` directly.\n\n> **How the automation works:** when an issue labeled `new-manuscript` or `progress` is\n> opened/edited, the workflow runs [`scripts/issue_to_data.py`](scripts/issue_to_data.py),\n> validates the result, and commits it. If it can't parse the form it comments asking a\n> maintainer to apply it by hand \u2014 it never pushes broken data. Requires\n> **Settings \u2192 Actions \u2192 General \u2192 Workflow permissions \u2192 Read and write**.\n\n---\n\n## \ud83d\udee0\ufe0f Maintainer setup (one time)\n\n1. **Settings \u2192 Pages \u2192 Build and deployment \u2192 Source: GitHub Actions.**\n   The included [`pages.yml`](.github/workflows/pages.yml) workflow publishes the site on every push to `main`.\n2. That's it. The site is plain HTML/CSS/JS reading `data/manuscripts.json` \u2014 no build step.\n\n> The links above assume the repo lives at `RobertsLab/pubathon-2026`. If it lives\n> somewhere else, the relative `../../issues/...` links still work; only update the\n> hard-coded URL in `index.html`'s top buttons and the live-tracker link above.\n\n## \ud83e\uddea Local preview\n\n```bash\npython3 -m http.server 4173\n# open http://localhost:4173\n```\n\nValidate the data file before committing:\n\n```bash\npython3 scripts/validate.py\n```\n\n## \ud83d\udcc1 Repo layout\n\n```\nindex.html              # the tracker page\nassets/style.css        # nautical theme\nassets/app.js           # renders cards + progress from the data file\ndata/manuscripts.json   # \u2190 the single source of truth (edit this!)\nscripts/validate.py     # sanity-checks the data file (runs in CI)\n.github/                # issue forms + Pages/validate workflows\nmeetings/               # running log of what we covered each meeting\n```\n\n*Fair winds and following seas.* \ud83c\udf0a\n",
     "issue_titles": [
+      "Progress issues are not being rendered on the Pubathon site",
+      "[Progress] E5 phys \u2014 published",
+      "[Progress] Poly IC \u2014 methods, results, abstract",
+      "[Progress] Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience \u2014 published",
+      "[Progress] E5 physiology \u2014 Published!",
       "[Progress] Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience \u2014 accepted!",
       "[Feedback] Characterization of Long Non-Coding RNAs in the Eastern Oyster (Crassostrea virginica): Sex-Biased Expression, Sequence Conservation, and Co-expression Networks Under Ocean Acidification \u2014 All sections",
-      "[Feedback] E5 DDE -- Intro+Discussion",
-      "[Progress] E5 physiology manuscript \u2014 Accepted",
-      "[Feedback Request] E5 DDE -- Intro+Discussion",
-      "[Progress] E5 DDE",
-      "[Feedback Request] Characterization of Long Non-Coding RNAs in the Eastern Oyster (Crassostrea virginica): Sex-Biased Expression, Sequence Conservation, and Co-expression Networks Under Ocean Acidification \u2014 All Sections",
-      "[Progress] Characterization of Long Non-Coding RNAs in the Eastern Oyster (Crassostrea virginica): Sex-Biased Expression, Sequence Conservation, and Co-expression Networks Under Ocean Acidification \u2014 Results, Discussion, References & Acknowledgments"
+      "[Feedback] E5 DDE -- Intro+Discussion"
     ]
   },
   {
@@ -475,26 +516,6 @@
     "readme": "# manchester-hardening\nOyster thermal hardening experiment at Manchester research station in spring 2025\n",
     "issue_titles": [
       "Grant Reporting"
-    ]
-  },
-  {
-    "name": "vims-resazurin",
-    "url": "https://github.com/RobertsLab/vims-resazurin",
-    "description": "",
-    "topics": [],
-    "language": "R",
-    "created": "2025-06-30",
-    "updated": "2026-05-21",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 0,
-    "archived": false,
-    "pages_url": "https://github.com/RobertsLab/vims-resazurin/blob/main/research-summary-and-industry-implications.md",
-    "readme": "# VIMS Resazurin Research Project\n\nThis repository contains research on resazurin metabolic assays for shellfish aquaculture conducted at the Virginia Institute of Marine Science (VIMS).\n\n## Project Overview\n\nThis research evaluates resazurin-based metabolic assays as biomarkers for oyster performance in aquaculture, with applications for:\n\n- Breeding program enhancement\n- Environmental stress tolerance prediction\n- Production optimization\n- Risk management\n\n## Repository Structure\n\n### Analysis Scripts (`/code/`)\n- `resazurin-trials.Rmd` - Main analysis of metabolic biomarkers and trait correlations\n- `ploidy-trials-20250826.Rmd` - Ploidy comparison studies (triploid vs diploid)\n- `ploidy-trials-20250813.Rmd` - Earlier ploidy trials\n- `temperature-testing.Rmd` - Temperature stress testing analysis\n- `temperature.Rmd` - Environmental temperature monitoring\n- `plate-maps.Rmd` - Experimental design documentation\n\n### Data (`/data/`)\n- Raw experimental data files\n- Metadata and experimental design information\n- Performance trait predictions from breeding programs\n\n### Outputs (`/figures/` and `/output/`)\n- Generated plots and statistical outputs\n- Publication-ready figures\n\n## Key Findings\n\n1. **Metabolic activity is significantly correlated to survival in low-salinity environments** for environmentally-selected oyster populations\n2. **Ploidy affects metabolic performance patterns**, with distinct profiles between triploid and diploid oysters\n3. **Acute stress response correlates with performance traits**, enabling rapid screening of breeding stock\n4. **Family-level genetic variation** in metabolic activity supports selective breeding applications\n5. **Environmental context matters** - correlations are stronger when assays match production conditions\n\n## Getting Started\n\n### For Researchers\n1. Review the main analysis file: `code/resazurin-trials.Rmd`\n2. Examine methodology and statistical approaches\n3. Check data structure in `/data/` folder\n4. Refer to figure outputs for key visualizations\n\n\n",
-    "issue_titles": [
-      "Grant Reporting",
-      "Create brief highlight",
-      "Summary and industry implications"
     ]
   },
   {
@@ -733,28 +754,6 @@
     "pages_url": "",
     "readme": "# GuavaMuse",
     "issue_titles": []
-  },
-  {
-    "name": "project-eDNA-yellow",
-    "url": "https://github.com/RobertsLab/project-eDNA-yellow",
-    "description": "",
-    "topics": [],
-    "language": "HTML",
-    "created": "2025-04-16",
-    "updated": "2025-04-24",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 2,
-    "archived": false,
-    "pages_url": "",
-    "readme": "# project-eDNA-yellow",
-    "issue_titles": [
-      "Additional metadata for July 18 samples?",
-      "Library prep info for Yell_July18_*.fastq.gz files (primers)?",
-      "Provide explanation of eDNA minion data",
-      "Yellow eDNA - Illumina & MinION Sequences",
-      "Location of eDNA reads"
-    ]
   },
   {
     "name": "oyster-ploidy-hardening",
