@@ -137,16 +137,16 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
     },
     {
-      "notebook": "Testing CO2 bubbling in FTR",
-      "repo_connections": 38,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Testing-CO2-bubbling-in-FTR/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-oa; SHIELD"
-    },
-    {
       "notebook": "PolyIC Seed Resazurin Assay Testing",
       "repo_connections": 38,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Assay-Testing/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Testing CO2 bubbling in FTR",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Testing-CO2-bubbling-in-FTR/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-oa; SHIELD"
     },
     {
       "notebook": "Westcott oyster survival and resazurin lab testing",
@@ -155,9 +155,21 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "USDA Families Resazurin Trials Complete Results",
+      "notebook": "USDA Families Resazurin Trials 20 May 2025",
       "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "Launching experiment at Manchester and maintaining stocks at Point Whitney",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Launching-experiment-at-Manchester-and-maintaining-stocks-at-Point-Whitney/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "USDA Families Resazurin Trials 3 June 2025",
+      "repo_connections": 37,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-3-June/",
       "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
     },
     {
@@ -173,18 +185,6 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "Oysters at FTR 8 Jan 2025",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oysters-at-FTR-8-Jan-2025/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
-    },
-    {
-      "notebook": "Launching experiment at Manchester and maintaining stocks at Point Whitney",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Launching-experiment-at-Manchester-and-maintaining-stocks-at-Point-Whitney/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
       "notebook": "PolyIC Seed Resazurin Assay January 28 and 29 2025",
       "repo_connections": 37,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Jan-28-and-29-2025/",
@@ -197,22 +197,22 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "USDA Families Resazurin Trials 3 June 2025",
+      "notebook": "USDA Families Resazurin Trials Complete Results",
       "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-3-June/",
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
       "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
     },
     {
-      "notebook": "USDA Families Resazurin Trials 20 May 2025",
+      "notebook": "Oysters at FTR 8 Jan 2025",
       "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
-      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oysters-at-FTR-8-Jan-2025/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
     },
     {
-      "notebook": "Point Whitney Field Day 26 Feb 2025",
+      "notebook": "Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3",
       "repo_connections": 36,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Point-Whitney-Field-Day-27-Feb-2025/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-01-17-Primer-Design---C.gigas-Alternative-Oxidase-AOX-Variants-Using-Primer3/index.html",
+      "example_repos": "10K-seed-Cgigas; Paper-DNR-Geoduck-Proteomics; Paper-geoduck-eelgrass-OA; SHIELD; code"
     }
   ],
   "unlinked_repo_count": 25,
