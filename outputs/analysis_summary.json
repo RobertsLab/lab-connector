@@ -1,7 +1,7 @@
 {
   "counts": {
     "nodes": 646,
-    "edges": 11756,
+    "edges": 11992,
     "repos": 101,
     "notebooks": 440,
     "by_type": {
@@ -95,6 +95,13 @@
       "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
     },
     {
+      "repo": "resazurin-family-screenings",
+      "notebook_connections": 229,
+      "max_confidence": 1.0,
+      "url": "https://github.com/RobertsLab/resazurin-family-screenings",
+      "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
+    },
+    {
       "repo": "vims-resazurin",
       "notebook_connections": 226,
       "max_confidence": 1.0,
@@ -114,32 +121,67 @@
       "max_confidence": 0.6,
       "url": "https://github.com/RobertsLab/OluridaSurvey2014",
       "example_notebooks": "10K outplant growth analysis; 10K seed outplant at Baywater Shellfish; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
-    },
-    {
-      "repo": "project-gigas-oa-meth",
-      "notebook_connections": 213,
-      "max_confidence": 0.6,
-      "url": "https://github.com/RobertsLab/project-gigas-oa-meth",
-      "example_notebooks": "10K outplant growth analysis; 10K seed outplant preparations; 10K seed resazurin survival analysis; ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project; ASCA Analysis for RNAseq and Lipidomics Datasets"
     }
   ],
   "top_connected_notebooks": [
     {
       "notebook": "Washington Sea Grant Shellfish Growers Meeting Notes",
-      "repo_connections": 54,
+      "repo_connections": 55,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Washington-Sea-Grant-Shellfish-Growers-Meeting-Notes/",
       "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-DNR-Geoduck-Proteomics; Paper-geoduck-eelgrass-OA"
     },
     {
       "notebook": "Testing CO2 bubbling in FTR",
-      "repo_connections": 39,
+      "repo_connections": 40,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Testing-CO2-bubbling-in-FTR/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-oa; SHIELD"
+    },
+    {
+      "notebook": "Oysters at FTR 8 Jan 2025",
+      "repo_connections": 39,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oysters-at-FTR-8-Jan-2025/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
+    },
+    {
+      "notebook": "Oyster survival testing for lifestage carryover project",
+      "repo_connections": 39,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oyster-survival-test-planning/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "Hatchery field day at Point Whitney April 3 2024",
+      "repo_connections": 39,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Hatchery-field-day-at-Point-Whitney-April-3-2024/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
     },
     {
       "notebook": "PolyIC Seed Resazurin Assay Testing",
       "repo_connections": 39,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Assay-Testing/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "USDA Families Resazurin Trials Complete Results",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "Poly IC Resazurin Trials 10 March 2025",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-10-March/",
+      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
+    },
+    {
+      "notebook": "USDA Families Resazurin Trials 20 May 2025",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
+      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
+    },
+    {
+      "notebook": "Westcott oyster survival and resazurin lab testing",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Westcott-Oyster-Survival-and-Resazurin-Lab-Testing/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
@@ -149,69 +191,27 @@
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "Hatchery field day at Point Whitney April 3 2024",
-      "repo_connections": 38,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Hatchery-field-day-at-Point-Whitney-April-3-2024/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
-    },
-    {
-      "notebook": "Oyster survival testing for lifestage carryover project",
-      "repo_connections": 38,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oyster-survival-test-planning/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
-      "notebook": "Oysters at FTR 8 Jan 2025",
-      "repo_connections": 38,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Oysters-at-FTR-8-Jan-2025/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; Paper-oly-adult-temp-food; SHIELD"
-    },
-    {
-      "notebook": "Westcott oyster survival and resazurin lab testing",
-      "repo_connections": 38,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Westcott-Oyster-Survival-and-Resazurin-Lab-Testing/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
       "notebook": "Launching experiment at Manchester and maintaining stocks at Point Whitney",
       "repo_connections": 38,
       "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Launching-experiment-at-Manchester-and-maintaining-stocks-at-Point-Whitney/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "USDA Families Resazurin Trials 20 May 2025",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-20-May/",
+      "notebook": "USDA Families Resazurin Trials 3 June 2025",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-3-June/",
       "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
     },
     {
-      "notebook": "Initial analysis of resazurin metabolic rates in 10K Seed oysters",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Initial-analysis-of-resazurin-metabolic-rates-in-10K-Seed-oysters/",
+      "notebook": "Resazurin Metabolic Assays Protocol for PolyIC Seed Testing",
+      "repo_connections": 38,
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Resazurin-Metabolic-Assays-Protocol-for-PolyIC-Seed-Testing/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     },
     {
-      "notebook": "Primer Design - C.gigas Alternative Oxidase AOX Variants Using Primer3",
+      "notebook": "Poly IC Resazurin Trials 18 March 2025",
       "repo_connections": 37,
-      "url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-01-17-Primer-Design---C.gigas-Alternative-Oxidase-AOX-Variants-Using-Primer3/index.html",
-      "example_repos": "10K-seed-Cgigas; Paper-DNR-Geoduck-Proteomics; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
-      "notebook": "USDA Families Resazurin Trials Complete Results",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/USDA-Families-Resazurin-Trials-Complete-Results/",
-      "example_repos": "10K-seed-Cgigas; BBC; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD"
-    },
-    {
-      "notebook": "10K seed outplant preparations",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/10K-seed-outplant-preparations/",
-      "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
-    },
-    {
-      "notebook": "Poly IC Resazurin Trials 10 March 2025",
-      "repo_connections": 37,
-      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-10-March/",
+      "url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/PolyIC-Seed-Resazurin-Trials-18-March/",
       "example_repos": "10K-seed-Cgigas; OluridaSurvey2014; Paper-geoduck-eelgrass-OA; SHIELD; code"
     }
   ],
@@ -312,9 +312,9 @@
   "method_reach": [
     {
       "label": "Resazurin assay",
-      "repos": 5,
+      "repos": 6,
       "notebooks": 86,
-      "total": 91
+      "total": 92
     },
     {
       "label": "Metabolomics",
@@ -335,28 +335,28 @@
       "total": 33
     },
     {
-      "label": "Genome assembly / long-read",
-      "repos": 8,
-      "notebooks": 19,
-      "total": 27
+      "label": "DNA methylation",
+      "repos": 18,
+      "notebooks": 10,
+      "total": 28
     },
     {
-      "label": "DNA methylation",
-      "repos": 17,
-      "notebooks": 10,
-      "total": 27
+      "label": "Genome assembly / long-read",
+      "repos": 9,
+      "notebooks": 19,
+      "total": 28
     },
     {
       "label": "Genome annotation",
-      "repos": 9,
+      "repos": 10,
       "notebooks": 17,
-      "total": 26
+      "total": 27
     },
     {
       "label": "qPCR",
-      "repos": 4,
+      "repos": 3,
       "notebooks": 18,
-      "total": 22
+      "total": 21
     },
     {
       "label": "Read mapping / alignment",
@@ -578,5 +578,5 @@
       "evidence": "Notebook post '2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST' links directly to github.com/RobertsLab/resources"
     }
   ],
-  "possible_connection_count": 6957
+  "possible_connection_count": 7104
 }
