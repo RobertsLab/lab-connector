@@ -1,6 +1,33 @@
 {
   "nodes": [
     {
+      "id": "repo:lab-connector",
+      "label": "lab-connector",
+      "type": "repo",
+      "degree": 23,
+      "url": "https://github.com/RobertsLab/lab-connector",
+      "description": "",
+      "language": "Python",
+      "updated": "2026-09-07",
+      "created": "2026-07-08",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "pages_url": "https://robertslab.github.io/lab-connector/"
+    },
+    {
+      "id": "method:Genome assembly / long-read",
+      "label": "Genome assembly / long-read",
+      "type": "method",
+      "degree": 29
+    },
+    {
+      "id": "omics:Genomics",
+      "label": "Genomics",
+      "type": "omics",
+      "degree": 55
+    },
+    {
       "id": "repo:SHIELD",
       "label": "SHIELD",
       "type": "repo",
@@ -83,18 +110,6 @@
       "label": "Differential expression",
       "type": "method",
       "degree": 15
-    },
-    {
-      "id": "method:Genome assembly / long-read",
-      "label": "Genome assembly / long-read",
-      "type": "method",
-      "degree": 29
-    },
-    {
-      "id": "omics:Genomics",
-      "label": "Genomics",
-      "type": "omics",
-      "degree": 55
     },
     {
       "id": "keyword:gonad",
@@ -374,21 +389,6 @@
       "forks": 4,
       "open_issues": 0,
       "pages_url": "https://robertslab.github.io/sams-notebook/"
-    },
-    {
-      "id": "repo:lab-connector",
-      "label": "lab-connector",
-      "type": "repo",
-      "degree": 23,
-      "url": "https://github.com/RobertsLab/lab-connector",
-      "description": "",
-      "language": "Python",
-      "updated": "2026-08-31",
-      "created": "2026-07-08",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "pages_url": "https://robertslab.github.io/lab-connector/"
     },
     {
       "id": "repo:current-findings",
@@ -7003,6 +7003,24 @@
   ],
   "links": [
     {
+      "source": "repo:lab-connector",
+      "target": "method:Genome assembly / long-read",
+      "relationship": "uses_method",
+      "confidence": 0.9,
+      "evidence": "Detected 'Genome assembly / long-read' in repo 'lab-connector' text",
+      "source_url": "https://github.com/RobertsLab/lab-connector",
+      "target_url": ""
+    },
+    {
+      "source": "repo:lab-connector",
+      "target": "omics:Genomics",
+      "relationship": "has_omics",
+      "confidence": 0.9,
+      "evidence": "Detected 'Genomics' in repo 'lab-connector' text",
+      "source_url": "https://github.com/RobertsLab/lab-connector",
+      "target_url": ""
+    },
+    {
       "source": "repo:SHIELD",
       "target": "species:Pacific oyster (Crassostrea/Magallana gigas)",
       "relationship": "studies_species",
@@ -7612,24 +7630,6 @@
       "confidence": 0.9,
       "evidence": "Detected 'Resazurin assay development' in repo 'sormi-assay-development' text",
       "source_url": "https://github.com/RobertsLab/sormi-assay-development",
-      "target_url": ""
-    },
-    {
-      "source": "repo:lab-connector",
-      "target": "method:Genome assembly / long-read",
-      "relationship": "uses_method",
-      "confidence": 0.9,
-      "evidence": "Detected 'Genome assembly / long-read' in repo 'lab-connector' text",
-      "source_url": "https://github.com/RobertsLab/lab-connector",
-      "target_url": ""
-    },
-    {
-      "source": "repo:lab-connector",
-      "target": "omics:Genomics",
-      "relationship": "has_omics",
-      "confidence": 0.9,
-      "evidence": "Detected 'Genomics' in repo 'lab-connector' text",
-      "source_url": "https://github.com/RobertsLab/lab-connector",
       "target_url": ""
     },
     {
@@ -35399,6 +35399,15 @@
     },
     {
       "source": "notebook:tumbling-oysters/51-nano-next",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://sr320.github.io/tumbling-oysters/posts/51-nano-next/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:tumbling-oysters/51-nano-next",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -35423,15 +35432,6 @@
       "evidence": "Weak overlap: Genome assembly / long-read",
       "source_url": "https://sr320.github.io/tumbling-oysters/posts/51-nano-next/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:tumbling-oysters/51-nano-next",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://sr320.github.io/tumbling-oysters/posts/51-nano-next/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:tumbling-oysters/51-nano-next",
@@ -38657,6 +38657,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -38690,15 +38699,6 @@
       "evidence": "Notebook post '2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Hembra-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
@@ -38873,6 +38873,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -38906,15 +38915,6 @@
       "evidence": "Notebook post '2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-05-19-Genome-Assembly---C.rogercresseyi-Macho-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
@@ -39854,6 +39854,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -39878,15 +39887,6 @@
       "evidence": "Notebook post '2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-05-07-Data-Received---Sea-Lice-PacBio-Genome-Sequencing",
@@ -41537,6 +41537,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -41561,15 +41570,6 @@
       "evidence": "Notebook post '2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-04-10-Genome-Comparisons---Lake-Trout-PacBio-Assemblies-Flye-vs-hifiasm-Using-QUAST",
@@ -42050,6 +42050,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -42083,15 +42092,6 @@
       "evidence": "Notebook post '2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
@@ -42275,6 +42275,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -42308,15 +42317,6 @@
       "evidence": "Notebook post '2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-03-31-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-hifiasm-on-Hyak",
@@ -42725,6 +42725,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -42758,15 +42767,6 @@
       "evidence": "Notebook post '2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Lean-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
@@ -42959,6 +42959,15 @@
     },
     {
       "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -42992,15 +43001,6 @@
       "evidence": "Notebook post '2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2026/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2026-03-26-Genome-Assembly---S.namaycush-Siscowet-Ecotype-with-PacBio-HiFi-Reads-Using-Flye",
@@ -44102,6 +44102,15 @@
     },
     {
       "source": "notebook:sams-notebook/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima/index.html",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:sams-notebook/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -44126,15 +44135,6 @@
       "evidence": "Notebook post '2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima' links directly to github.com/RobertsLab/resources",
       "source_url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima/index.html",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:sams-notebook/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://robertslab.github.io/sams-notebook/posts/2025/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima/index.html",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:sams-notebook/2025-10-23-Demultiplexing---S.namaychush-PacBio-Sequencing-Using-Lima",
@@ -52589,21 +52589,21 @@
     },
     {
       "source": "notebook:ahuffmyer/2026-05-30-Orion-Star-A325-Protocol",
-      "target": "repo:SHIELD",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: temperature",
-      "source_url": "https://ahuffmyer.github.io/posts/2026-05-30-Orion-Star-A325-Protocol.html",
-      "target_url": "https://github.com/RobertsLab/SHIELD"
-    },
-    {
-      "source": "notebook:ahuffmyer/2026-05-30-Orion-Star-A325-Protocol",
       "target": "repo:lab-connector",
       "relationship": "mentions",
       "confidence": 0.8,
       "evidence": "Notebook '2026-05-30-Orion-Star-A325-Protocol' mentions repo token(s) connector, lab matching 'lab-connector'",
       "source_url": "https://ahuffmyer.github.io/posts/2026-05-30-Orion-Star-A325-Protocol.html",
       "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ahuffmyer/2026-05-30-Orion-Star-A325-Protocol",
+      "target": "repo:SHIELD",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: temperature",
+      "source_url": "https://ahuffmyer.github.io/posts/2026-05-30-Orion-Star-A325-Protocol.html",
+      "target_url": "https://github.com/RobertsLab/SHIELD"
     },
     {
       "source": "notebook:ahuffmyer/2026-05-30-Orion-Star-A325-Protocol",
@@ -59636,6 +59636,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2022-01-12-16S-Analysis-in-Mothr-Part-1",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/16S-Analysis-in-Mothr-Part-1/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2022-01-12-16S-Analysis-in-Mothr-Part-1",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -59660,15 +59669,6 @@
       "evidence": "Weak overlap: Genome assembly / long-read",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/16S-Analysis-in-Mothr-Part-1/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2022-01-12-16S-Analysis-in-Mothr-Part-1",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/16S-Analysis-in-Mothr-Part-1/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2022-01-12-16S-Analysis-in-Mothr-Part-1",
@@ -60131,6 +60131,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2022-02-09-Comparing-TagSeq-between-genome-assembly-V1-and-V2",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Comparing-TagSeq-between-genome-assembly-V1-and-V2/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2022-02-09-Comparing-TagSeq-between-genome-assembly-V1-and-V2",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -60155,15 +60164,6 @@
       "evidence": "Weak overlap: Genome annotation, Genome assembly / long-read, annotation, genome",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Comparing-TagSeq-between-genome-assembly-V1-and-V2/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2022-02-09-Comparing-TagSeq-between-genome-assembly-V1-and-V2",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Comparing-TagSeq-between-genome-assembly-V1-and-V2/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2022-02-09-Comparing-TagSeq-between-genome-assembly-V1-and-V2",
@@ -61409,21 +61409,21 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2022-06-15-SDR-Microplate-Respirometry-Protocol",
-      "target": "repo:SHIELD",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: larvae, temperature",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/SDR-Microplate-Respirometry-Protocol/",
-      "target_url": "https://github.com/RobertsLab/SHIELD"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2022-06-15-SDR-Microplate-Respirometry-Protocol",
       "target": "repo:lab-connector",
       "relationship": "mentions",
       "confidence": 0.8,
       "evidence": "Notebook '2022-06-15-SDR-Microplate-Respirometry-Protocol' mentions repo token(s) connector, lab matching 'lab-connector'",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/SDR-Microplate-Respirometry-Protocol/",
       "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2022-06-15-SDR-Microplate-Respirometry-Protocol",
+      "target": "repo:SHIELD",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: larvae, temperature",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/SDR-Microplate-Respirometry-Protocol/",
+      "target_url": "https://github.com/RobertsLab/SHIELD"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2022-06-15-SDR-Microplate-Respirometry-Protocol",
@@ -64910,6 +64910,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2023-03-15-E5-Deep-Dive-RNAseq-Count-Matrix-Analysis",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-Deep-Dive-RNAseq-Count-Matrix-Analysis/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2023-03-15-E5-Deep-Dive-RNAseq-Count-Matrix-Analysis",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -64934,15 +64943,6 @@
       "evidence": "Notebook post '2023-03-15-E5-Deep-Dive-RNAseq-Count-Matrix-Analysis' links directly to github.com/RobertsLab/resources",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-Deep-Dive-RNAseq-Count-Matrix-Analysis/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2023-03-15-E5-Deep-Dive-RNAseq-Count-Matrix-Analysis",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-Deep-Dive-RNAseq-Count-Matrix-Analysis/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2023-03-15-E5-Deep-Dive-RNAseq-Count-Matrix-Analysis",
@@ -73280,6 +73280,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2024-04-16-RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2024-04-16-RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project",
       "target": "repo:SHIELD",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -73322,15 +73331,6 @@
       "evidence": "Weak overlap: Genome assembly / long-read",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2024-04-16-RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2024-04-16-RNAseq-Alignment-and-Assembly-for-Mcapitata-Larval-Thermal-Tolerance-Project",
@@ -82586,6 +82586,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2024-10-14-E5-molecular-timeseries-lipidomics-test-data-analysis",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-molecular-timeseries-lipidomics-test-data-analysis/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2024-10-14-E5-molecular-timeseries-lipidomics-test-data-analysis",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -82610,15 +82619,6 @@
       "evidence": "Weak overlap: Genome annotation, Genome assembly / long-read, annotation",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-molecular-timeseries-lipidomics-test-data-analysis/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2024-10-14-E5-molecular-timeseries-lipidomics-test-data-analysis",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-molecular-timeseries-lipidomics-test-data-analysis/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2024-10-14-E5-molecular-timeseries-lipidomics-test-data-analysis",
@@ -90101,6 +90101,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-02-22-COTS-Project-Bioinformatics-Analysis",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/COTS-Project-Bioinformatics-Analysis/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-02-22-COTS-Project-Bioinformatics-Analysis",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -90125,15 +90134,6 @@
       "evidence": "Weak overlap: Genome annotation, Genome assembly / long-read, annotation, genome",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/COTS-Project-Bioinformatics-Analysis/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-02-22-COTS-Project-Bioinformatics-Analysis",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/COTS-Project-Bioinformatics-Analysis/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-02-22-COTS-Project-Bioinformatics-Analysis",
@@ -92621,6 +92621,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-03-15-E5-molecular-timeseries-lipidomics-prelim-analysis",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-molecular-timeseries-lipidomics-prelim-analysis/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-03-15-E5-molecular-timeseries-lipidomics-prelim-analysis",
       "target": "repo:project-sockeye-tagseq",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -92645,15 +92654,6 @@
       "evidence": "Weak overlap: Genome annotation, Genome assembly / long-read, annotation",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-molecular-timeseries-lipidomics-prelim-analysis/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-03-15-E5-molecular-timeseries-lipidomics-prelim-analysis",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/E5-molecular-timeseries-lipidomics-prelim-analysis/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-03-15-E5-molecular-timeseries-lipidomics-prelim-analysis",
@@ -108614,6 +108614,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-01-October-2025-Goals",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/October-2025-Goals/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-01-October-2025-Goals",
       "target": "repo:SHIELD",
       "relationship": "part_of_project",
       "confidence": 0.6,
@@ -108674,15 +108683,6 @@
       "evidence": "Shared project: Resazurin assay development",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/October-2025-Goals/",
       "target_url": "https://github.com/RobertsLab/sormi-assay-development"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-01-October-2025-Goals",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/October-2025-Goals/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-01-October-2025-Goals",
@@ -110090,6 +110090,15 @@
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-21-Reanalyze-Hawaii-2023-RNAseq-on-Unity",
+      "target": "repo:lab-connector",
+      "relationship": "possible_connection",
+      "confidence": 0.2,
+      "evidence": "Weak overlap: Genome assembly / long-read",
+      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Reanalyze-Hawaii-2023-RNAseq-on-Unity/",
+      "target_url": "https://github.com/RobertsLab/lab-connector"
+    },
+    {
+      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-21-Reanalyze-Hawaii-2023-RNAseq-on-Unity",
       "target": "repo:SHIELD",
       "relationship": "possible_connection",
       "confidence": 0.2,
@@ -110132,15 +110141,6 @@
       "evidence": "Weak overlap: Genome annotation, Genome assembly / long-read, annotation, genome",
       "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Reanalyze-Hawaii-2023-RNAseq-on-Unity/",
       "target_url": "https://github.com/RobertsLab/resources"
-    },
-    {
-      "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-21-Reanalyze-Hawaii-2023-RNAseq-on-Unity",
-      "target": "repo:lab-connector",
-      "relationship": "possible_connection",
-      "confidence": 0.2,
-      "evidence": "Weak overlap: Genome assembly / long-read",
-      "source_url": "https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Reanalyze-Hawaii-2023-RNAseq-on-Unity/",
-      "target_url": "https://github.com/RobertsLab/lab-connector"
     },
     {
       "source": "notebook:ASH_Putnam_Lab_Notebook/2025-10-21-Reanalyze-Hawaii-2023-RNAseq-on-Unity",

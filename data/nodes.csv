@@ -1,4 +1,7 @@
 id,label,type,degree,url,language,updated,stars,forks,open_issues,author,site,date,description
+repo:lab-connector,lab-connector,repo,23,https://github.com/RobertsLab/lab-connector,Python,2026-09-07,0,0,0,,,,
+method:Genome assembly / long-read,Genome assembly / long-read,method,29,,,,,,,,,,
+omics:Genomics,Genomics,omics,55,,,,,,,,,,
 repo:SHIELD,SHIELD,repo,286,https://github.com/RobertsLab/SHIELD,JavaScript,2026-09-07,0,0,1,,,,
 species:Pacific oyster (Crassostrea/Magallana gigas),Pacific oyster (Crassostrea/Magallana gigas),species,147,,,,,,,,,,
 keyword:hardening,hardening,keyword,76,,,,,,,,,,
@@ -10,8 +13,6 @@ project:10K seed hardening,10K seed hardening,project,44,,,,,,,,,,
 repo:project-sockeye-tagseq,project-sockeye-tagseq,repo,37,https://github.com/RobertsLab/project-sockeye-tagseq,R,2026-09-07,0,0,0,,,,
 species:Geoduck (Panopea generosa),Geoduck (Panopea generosa),species,12,,,,,,,,,,
 method:Differential expression,Differential expression,method,15,,,,,,,,,,
-method:Genome assembly / long-read,Genome assembly / long-read,method,29,,,,,,,,,,
-omics:Genomics,Genomics,omics,55,,,,,,,,,,
 keyword:gonad,gonad,keyword,12,,,,,,,,,,
 dataset:gannet,gannet,dataset,5,,,,,,,,,,
 dataset:raven,raven,dataset,3,,,,,,,,,,
@@ -48,7 +49,6 @@ repo:sormi-assay-development,sormi-assay-development,repo,189,https://github.com
 keyword:mortality,mortality,keyword,70,,,,,,,,,,
 project:SORMI,SORMI,project,15,,,,,,,,,,
 repo:sams-notebook,sams-notebook,repo,2,https://github.com/RobertsLab/sams-notebook,HTML,2026-09-01,2,4,0,,,,Sam's Notebook
-repo:lab-connector,lab-connector,repo,23,https://github.com/RobertsLab/lab-connector,Python,2026-08-31,0,0,0,,,,
 repo:current-findings,current-findings,repo,0,https://github.com/RobertsLab/current-findings,JavaScript,2026-08-31,0,0,0,,,,
 repo:project-gigas_ploidy,project-gigas_ploidy,repo,275,https://github.com/RobertsLab/project-gigas_ploidy,R,2026-08-31,0,1,0,,,,Project investigating the effects of desiccation/elevated temp. exposure on triploid and diploid Pacific oysters
 method:WGBS (whole-genome bisulfite seq),WGBS (whole-genome bisulfite seq),method,11,,,,,,,,,,
