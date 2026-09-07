@@ -1,8 +1,8 @@
 name: Refresh network graph
 
 # Rebuilds the Lab Connector graph weekly (and on demand) from live sources,
-# then commits the regenerated data/ and outputs/ files. Optionally publishes
-# app/ to GitHub Pages.
+# commits the regenerated data/ and outputs/ files, then publishes app/ to
+# GitHub Pages.
 
 on:
   schedule:
@@ -14,13 +14,19 @@ permissions:
   pages: write
   id-token: write
 
+# Only one Pages deployment at a time. Do not cancel an in-flight deployment
+# when a manual re-run overlaps a scheduled run.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -40,24 +46,34 @@ jobs:
           git commit -m "chore: weekly graph refresh [skip ci]" || echo "no changes"
           git push || echo "nothing to push"
 
-  # Optional: deploy the app as a static site.
+      # Build the Pages artifact from this job's working tree so the site
+      # always reflects the data committed above. A separate checkout in the
+      # deploy job would pin to the pre-refresh SHA that triggered the run and
+      # publish last week's graph.
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp -r app/* _site/
+          cp data/graph.json _site/data/ || true
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
   deploy-pages:
     needs: refresh
     runs-on: ubuntu-latest
+    # Must exceed the deploy-pages timeout below so a stuck deployment still
+    # ends with a clear failure instead of running to the 6-hour job limit.
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Assemble site
-        run: |
-          mkdir -p _site
-          cp -r app/* _site/
-          mkdir -p _site/data
-          cp data/graph.json _site/data/ || true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        with:
+          # Pages CDN purges occasionally sit in "purging_cdn" well past the
+          # 10-minute default (600000 ms). Allow 20 minutes.
+          timeout: 1200000
