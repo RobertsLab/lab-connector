@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     # Must exceed the deploy-pages timeout below so a stuck deployment still
     # ends with a clear failure instead of running to the 6-hour job limit.
-    timeout-minutes: 25
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -74,6 +74,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v5
         with:
-          # Pages CDN purges occasionally sit in "purging_cdn" well past the
-          # 10-minute default (600000 ms). Allow 20 minutes.
-          timeout: 1200000
+          # 600000 ms (10 minutes) is the maximum deploy-pages accepts; larger
+          # values are silently capped. Slow "purging_cdn" phases that exceed
+          # it still fail and need a manual re-run.
+          timeout: 600000
